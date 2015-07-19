@@ -6,6 +6,11 @@ test:
 	@haxelib run munit test
 .PHONY: test
 
+clean:
+	@rm -rf build
+	@rm -rf report
+.PHONY: clean
+
 internal-test: src/$(CLASSNAME).hx test internal-clean
 .PHONY: internal-test
 
