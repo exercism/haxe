@@ -3,3 +3,9 @@
 bin/configlet
 bin/configlet.exe
 CHECKLIST
+
+# binary output
+build/
+
+# coverage reports
+report/
