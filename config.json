@@ -1,0 +1,19 @@
+{
+  "slug": "xhaxe",
+  "language": "Haxe",
+  "repository": "https://github.com/exercism/xhaxe",
+  "active": false,
+  "test_pattern": "TODO",
+  "problems": [
+
+  ],
+  "deprecated": [
+
+  ],
+  "ignored": [
+    "bin"
+  ],
+  "foregone": [
+
+  ]
+}
