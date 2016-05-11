@@ -2,6 +2,7 @@
   "slug": "haxe",
   "language": "Haxe",
   "repository": "https://github.com/exercism/xhaxe",
+  "checklist_issue": 2,
   "active": false,
   "test_pattern": "TODO",
   "problems": [
