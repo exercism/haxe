@@ -13,7 +13,8 @@
 
   ],
   "ignored": [
-    "bin"
+    "bin",
+    "img"
   ],
   "foregone": [
 
