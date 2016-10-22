@@ -5,10 +5,6 @@
   "checklist_issue": 2,
   "active": false,
   "test_pattern": "TODO",
-  "problems": [
-    "hello-world",
-    "bob"
-  ],
   "deprecated": [
 
   ],
@@ -18,5 +14,17 @@
   ],
   "foregone": [
 
+  ],
+  "exercises": [
+    {
+      "difficulty": 1,
+      "slug": "hello-world",
+      "topics": []
+    },
+    {
+      "difficulty": 1,
+      "slug": "bob",
+      "topics": []
+    }
   ]
 }
