@@ -1,4 +1,4 @@
-# xHaxe
+# Exercism Haxe Track
 
 Exercism problems in Haxe.
 

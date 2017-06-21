@@ -1,7 +1,7 @@
 {
   "slug": "haxe",
   "language": "Haxe",
-  "repository": "https://github.com/exercism/xhaxe",
+  "repository": "https://github.com/exercism/haxe",
   "checklist_issue": 2,
   "active": false,
   "test_pattern": "TODO",
