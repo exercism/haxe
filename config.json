@@ -5,23 +5,28 @@
   "checklist_issue": 2,
   "active": false,
   "test_pattern": "TODO",
-  "deprecated": [
-
-  ],
   "foregone": [
 
   ],
   "exercises": [
     {
-      "difficulty": 1,
+      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
       "slug": "hello-world",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
     },
     {
-      "difficulty": 1,
+      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
       "slug": "bob",
+      "active": true,
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
 
       ]
