@@ -2,7 +2,7 @@
   "language": "Haxe",
   "checklist_issue": 2,
   "active": false,
-  "test_pattern": "TODO",
+  "test_pattern": "test.*Test[.]hx",
   "foregone": [
 
   ],
