@@ -19,7 +19,7 @@ retest: clean test
 	@cd $(@:%-clean=%) && make clean internal-clean
 
 test-config: bin/configlet
-	@bin/configlet .
+	@bin/configlet lint .
 
 bin/configlet: bin/fetch-configlet
 	@bin/fetch-configlet
