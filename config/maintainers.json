@@ -1,6 +1,4 @@
 {
-  "maintainers": [
-
-  ],
-  "docs_url": "https://github.com/exercism/docs/blob/master/maintaining-a-track/maintainer-configuration.md"
+  "docs_url": "https://github.com/exercism/docs/blob/master/maintaining-a-track/maintainer-configuration.md",
+  "maintainers": []
 }
