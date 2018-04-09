@@ -41,7 +41,7 @@ mkdir ~/haxelib && haxelib setup ~/haxelib
 ```
 
 #### MacOS & Windows
-Official installers and binaries fir Windows and MacOS are on the [Haxe website](https://haxe.org/download/).
+Official installers and binaries for Windows and MacOS are on the [Haxe website](https://haxe.org/download/).
 
 
 ## Installing Munit
