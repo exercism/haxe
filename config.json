@@ -1,33 +1,33 @@
 {
+  "language": "Haxe",
   "active": false,
+  "blurb": "",
   "checklist_issue": 2,
+  "test_pattern": "test.*Test[.]hx",
   "exercises": [
     {
-      "core": false,
-      "difficulty": 1,
       "slug": "hello-world",
-      "topics": null,
+      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
+      "core": false,
       "unlocked_by": null,
-      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7"
+      "difficulty": 1,
+      "topics": null
     },
     {
-      "core": false,
-      "difficulty": 1,
       "slug": "bob",
-      "topics": null,
+      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
+      "core": false,
       "unlocked_by": null,
-      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840"
+      "difficulty": 1,
+      "topics": null
     },
     {
-      "core": false,
-      "difficulty": 1,
       "slug": "leap",
-      "topics": null,
+      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
+      "core": false,
       "unlocked_by": null,
-      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a"
+      "difficulty": 1,
+      "topics": null
     }
-  ],
-  "foregone": [],
-  "language": "Haxe",
-  "test_pattern": "test.*Test[.]hx"
+  ]
 }
