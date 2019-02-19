@@ -4,6 +4,6 @@ package;
 
 class HelloWorld {
   public static function hello() : String {
-    return "";
+    return "replace me";
   }
 }
