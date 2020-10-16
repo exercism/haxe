@@ -7,8 +7,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-        with:
-          haxe-version: 4.0.5
       - run: |
           ./bin/fetch-configlet
           ./bin/configlet lint .
