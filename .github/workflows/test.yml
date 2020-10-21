@@ -1,0 +1,12 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+      - run: |
+          ./bin/fetch-configlet
+          ./bin/configlet lint .
