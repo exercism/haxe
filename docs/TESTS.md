@@ -1,24 +1,17 @@
-Each exercise has its own dependencies, usually including the unit testing
-framework munit.
-
-Dependencies are kept in a `test.hxml` file. To install all of the dependencies for
-an exercise, run:
+## Running Tests
+The Haxe track relies on the testing framework [Buddy](https://github.com/ciscoheat/buddy).  You can install it with the following:
 
 ```bash
-haxelib install test.hxml
+haxelib install buddy
 ```
 
-If you haven't already, you may need to configure munit by running:
+To run the tests, execute the following command:
 
 ```bash
-haxelib run munit config
+haxe test.hxml
 ```
 
-You can press "enter" to accept the defaults.
+## Solving the exercise
 
-Then, to run the tests:
-
-```bash
-haxelib run munit test
-```
+Solving an exercise means making all of its tests pass. To help you get started, each exercise comes with a stub implementation file. You can use this file as a starting point for building your solution. Feel free to remove or change this file if you think it is the right thing to do.  Try focusing on a single test at a time as you work towards the solution.  
 

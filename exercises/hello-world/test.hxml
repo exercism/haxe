@@ -1,8 +1,4 @@
-## Neko
--main TestMain
--lib munit
--lib hamcrest
--cp src
-
--cp test
--neko build/neko_test.n
+-x Test
+-lib buddy 
+-cp src/
+-cp test/
