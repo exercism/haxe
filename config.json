@@ -1,7 +1,11 @@
 {
   "language": "Haxe",
   "active": false,
-  "blurb": "",
+  "blurb": "Haxe is an open source high-level strictly-typed programming language with a fast optimizing cross-compiler. Haxe can build cross-platform applications targeting JavaScript, C++, C#, Java, JVM, Python, Lua, PHP, Flash, and allows access to each platform's native capabilities. Haxe has its own VMs (HashLink and NekoVM) but can also run in interpreted mode. Code written in Haxe can be compiled to any target Haxe supports.",
+   "online_editor": {	
+    "indent_style": "space",	
+    "indent_size": 4	
+  },
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
   "exercises": [
@@ -12,7 +16,9 @@
       "auto_approve": true,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "strings"
+      ]
     },
     {
       "slug": "bob",
@@ -20,7 +26,11 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "booleans",
+        "conditionals",
+        "strings"
+      ]
     },
     {
       "slug": "leap",
@@ -28,7 +38,11 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": null
+      "topics": [
+        "booleans",
+        "integers",
+        "logic"
+      ]
     }
   ]
 }
