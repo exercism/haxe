@@ -1,7 +1,8 @@
 package;
 
-class Leap {
-    public static function isLeapYear(year: Int): Bool {
+class Bob {
+    public static function hey(sentence: String): String {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     }
 }
+
