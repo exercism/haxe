@@ -43,6 +43,17 @@
         "integers",
         "logic"
       ]
+    },
+	{
+      "slug": "anagram",
+      "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "filtering",
+        "strings"
+      ]
     }
   ]
 }
