@@ -4,7 +4,7 @@ using buddy.Should;
 
 class Test extends buddy.SingleSuite {
 	public function new() {
-		describe("Acronym", {
+		describe("Abbreviate a phrase", {
 			it("basic", {
 				Acronym.abbreviate("Portable Network Graphics").should.be("PNG");
 			});
