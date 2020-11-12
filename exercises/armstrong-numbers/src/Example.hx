@@ -1,6 +1,6 @@
 package;
 
-class Acronym {
+class ArmstrongNumbers {
     public static function isArmstrongNumber(number: Int): Bool {
         var numString = Std.string(number);
         var digitCount = numString.length;
