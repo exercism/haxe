@@ -54,6 +54,17 @@
         "filtering",
         "strings"
       ]
+    },
+	{
+      "slug": "hamming",
+      "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "filtering",
+        "strings"
+      ]
     }
   ]
 }
