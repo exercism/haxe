@@ -21,7 +21,7 @@ class GradeSchool {
     public function roster(): Array<Name> {
         var roster = [];
         var sortedKeys = [for (n in grades.keys()) n];
-        sortedKeys.sort(IntSort);
+        sortedKeys.sort(compareInt);
 
         return [
             for (key in sortedKeys) 
@@ -31,16 +31,16 @@ class GradeSchool {
 
     public function grade(desiredGrade: Grade): Array<String> {
         var grade = grades[desiredGrade].array();
-        grade.sort(stringSort);
+        grade.sort(compareString);
 
         return grade;
     }
 
-    private function IntSort(a: Int, b: Int): Int {
+    private function compareInt(a: Int, b: Int): Int {
         return a < b ? -1 : 1;
     }
 
-    private function stringSort(a: String, b: String): Int {
+    private function compareString(a: String, b: String): Int {
         return a < b ? -1 : 1;
     }
 }
