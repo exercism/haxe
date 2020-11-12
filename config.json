@@ -54,6 +54,17 @@
         "filtering",
         "strings"
       ]
+    },
+	{
+      "slug": "two-fer",
+      "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "optional_values",
+        "strings"
+      ]
     }
   ]
 }
