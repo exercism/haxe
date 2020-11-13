@@ -33,8 +33,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("testing for peanuts allergy", {
-			it("testing for peanuts allergy", {
-				pending("Skipping");
+			it("not allergic to anything", {
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Peanuts).should.be(false);
 			});
@@ -60,8 +59,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("testing for shellfish allergy", {
-			it("testing for shellfish allergy", {
-				pending("Skipping");
+			it("not allergic to anything", {
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Shellfish).should.be(false);
 			});
@@ -88,7 +86,6 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("testing for strawberries allergy", {
 			it("not allergic to anything", {
-				pending("Skipping");
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Strawberries).should.be(false);
 			});
@@ -115,7 +112,6 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("testing for tomatoes allergy", {
 			it("not allergic to anything", {
-				pending("Skipping");
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Tomatoes).should.be(false);
 			});
@@ -142,7 +138,6 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("testing for chocolate allergy", {
 			it("not allergic to anything", {
-				pending("Skipping");
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Chocolate).should.be(false);
 			});
@@ -169,7 +164,6 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("testing for pollen allergy", {
 			it("not allergic to anything", {
-				pending("Skipping");
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Pollen).should.be(false);
 			});
@@ -196,7 +190,6 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("testing for cats allergy", {
 			it("not allergic to anything", {
-				pending("Skipping");
 				var sut = new Allergies(0);
 				sut.allergicTo(Allergen.Cats).should.be(false);
 			});
@@ -223,7 +216,6 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("testing for all allergies", {
 			it("not allergic to anything", {
-				pending("Skipping");
 				var sut = new Allergies(0);
 				sut.allergies().should().containExactly([]);
 			});
