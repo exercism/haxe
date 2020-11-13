@@ -6,7 +6,7 @@ class ResistorColor {
 		"green",  "blue", "violet",   "grey",  "white"
 	];
 
-	public static function colorCode(color:String):Int {
+	public static function colorCode(color: String): Int {
 		return allColors.indexOf(color);
 	}
 
