@@ -56,15 +56,37 @@
       ]
     },
 	{
-      "slug": "difference-of-squares",
-      "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+      "slug": "acronym",
+      "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "integers",
-        "math"
+        "strings",
+        "transforming"
       ]
+    },
+  {
+      "slug": "two-fer",
+      "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "optional_values",
+        "strings"
+      ]
+    },
+ 	{
+       "slug": "difference-of-squares",
+       "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "integers",
+         "math"
+       ]
     }
   ]
 }
