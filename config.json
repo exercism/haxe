@@ -56,6 +56,17 @@
       ]
     },
 	{
+      "slug": "acronym",
+      "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "transforming"
+      ]
+    },
+  {
       "slug": "two-fer",
       "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
       "core": true,
