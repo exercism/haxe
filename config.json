@@ -76,6 +76,17 @@
         "optional_values",
         "strings"
       ]
+    },
+ 	{
+       "slug": "difference-of-squares",
+       "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "integers",
+         "math"
+       ]
     }
   ]
 }
