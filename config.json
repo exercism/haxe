@@ -54,6 +54,17 @@
         "filtering",
         "strings"
       ]
+    },
+	{
+      "slug": "acronym",
+      "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "transforming"
+      ]
     }
   ]
 }
