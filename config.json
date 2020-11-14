@@ -62,7 +62,6 @@
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-		"enumerations",
 		"dictionaries",
 		"floating_point_numbers"
       ]
