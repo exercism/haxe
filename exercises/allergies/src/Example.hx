@@ -1,5 +1,9 @@
 package;
 
+import haxe.EnumFlags;
+
+using Lambda;
+
 enum Allergen {
     Eggs;
     Peanuts;
@@ -12,17 +16,26 @@ enum Allergen {
 }
 
 class Allergies {
-    private final score: EnumFlags<Allergen>;
+    public static function allergicTo(item: String, score: Int): Bool {
+        var allergen  = parseAllergen(item);
+        var allergies = new EnumFlags<Allergen>(score);
 
-    public function new(score: Int) {
-        this.score = new EnumFlags<Allergen>(score);
+        return allergies.has(allergen);
     }
 
-    public function allergicTo(allergen: Allergen): Bool {
-        return score.has(allergen);
+    public static function list(score: Int): Array<String> {
+        var allergies = new EnumFlags<Allergen>(score);
+
+        return [
+            for (allergen in Allergen.createAll())
+            if (allergies.has(allergen))
+            '$allergen'.toLowerCase()
+        ];
     }
 
-    public function allergies(): Array<Allergen> {
-        return Allergen.createAll().filter(allergicTo);
+    private static inline function parseAllergen(input: String): Allergen {
+        return Allergen.createAll().find(val ->
+             new EReg(val.getName(), "i").match(input)
+        );
     }
 }

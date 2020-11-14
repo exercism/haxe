@@ -1,281 +1,222 @@
 package;
 
-import Allergies.Allergen;
-
 using buddy.Should;
 
 class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("testing for eggs allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Eggs).should.be(false);
+				Allergies.allergicTo("eggs", 0).should.be(false);
 			});
 			it("allergic only to eggs", {
 				pending("Skipping");
-				var sut = new Allergies(1);
-				sut.allergicTo(Allergen.Eggs).should.be(true);
+				Allergies.allergicTo("eggs", 1).should.be(true);
 			});
 			it("allergic to eggs and something else", {
 				pending("Skipping");
-				var sut = new Allergies(3);
-				sut.allergicTo(Allergen.Eggs).should.be(true);
+				Allergies.allergicTo("eggs", 3).should.be(true);
 			});
 			it("allergic to something, but not eggs", {
 				pending("Skipping");
-				var sut = new Allergies(2);
-				sut.allergicTo(Allergen.Eggs).should.be(false);
+				Allergies.allergicTo("eggs", 2).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Eggs).should.be(true);
+				Allergies.allergicTo("eggs", 255).should.be(true);
 			});
 		});
 		describe("testing for peanuts allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Peanuts).should.be(false);
+				Allergies.allergicTo("peanuts", 0).should.be(false);
 			});
 			it("allergic only to peanuts", {
 				pending("Skipping");
-				var sut = new Allergies(2);
-				sut.allergicTo(Allergen.Peanuts).should.be(true);
+				Allergies.allergicTo("peanuts", 2).should.be(true);
 			});
 			it("allergic to peanuts and something else", {
 				pending("Skipping");
-				var sut = new Allergies(7);
-				sut.allergicTo(Allergen.Peanuts).should.be(true);
+				Allergies.allergicTo("peanuts", 7).should.be(true);
 			});
 			it("allergic to something, but not peanuts", {
 				pending("Skipping");
-				var sut = new Allergies(5);
-				sut.allergicTo(Allergen.Peanuts).should.be(false);
+				Allergies.allergicTo("peanuts", 5).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Peanuts).should.be(true);
+				Allergies.allergicTo("peanuts", 255).should.be(true);
 			});
 		});
 		describe("testing for shellfish allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Shellfish).should.be(false);
+				Allergies.allergicTo("shellfish", 0).should.be(false);
 			});
 			it("allergic only to shellfish", {
 				pending("Skipping");
-				var sut = new Allergies(4);
-				sut.allergicTo(Allergen.Shellfish).should.be(true);
+				Allergies.allergicTo("shellfish", 4).should.be(true);
 			});
 			it("allergic to shellfish and something else", {
 				pending("Skipping");
-				var sut = new Allergies(14);
-				sut.allergicTo(Allergen.Shellfish).should.be(true);
+				Allergies.allergicTo("shellfish", 14).should.be(true);
 			});
 			it("allergic to something, but not shellfish", {
 				pending("Skipping");
-				var sut = new Allergies(10);
-				sut.allergicTo(Allergen.Shellfish).should.be(false);
+				Allergies.allergicTo("shellfish", 10).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Shellfish).should.be(true);
+				Allergies.allergicTo("shellfish", 255).should.be(true);
 			});
 		});
 		describe("testing for strawberries allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Strawberries).should.be(false);
+				Allergies.allergicTo("strawberries", 0).should.be(false);
 			});
 			it("allergic only to strawberries", {
 				pending("Skipping");
-				var sut = new Allergies(8);
-				sut.allergicTo(Allergen.Strawberries).should.be(true);
+				Allergies.allergicTo("strawberries", 8).should.be(true);
 			});
 			it("allergic to strawberries and something else", {
 				pending("Skipping");
-				var sut = new Allergies(28);
-				sut.allergicTo(Allergen.Strawberries).should.be(true);
+				Allergies.allergicTo("strawberries", 28).should.be(true);
 			});
 			it("allergic to something, but not strawberries", {
 				pending("Skipping");
-				var sut = new Allergies(20);
-				sut.allergicTo(Allergen.Strawberries).should.be(false);
+				Allergies.allergicTo("strawberries", 20).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Strawberries).should.be(true);
+				Allergies.allergicTo("strawberries", 255).should.be(true);
 			});
 		});
 		describe("testing for tomatoes allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Tomatoes).should.be(false);
+				Allergies.allergicTo("tomatoes", 0).should.be(false);
 			});
 			it("allergic only to tomatoes", {
 				pending("Skipping");
-				var sut = new Allergies(16);
-				sut.allergicTo(Allergen.Tomatoes).should.be(true);
+				Allergies.allergicTo("tomatoes", 16).should.be(true);
 			});
 			it("allergic to tomatoes and something else", {
 				pending("Skipping");
-				var sut = new Allergies(56);
-				sut.allergicTo(Allergen.Tomatoes).should.be(true);
+				Allergies.allergicTo("tomatoes", 56).should.be(true);
 			});
 			it("allergic to something, but not tomatoes", {
 				pending("Skipping");
-				var sut = new Allergies(40);
-				sut.allergicTo(Allergen.Tomatoes).should.be(false);
+				Allergies.allergicTo("tomatoes", 40).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Tomatoes).should.be(true);
+				Allergies.allergicTo("tomatoes", 255).should.be(true);
 			});
 		});
 		describe("testing for chocolate allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Chocolate).should.be(false);
+				Allergies.allergicTo("chocolate", 0).should.be(false);
 			});
 			it("allergic only to chocolate", {
 				pending("Skipping");
-				var sut = new Allergies(32);
-				sut.allergicTo(Allergen.Chocolate).should.be(true);
+				Allergies.allergicTo("chocolate", 32).should.be(true);
 			});
 			it("allergic to chocolate and something else", {
 				pending("Skipping");
-				var sut = new Allergies(112);
-				sut.allergicTo(Allergen.Chocolate).should.be(true);
+				Allergies.allergicTo("chocolate", 112).should.be(true);
 			});
 			it("allergic to something, but not chocolate", {
 				pending("Skipping");
-				var sut = new Allergies(80);
-				sut.allergicTo(Allergen.Chocolate).should.be(false);
+				Allergies.allergicTo("chocolate", 80).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Tomatoes).should.be(true);
+				Allergies.allergicTo("chocolate", 255).should.be(true);
 			});
 		});
 		describe("testing for pollen allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Pollen).should.be(false);
+				Allergies.allergicTo("pollen", 0).should.be(false);
 			});
 			it("allergic only to pollen", {
 				pending("Skipping");
-				var sut = new Allergies(64);
-				sut.allergicTo(Allergen.Pollen).should.be(true);
+				Allergies.allergicTo("pollen", 64).should.be(true);
 			});
 			it("allergic to pollen and something else", {
 				pending("Skipping");
-				var sut = new Allergies(224);
-				sut.allergicTo(Allergen.Pollen).should.be(true);
+				Allergies.allergicTo("pollen", 224).should.be(true);
 			});
 			it("allergic to something, but not pollen", {
 				pending("Skipping");
-				var sut = new Allergies(160);
-				sut.allergicTo(Allergen.Pollen).should.be(false);
+				Allergies.allergicTo("pollen", 160).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Pollen).should.be(true);
+				Allergies.allergicTo("pollen", 255).should.be(true);
 			});
 		});
 		describe("testing for cats allergy", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergicTo(Allergen.Cats).should.be(false);
+				Allergies.allergicTo("cats", 0).should.be(false);
 			});
 			it("allergic only to cats", {
 				pending("Skipping");
-				var sut = new Allergies(128);
-				sut.allergicTo(Allergen.Cats).should.be(true);
+				Allergies.allergicTo("cats", 128).should.be(true);
 			});
 			it("allergic to cats and something else", {
 				pending("Skipping");
-				var sut = new Allergies(192);
-				sut.allergicTo(Allergen.Cats).should.be(true);
+				Allergies.allergicTo("cats", 192).should.be(true);
 			});
 			it("allergic to something, but not cats", {
 				pending("Skipping");
-				var sut = new Allergies(64);
-				sut.allergicTo(Allergen.Cats).should.be(false);
+				Allergies.allergicTo("cats", 64).should.be(false);
 			});
 			it("allergic to everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergicTo(Allergen.Cats).should.be(true);
+				Allergies.allergicTo("cats", 255).should.be(true);
 			});
 		});
 		describe("testing for all allergies", {
 			it("not allergic to anything", {
-				var sut = new Allergies(0);
-				sut.allergies().should().containExactly([]);
+				Allergies.list(0).should.containExactly([]);
 			});
 			it("just eggs", {
 				pending("Skipping");
-				var sut = new Allergies(1);
-				sut.allergies().should().containExactly([Allergen.Eggs]);
+				Allergies.list(1).should.containExactly(["eggs"]);
 			});
 			it("just peanuts", {
 				pending("Skipping");
-				var sut = new Allergies(2);
-				sut.allergies().should().containExactly([Allergen.Peanuts]);
+				Allergies.list(2).should.containExactly(["peanuts"]);
 			});
 			it("just strawberries", {
 				pending("Skipping");
-				var sut = new Allergies(8);
-				sut.allergies().should().containExactly([Allergen.Strawberries]);
+				Allergies.list(8).should.containExactly(["strawberries"]);
 			});
 			it("eggs and peanuts", {
 				pending("Skipping");
-				var sut = new Allergies(3);
-				sut.allergies().should().containExactly([Allergen.Eggs, Allergen.Peanuts]);
+				Allergies.list(3).should.containExactly(["eggs", "peanuts"]);
 			});
 			it("more than eggs but not peanuts", {
 				pending("Skipping");
-				var sut = new Allergies(5);
-				sut.allergies().should().containExactly([Allergen.Eggs, Allergen.Shellfish]);
+				Allergies.list(5).should.containExactly(["eggs", "shellfish"]);
 			});
 			it("lots of stuff", {
 				pending("Skipping");
-				var sut = new Allergies(248);
-				sut.allergies().should().containExactly([
-					Allergen.Strawberries,
-					Allergen.Tomatoes,
-					Allergen.Chocolate,
-					Allergen.Pollen,
-					Allergen.Cats
+				Allergies.list(248).should.containExactly([
+					"strawberries", "tomatoes", "chocolate",
+					"pollen"      , "cats"
 				]);
 			});
 			it("everything", {
 				pending("Skipping");
-				var sut = new Allergies(255);
-				sut.allergies().should().containExactly([
-					     Allergen.Eggs,      Allergen.Peanuts,
-					Allergen.Shellfish, Allergen.Strawberries,
-					 Allergen.Tomatoes,    Allergen.Chocolate,
-					   Allergen.Pollen,         Allergen.Cats
+				Allergies.list(255).should.containExactly([
+					"eggs"        , "peanuts" , "shellfish",
+					"strawberries", "tomatoes", "chocolate",
+					"pollen"      , "cats"
 				]);
 			});
 			it("no allergen score parts", {
 				pending("Skipping");
-				var sut = new Allergies(509);
-				sut.allergies().should().containExactly([
-					Allergen.Eggs,
-					Allergen.Shellfish,
-					Allergen.Strawberries,
-					Allergen.Tomatoes,
-					Allergen.Chocolate,
-					Allergen.Pollen,
-					Allergen.Cats
+				Allergies.list(509).should.containExactly([
+					"eggs"        , "shellfish", "strawberries",
+					"tomatoes"    , "chocolate", "pollen"      , 
+					"cats"
 				]);
 			});
 		});

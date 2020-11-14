@@ -1,7 +1,5 @@
 package;
 
-import haxe.EnumFlags;
-
 enum Allergen {
     Eggs;
     Peanuts;
@@ -14,15 +12,11 @@ enum Allergen {
 }
 
 class Allergies {
-    public function new(score: Int) {
+    public static function allergicTo(item: String, score: Int): Bool {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     }
 
-    public function allergicTo(allergen: Allergen): Bool {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-
-    public function allergies(): Array<Allergen> {
+    public static function list(score: Int): Array<String> {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     }
 }
