@@ -1,54 +1,32 @@
 package;
 
-enum Planet {
-	Earth;
-	Mercury;
-	Venus;
-	Mars;
-	Jupiter;
-	Saturn;
-	Uranus;
-	Neptune;
-}
-
 class SpaceAge {
-    public function new(seconds: Float) {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
+    private static inline var earthOrbitInSeconds = 31557600;
+    private static final earthYearToPlanetPeriod = [
+        "Earth"   => 1,
+        "Mercury" => 0.2408467,
+        "Venus"   => 0.61519726,
+        "Mars"    => 1.8808158,
+        "Jupiter" => 11.862615,
+        "Saturn"  => 29.447498,
+        "Uranus"  => 84.016846,
+        "Neptune" => 164.79132
+    ];
 
-	private function calculateAge(periodInEarthYears: Float): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-    
-    public function onEarth(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
+     public static function age(seconds: Int, planet: String): Float {
+        var periodInEarthYears = earthYearToPlanetPeriod[planet]; 
 
-    public function onMercury(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
+        return round(seconds / (earthOrbitInSeconds * periodInEarthYears), 2);
+    } 
 
-    public function onVenus(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-
-    public function onMars(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-
-    public function onJupiter(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-
-    public function onSaturn(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-
-    public function onUranus(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-
-    public function onNeptune(): Float {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
+    /**
+        Uses Math.round to fix a floating point number to a set precision.
+        Taken from Franco Ponticelli's THX library: 
+        https://github.com/fponticelli/thx/blob/master/src/Floats.hx#L206
+    **/
+    public static function round(number:Float, ?precision=2): Float
+    {
+        number *= Math.pow(10, precision);
+        return Math.round(number) / Math.pow(10, precision);
     }
 }

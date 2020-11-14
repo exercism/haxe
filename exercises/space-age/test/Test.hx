@@ -1,41 +1,40 @@
 package;
 
 using buddy.Should;
-using SpaceAge.Planet;
 
 class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("space-age", {
 			it("age on Earth", {
-				new SpaceAge(1000000000).onEarth().should().be(31.69);
+				SpaceAge.age(1000000000, "Earth").should.be(31.69);
 			});
 			it("age on Mercury", {
 				pending("Skipping");
-				new SpaceAge(2134835688).onMercury().should().be(280.88);
+				SpaceAge.age(2134835688, "Mercury").should.be(280.88);
 			});
 			it("age on Venus", {
 				pending("Skipping");
-				new SpaceAge(189839836).onVenus().should().be(9.78);
+				SpaceAge.age(189839836, "Venus").should.be(9.78);
 			});
 			it("age on Mars", {
 				pending("Skipping");
-				new SpaceAge(2129871239).onMars().should().be(35.88);
+				SpaceAge.age(2129871239, "Mars").should.be(35.88);
 			});
 			it("age on Jupiter", {
 				pending("Skipping");
-				new SpaceAge(901876382).onJupiter().should().be(2.41);
+				SpaceAge.age(901876382, "Jupiter").should.be(2.41);
 			});
 			it("age on Saturn", {
 				pending("Skipping");
-				new SpaceAge(2000000000).onSaturn().should().be(2.15);
+				SpaceAge.age(2000000000, "Saturn").should.be(2.15);
 			});
 			it("age on Uranus", {
 				pending("Skipping");
-				new SpaceAge(1210123456).onUranus().should().be(0.46);
+				SpaceAge.age(1210123456, "Uranus").should.be(0.46);
 			});
 			it("age on Neptune", {
 				pending("Skipping");
-				new SpaceAge(1821023456).onNeptune().should().be(0.35);
+				SpaceAge.age(1821023456, "Neptune").should.be(0.35);
 			});
 		});
 	}
