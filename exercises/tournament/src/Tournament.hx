@@ -55,12 +55,12 @@ class Tournament {
         return sortTallies([for (t in tallies) t]);
     }
 
-    // Sort tallies by score then alphabetically
+    // Sort tallies by score or alphabetically if tied
     private static function sortTallies(tallies: Array<Tally>): Array<Tally> {
         tallies.sort((t1, t2) -> switch [t1.p, t2.p] {
             case [p1, p2] if (p1 < p2): 1;
             case [p1, p2] if (p1 > p2): -1;
-            case _: t1.team > t2.team ? 1 : -1;
+            default: t1.team > t2.team ? 1 : -1;
         });
         return tallies;
     }
