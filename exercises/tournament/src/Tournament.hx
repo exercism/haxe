@@ -20,23 +20,26 @@ class Tournament {
 
     private static function getTallies(entries: Array<String>): Array<Tally> {
         var tallies = new Map<String, Tally>();
+
         for (entry in entries) {
-            var _entry = entry.split(";");
-            
-            var team1 = _entry[0];
+            var tokens  = entry.split(";");
+            var team1   = tokens[0];
+            var team2   = tokens[1];
+            var outcome = tokens[2];
+
+            // init tallies
             if (!tallies.exists(team1))
-                tallies[team1] = {team: team1, mp: 0, w: 0, d: 0, l: 0, p: 0};
-            var team2 = _entry[1];
+                tallies[team1] = {team: team1, mp: 0, w: 0, d: 0, l: 0, p: 0}; 
             if (!tallies.exists(team2))
                 tallies[team2] = {team: team2, mp: 0, w: 0, d: 0, l: 0, p: 0};
 
+            // score matches played
             var t1 = tallies[team1];
             var t2 = tallies[team2];
-            // score matches played
             t1.mp += 1;
             t2.mp += 1;
             // score match outcome
-            switch (_entry[2]) {
+            switch (outcome) {
                 case "win":
                     t1.w += 1;
                     t1.p += 3;
