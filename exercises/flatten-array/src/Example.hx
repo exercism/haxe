@@ -3,13 +3,14 @@ package;
 class FlattenArray {
     public static function flatten(array: Array<Dynamic>): Array<Dynamic> {
         var accumulator = [];
-        for (item in array)
+        for (item in array) {
             if (isArray(item))
                 accumulator = accumulator.concat(flatten(item));
             else if (item == null)
                 continue;
             else
                 accumulator.push(item);
+        }
 
         return accumulator;
     } 
