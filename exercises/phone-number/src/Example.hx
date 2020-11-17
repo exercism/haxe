@@ -45,14 +45,14 @@ class PhoneNumber {
         }
         
         return switch (digits) {
-            case p if (~/[a-z]/i.match(p)): Fail(ContainsLetters);
-            case p if (~/[@!]/.match(p)):   Fail(ContainsPunctuation);
-            case p if (p.length < 10):      Fail(TooFewDigits);
-            case p if (p.length > 11):      Fail(TooManyDigits);
-            case p if (~/^0/.match(p)):     Fail(AreaCodeStartsWith0);
-            case p if (~/^1/.match(p)):     Fail(AreaCodeStartsWith1);
-            case p if (~/^...0/.match(p)):  Fail(ExchangeCodeStartsWith0);
-            case p if (~/^...1/.match(p)):  Fail(ExchangeCodeStartsWith1);
+            case d if (~/[a-z]/i.match(d)): Fail(ContainsLetters);
+            case d if (~/[@!]/.match(d)):   Fail(ContainsPunctuation);
+            case d if (d.length < 10):      Fail(TooFewDigits);
+            case d if (d.length > 11):      Fail(TooManyDigits);
+            case d if (~/^0/.match(d)):     Fail(AreaCodeStartsWith0);
+            case d if (~/^1/.match(d)):     Fail(AreaCodeStartsWith1);
+            case d if (~/^...0/.match(d)):  Fail(ExchangeCodeStartsWith0);
+            case d if (~/^...1/.match(d)):  Fail(ExchangeCodeStartsWith1);
             default:                        Success(digits);
         };
     } 
