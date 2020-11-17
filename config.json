@@ -107,7 +107,7 @@
       "difficulty": 1,
       "topics": [
         "dynamic",
-        "dynamic",
+        "generics",
 		 "recursion"
       ]
     }
