@@ -5,6 +5,6 @@ typedef NewData    = Map<String, Int>;
 
 class ETL {
 	public static function transform(input: LegacyData): NewData {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
+		throw "Not Implemented"; // Delete this statement and write your own implementation.
 	}
 }

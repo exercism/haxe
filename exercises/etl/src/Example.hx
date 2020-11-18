@@ -5,11 +5,10 @@ typedef NewData    = Map<String, Int>;
 
 class ETL {
 	public static function transform(input: LegacyData): NewData {
-		var result: NewData = [];
-		for (k => v in input)
-			for (i in v)
-				result.set(i.toLowerCase(), Std.parseInt(k));
-
-		return result;
+		return [
+			for (k => v in input)
+				for (i in v)
+					i.toLowerCase() => Std.parseInt(k)
+		];
 	}
 }
