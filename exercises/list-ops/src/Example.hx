@@ -14,18 +14,17 @@ class ListOps {
 	public static function concat<T>(lists: Array<Array<T>>): Array<T> {
         var accumulator = [];
         for (list in lists)
-            append(accumulator, list);
+            accumulator = append(accumulator, list);
 
         return accumulator;
     }
 
 	public static function filter<T>(list: Array<T>, fun: T -> Bool): Array<T> {
-        var accumulator = [];
-        for (item in list)
-            if (fun(item))
-                accumulator.push(item);
-
-        return accumulator;
+		return [
+			for (item in list)
+                if (fun(item)) 
+                    item
+		];
     }
 
 	public static function length<T>(list: Array<T>): Int {
@@ -40,11 +39,10 @@ class ListOps {
     }
 
 	public static function map<T, U>(list: Array<T>, fun: T -> U): Array<U> {
-        var accumulator = [];
-        for (item in list)
-            accumulator.push(fun(item));
-
-        return accumulator;
+		return [
+			for (item in list)
+				fun(item)
+		];
     }
 
 	public static function foldl<T, U>(list: Array<T>, initial: U, fun: (U, T) -> U): U {
@@ -64,11 +62,11 @@ class ListOps {
     }
 
 	public static function reverse<T>(list: Array<T>): Array<T> {
-        var accumulator = [];
         var listLength = length(list);
-        for (i in 0...listLength)
-            accumulator.push(list[listLength - i - 1]);
 
-        return accumulator;
+		return [
+			for (i in 0...listLength)
+				list[listLength - i - 1]
+		];
     } 
 }
