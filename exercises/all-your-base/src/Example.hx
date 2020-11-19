@@ -5,6 +5,7 @@ using Lambda;
 class AllYourBase {
     public static function rebase(inputBase: Int, outputBase: Int, digits: Array<Int>): Array<Int> {
         var number = fromBase(digits, inputBase);
+
         if (inputBase < 2)
             throw "input base must be >= 2";
         if (outputBase < 2)
@@ -14,15 +15,15 @@ class AllYourBase {
         if (number == 0)
             return [0];
 
-        return toBase(fromBase(digits, inputBase), outputBase);
+        return toBase(number , outputBase);
     } 
 
     private static function fromBase(digits: Array<Int>, base: Int): Int {
-        function sum(a: Int, b: Int) return a + b;
+        function sum(a: Float, b: Float) return a + b;
 
-        return digits.mapi((i, x) -> 
-            x * Std.int(Math.pow(base, digits.length - i - 1)))
-                     .fold(sum, 0);
+        var result = digits.mapi((i, x) -> x * Math.pow(base, digits.length - i - 1)).fold(sum, 0);
+
+        return Std.int(result);
     }
 
     private static function toBase(number: Int, base: Int): Array<Int> {
