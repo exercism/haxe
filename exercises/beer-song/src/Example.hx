@@ -20,16 +20,13 @@ class BeerSong {
 		return reciteRec(takeDown, startBottles);
 	}
 
-	private static function reciteRec(count: Int, currBottle: Int) {
-		if (count == 0)
-			return [];
-
-		return switch (currBottle) {
-			case n if (n < 3):
-				specialCases[n].concat(recite(--count, --currBottle));
-			case n:
-				verse(n).concat(recite(--count, --currBottle));
-		}
+	private static function reciteRec(count:Int, currBottle:Int) {
+		return if (count == 0)
+			[];
+		else if (currBottle < 3)
+			specialCases[currBottle].concat(recite(--count, --currBottle));
+		else
+			verse(currBottle).concat(recite(--count, --currBottle));
 	}
 
 	private static function verse(n: Int): Array<String>
