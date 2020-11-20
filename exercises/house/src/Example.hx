@@ -24,11 +24,11 @@ class House {
     } 
 
     private static function reciteOne(verse: Int) {
-        var result = "";
+        var result = new StringBuf();
         for (i in 0...verse+1) {
             var a = pairs[verse-i][0];
             var b = pairs[verse-i][1];
-            result += ' the $a that $b';
+            result.add(' the $a that $b');
         }
         
        return 'This is$result.';
