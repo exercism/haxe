@@ -10,12 +10,6 @@ typedef Position = {
     y: Int
 }
 
-enum Instruction {
-    R; // turn right
-    L; // turn left
-    A; // advance
-}
-
 class RobotStateExt {
     public static function equals(a: RobotState, b: RobotState) {
         return (a.direction == b.direction) && 
@@ -31,12 +25,11 @@ class RobotSimulator {
 
 	public static function move(position: Position, instructions: String, direction: String): RobotState {
         var state = create(position, direction);
-        var _instructions = instructions.split("").map(x -> Instruction.createByName(x));
-        for (i in _instructions) 
+        for (i in instructions.split("")) 
             switch (i) {
-                case R: turn(state, true);
-                case L: turn(state, false);
-                case A: advance(state);
+                case "R": turn(state, true);
+                case "L": turn(state, false);
+                case "A": advance(state);
             }
 
         return state;

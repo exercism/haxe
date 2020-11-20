@@ -10,12 +10,6 @@ typedef Position = {
     y: Int
 }
 
-enum Instruction {
-    R; // turn right
-    L; // turn left
-    A; // advance
-}
-
 class RobotStateExt {
     public static function equals(a: RobotState, b: RobotState) {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
