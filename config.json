@@ -98,6 +98,17 @@
         "filtering",
         "strings"
       ]
+    },
+	{
+      "slug": "minesweeper",
+      "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "algorithms",
+        "strings"
+      ]
     }
   ]
 }
