@@ -120,7 +120,7 @@
          "recursion"
        ]
      },
-  	{
+   	{
        "slug": "queen-attack",
        "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
        "core": false,
@@ -128,6 +128,17 @@
        "difficulty": 1,
        "topics": [
          "math"
+       ]
+     },
+ 	  {
+       "slug": "isbn-verifier",
+       "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "regex",
+         "strings"
        ]
     }
   ]
