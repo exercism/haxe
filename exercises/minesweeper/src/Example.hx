@@ -43,16 +43,16 @@ class Minesweeper {
     private static function getNeighbors(cell: Cell, maxRows: Int, maxCols: Int): Array<Cell> {
 		var row = cell.row;
 		var col = cell.col;
-		var neighbors:Array<Cell> = [];
-
-		neighbors.push({row: row, col: col + 1}); // right
-		neighbors.push({row: row, col: col - 1}); // left
-		neighbors.push({row: row + 1, col: col}); // above
-		neighbors.push({row: row - 1, col: col}); // below
-		neighbors.push({row: row + 1, col: col + 1}); // above right
-		neighbors.push({row: row - 1, col: col + 1}); // below right
-		neighbors.push({row: row + 1, col: col - 1}); // above left
-		neighbors.push({row: row - 1, col: col - 1}); // below left
+		var neighbors = [
+			{row: row, col: col + 1}, // right
+			{row: row, col: col - 1}, // left
+			{row: row + 1, col: col}, // above
+			{row: row - 1, col: col}, // below
+			{row: row + 1, col: col + 1}, // above right
+			{row: row - 1, col: col + 1}, // below right
+			{row: row + 1, col: col - 1}, // above left
+			{row: row - 1, col: col - 1} // below left
+		];
 
 		function isValidCell(cell:Cell)
 			return cell.row >= 0 && cell.row < maxRows && cell.col >= 0 && cell.col < maxCols;
