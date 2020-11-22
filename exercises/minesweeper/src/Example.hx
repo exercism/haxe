@@ -10,56 +10,57 @@ class Minesweeper {
     static inline var MINE = "*";
 
     public static function annotate(minefield: Array<String>): Array<String> {
-        if (minefield.empty()) return [];
+		if (minefield.empty())
+			return [];
 
-        var numRows = minefield.length;
-        var numCols = minefield[0].length;
-        var mineCells = getMineCells(minefield);
+		var numRows = minefield.length;
+		var numCols = minefield[0].length;
+		var mineCells = getMineCells(minefield);
 
-        function isMineLocation(cell: Cell) 
-            return mineCells.exists(x -> x.row == cell.row && x.col == cell.col);
+		function isMineCell(cell:Cell)
+			return mineCells.exists(x -> x.row == cell.row && x.col == cell.col);
 
-        for (cell in mineCells) 
-            for (neighbor in getNeighbors(cell, numRows, numCols))
-                if (!isMineLocation(neighbor))
-                    markCell(neighbor, minefield);
+		for (cell in mineCells)
+			for (neighbor in getNeighbors(cell, numRows, numCols))
+				if (!isMineCell(neighbor))
+					markAdjacentToMine(neighbor, minefield);
 
-        return minefield;
+		return minefield;
     } 
 
     private static function getMineCells(minefield: Array<String>): Array<Cell> {
-		var cells = [];
+		var mines = [];
 		for (rowIndex in 0...minefield.length) {
 			var row = minefield[rowIndex];
 			for (colIndex in 0...row.length)
 				if (row.charAt(colIndex) == MINE)
-					cells.push({row: rowIndex, col: colIndex});
+					mines.push({row: rowIndex, col: colIndex});
 		};
 
-		return cells;
+		return mines;
     }
 
-    private static function getNeighbors(cell: Cell, numRows: Int, numCols: Int): Array<Cell> {
-        var row = cell.row;
-        var col = cell.col;
-        var neighbors: Array<Cell> = [];
+    private static function getNeighbors(cell: Cell, maxRows: Int, maxCols: Int): Array<Cell> {
+		var row = cell.row;
+		var col = cell.col;
+		var neighbors:Array<Cell> = [];
 
-		neighbors.push({row: row,     col: col + 1}); // right
-		neighbors.push({row: row,     col: col - 1}); // left
-		neighbors.push({row: row + 1, col: col    }); // above
-		neighbors.push({row: row - 1, col: col    }); // below
+		neighbors.push({row: row, col: col + 1}); // right
+		neighbors.push({row: row, col: col - 1}); // left
+		neighbors.push({row: row + 1, col: col}); // above
+		neighbors.push({row: row - 1, col: col}); // below
 		neighbors.push({row: row + 1, col: col + 1}); // above right
 		neighbors.push({row: row - 1, col: col + 1}); // below right
 		neighbors.push({row: row + 1, col: col - 1}); // above left
 		neighbors.push({row: row - 1, col: col - 1}); // below left
 
-        function validCell(cell: Cell) return 
-            cell.row >= 0 && cell.row < numRows && cell.col >= 0 && cell.col < numCols;
+		function isValidCell(cell:Cell)
+			return cell.row >= 0 && cell.row < maxRows && cell.col >= 0 && cell.col < maxCols;
 
-        return neighbors.filter(validCell);
+		return neighbors.filter(isValidCell);
     }
 
-    private static function markCell(cell: Cell, minefield: Array<String>): Void {
+    private static function markAdjacentToMine(cell: Cell, minefield: Array<String>): Void {
 		var row = minefield[cell.row];
 		var char = row.charAt(cell.col);
 		var newCell = char == " " ? 0 : Std.parseInt(row.charAt(cell.col));
