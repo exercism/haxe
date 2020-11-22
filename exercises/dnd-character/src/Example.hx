@@ -18,11 +18,12 @@ class DndCharacter {
     }
 
 	public static function ability(): Int {
-		function getRnd() return Std.random(6) + 1;
-		function sum(a, b) return a + b;
+		function rnd() return Std.random(6) + 1;
+        function sum(a, b) return a + b;
+        function descending(a, b) return a > b ? -1 : 1;
 
-		var rolls = [getRnd(), getRnd(), getRnd(), getRnd()];
-		rolls.sort((x, y) -> x > y ? -1 : 1);
+		var rolls = [rnd(), rnd(), rnd(), rnd()];
+		rolls.sort(descending);
 		var best3 = rolls.slice(0, 3);
 
 		return best3.fold(sum, 0);
