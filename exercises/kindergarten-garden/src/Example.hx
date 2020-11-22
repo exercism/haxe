@@ -3,6 +3,9 @@ package;
 using StringTools;
 
 class KindergartenGarden {
+	static final plantsPerStudent = 4;
+	static final rowsInGarden = 2;
+
 	static var plantNames = [
         "G" => "grass", "C" => "clover", "R" => "radishes", "V" => "violets"
     ];
@@ -21,15 +24,18 @@ class KindergartenGarden {
 	}
 
 	private static function makeGarden(diagram: String): Array<String> {
-		var middle = Std.int(diagram.length / 2);
-		var row1 = diagram.substring(0, middle);
-		var row2 = diagram.substr(middle);
-		var numStudents = Std.int(diagram.length / 4);
+		var plantsPerRow = Std.int(diagram.length / rowsInGarden);
+		var rows = [for (i in 0...rowsInGarden) diagram.substr(i * plantsPerRow, plantsPerRow)];
+		var numStudents = Std.int(diagram.length / plantsPerStudent);
+		var rowPlantsPerStudent = Std.int(plantsPerStudent / rowsInGarden);
 
 		var garden = [];
 		return [
 			for (i in 0...numStudents)
-				garden[i] = row1.substr(i * 2, 2) + row2.substr(i * 2, 2)
+				garden[i] = [
+					for (row in rows)
+						row.substr(i * rowPlantsPerStudent, rowPlantsPerStudent)
+				].join("")
 		];
 	}
 }
