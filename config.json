@@ -99,7 +99,7 @@
         "strings"
       ]
     },
-	{
+	 {
       "slug": "kindergarten-garden",
       "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
       "core": false,
@@ -108,6 +108,17 @@
       "topics": [
         "strings"
       ]
+    },
+ 	 {
+       "slug": "twelve-days",
+       "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "strings",
+         "recursion"
+       ]
     }
   ]
 }
