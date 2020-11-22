@@ -98,6 +98,16 @@
         "filtering",
         "strings"
       ]
+    },
+	{
+      "slug": "queen-attack",
+      "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "math"
+      ]
     }
   ]
 }
