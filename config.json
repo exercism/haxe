@@ -140,6 +140,16 @@
          "regex",
          "strings"
        ]
+    },
+ 	  {
+       "slug": "secret-handshake",
+       "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "bitwise_operations"
+       ]
     }
   ]
 }
