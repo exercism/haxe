@@ -10,7 +10,6 @@ class BinarySearch {
         var midIndex = Std.int(array.length / 2);
         var midItem = array[midIndex]; 
 
-        trace(midIndex + ": " + midItem);
         if (midItem == value)
             // found
             return midIndex;
