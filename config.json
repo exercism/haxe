@@ -140,6 +140,17 @@
          "regex",
          "strings"
        ]
+    },
+ 	  {
+       "slug": "binary-search",
+       "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "recursion",
+         "algorithms"
+       ]
     }
   ]
 }
