@@ -140,6 +140,18 @@
          "regex",
          "strings"
        ]
+    },
+	{
+      "slug": "forth",
+      "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "regex",
+		"algorithms"
+      ]
     }
   ]
 }
