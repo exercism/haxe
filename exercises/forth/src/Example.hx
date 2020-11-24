@@ -17,7 +17,6 @@ typedef Instruction = String;
 
 class Forth {
 	public static function evaluate(instructions: Array<Instruction>): Stack {
-		// check if instruction is a Define
 		function isDefine(ins)
 			return ~/^:.*;$/.match(ins);
 
@@ -35,7 +34,6 @@ class Forth {
 			instruction = transform(instruction, defines);
 
 			for (token in instruction.split(" ")) {
-				token = transform(token, defines);
 				switch (token) {
 					case "+":
 						add(stack);
