@@ -140,6 +140,16 @@
          "regex",
          "strings"
        ]
+    },
+ 	  {
+       "slug": "saddle-points",
+       "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "arrays"
+       ]
     }
   ]
 }
