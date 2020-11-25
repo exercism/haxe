@@ -148,9 +148,9 @@
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "strings",
-        "regex",
-		"algorithms"
+		 "strings",
+		 "regex",
+		 "algorithms"
       ]
     }
   ]

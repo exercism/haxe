@@ -31,26 +31,18 @@ class Forth {
 				defines.push(makeDefine(instruction));
 				continue;
 			}
-			instruction = transform(instruction, defines);
+			instruction = applyDefines(instruction, defines);
 
 			for (token in instruction.split(" ")) {
 				switch (token) {
-					case "+":
-						add(stack);
-					case "-":
-						subtract(stack);
-					case "*":
-						multiply(stack);
-					case "/":
-						divide(stack);
-					case "dup":
-						dup(stack);
-					case "drop":
-						drop(stack);
-					case "swap":
-						swap(stack);
-					case "over":
-						over(stack);
+					case "+":		add(stack);
+					case "-":		subtract(stack);
+					case "*":		multiply(stack);
+					case "/":		divide(stack);
+					case "dup":		dup(stack);
+					case "drop":	drop(stack);
+					case "swap":	swap(stack);
+					case "over":	over(stack);
 					case n if (Std.parseInt(n) != null):
 						stack.push(Std.parseInt(n));
 					case _:
@@ -61,11 +53,11 @@ class Forth {
 		return stack;
 	}
 
-	private static function transform(instruction: Instruction, defines: Array<Define>): Instruction {
+	private static function applyDefines(instruction: Instruction, defines: Array<Define>): Instruction {
 		if (defines.empty())
 			return instruction;
 
-		return transform(defines.pop()(instruction), defines);
+		return applyDefines(defines.pop()(instruction), defines);
 	}
 
 	private static function makeDefine(instruction: String): Define {
@@ -73,7 +65,7 @@ class Forth {
 		pattern.match(instruction);
 		var word = pattern.matched(1);
 		var replacement = pattern.matched(2);
-		if (~/[[1-9]/.match(word))
+		if (~/[1-9]/.match(word))
 			throw StackError.IllegalOperation;
 
 		return (ins:String) -> return ins.replace(word, replacement);
