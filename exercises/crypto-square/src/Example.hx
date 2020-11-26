@@ -15,8 +15,8 @@ class CryptoSquare {
     private static function encode(str: String): String {
         // convert to rectangle (row[])
         var recSize = getRecSize(str.length);
-        var numRows = recSize[0];
-        var numCols = recSize[1];
+        var numRows = recSize.x;
+        var numCols = recSize.y;
         var rows = [];
         for (i in 0...numRows) 
             rows.push(str.substr(i * numCols, numCols));
@@ -40,12 +40,12 @@ class CryptoSquare {
     }
 
     // return [nRows, nCols] where c >= r and c - r <= 1
-    private static function getRecSize(count: Int): Array<Int> {
+    private static function getRecSize(count: Int): {x: Int, y: Int} {
         var square = Math.ceil(Math.sqrt(count));
 
         return if ((square - 1) * square < count) 
-            [square, square];
+            {x: square, y: square};
         else
-            [square - 1, square];
+            {x: square - 1, y: square};
     }
 }
