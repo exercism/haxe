@@ -98,6 +98,17 @@
         "filtering",
         "strings"
       ]
+    },
+	{
+      "slug": "food-chain",
+      "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "recursion"
+      ]
     }
   ]
 }
