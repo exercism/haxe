@@ -140,6 +140,17 @@
          "regex",
          "strings"
        ]
+    },
+ 	  {
+       "slug": "pig-latin",
+       "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "regex",
+         "strings"
+       ]
     }
   ]
 }

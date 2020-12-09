@@ -1,0 +1,13 @@
+{
+	"Test": {
+		"pos": {
+			"line": 5,
+			"file": "test/Test.hx"
+		},
+		"methods": {
+			"main": {
+				"line": 5
+			}
+		}
+	}
+}
