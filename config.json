@@ -99,6 +99,17 @@
         "strings"
       ]
     },
+	{
+      "slug": "food-chain",
+      "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "recursion"
+      ]
+     },
 	 {
       "slug": "kindergarten-garden",
       "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
@@ -133,6 +144,17 @@
  	  {
        "slug": "isbn-verifier",
        "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "regex",
+         "strings"
+       ]
+    },
+ 	  {
+       "slug": "pig-latin",
+       "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
        "core": false,
        "unlocked_by": null,
        "difficulty": 1,
