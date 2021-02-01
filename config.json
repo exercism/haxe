@@ -162,6 +162,16 @@
          "regex",
          "strings"
        ]
+    },
+ 	  {
+       "slug": "protein-translation",
+       "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "strings"
+       ]
     }
   ]
 }
