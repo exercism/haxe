@@ -19,6 +19,7 @@ class Luhn {
 		var sum = 0;
 		var second = false; // tracks every other digit
 
+		// loop in reverse order
 		for (i in (1 - input.length)...1) {
 			// convert char code to digit value
 			var temp = input.charCodeAt(-i) - '0'.code;
