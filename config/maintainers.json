@@ -9,7 +9,17 @@
       "link_text": null,
       "link_url": "https://github.com/davidbruce",
       "avatar_url": null,
-      "bio": "I first picked up programming in 2010, where it has since been my outlet for creativity and enthusiasm. I cannot list all the exciting reasons why Haxe has become my language of choice in this short bio, but I hope you enjoy learning it as much as I have." 
+      "bio": "I first picked up programming in 2010, where it has since been my outlet for creativity and enthusiasm. I cannot list all the exciting reasons why Haxe has become my language of choice in this short bio, but I hope you enjoy learning it as much as I have."
+    },
+    {
+      "github_username": "mfoda",
+      "alumnus": false,
+      "show_on_website": true,
+      "name": "Mohammad Foda",
+      "link_text": null,
+      "link_url": "https://github.com/mfoda",
+      "avatar_url": null,
+      "bio": "I enjoy learning new languages and am finding haxe to be uniquely productive, powerful, and fun. I hope that this exercism track serves as the tutorial and language introduction that haxe deserves."
     }
   ]
 }
