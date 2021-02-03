@@ -35,14 +35,14 @@ class Forth {
 
 			for (token in instruction.split(" ")) {
 				switch (token) {
-					case "+":		add(stack);
-					case "-":		subtract(stack);
-					case "*":		multiply(stack);
-					case "/":		divide(stack);
-					case "dup":		dup(stack);
-					case "drop":	drop(stack);
-					case "swap":	swap(stack);
-					case "over":	over(stack);
+					case "+":       add(stack);
+					case "-":       subtract(stack);
+					case "*":       multiply(stack);
+					case "/":       divide(stack);
+					case "dup":     dup(stack);
+					case "drop":    drop(stack);
+					case "swap":    swap(stack);
+					case "over":    over(stack);
 					case n if (Std.parseInt(n) != null):
 						stack.push(Std.parseInt(n));
 					case _:
