@@ -172,6 +172,16 @@
        "topics": [
          "strings"
        ]
+     },
+ 	  {
+       "slug": "luhn",
+       "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "algorithms"
+       ]
     }
   ]
 }
