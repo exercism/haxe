@@ -99,6 +99,17 @@
         "strings"
       ]
     },
+	{
+      "slug": "food-chain",
+      "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings",
+        "recursion"
+      ]
+     },
 	 {
       "slug": "kindergarten-garden",
       "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
@@ -141,7 +152,48 @@
          "strings"
        ]
     },
-	{
+ 	  {
+       "slug": "pig-latin",
+       "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "regex",
+         "strings"
+       ]
+    },
+ 	  {
+       "slug": "protein-translation",
+       "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "strings"
+       ]
+     },
+ 	  {
+       "slug": "luhn",
+       "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "algorithms"
+       ]
+      },
+ 	  {
+       "slug": "saddle-points",
+       "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "arrays"
+       ]
+      },
+   	{
       "slug": "forth",
       "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
       "core": false,
