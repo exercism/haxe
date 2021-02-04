@@ -2,9 +2,9 @@
   "language": "Haxe",
   "active": false,
   "blurb": "Haxe is an open source high-level strictly-typed programming language with a fast optimizing cross-compiler. Haxe can build cross-platform applications targeting JavaScript, C++, C#, Java, JVM, Python, Lua, PHP, Flash, and allows access to each platform's native capabilities. Haxe has its own VMs (HashLink and NekoVM) but can also run in interpreted mode. Code written in Haxe can be compiled to any target Haxe supports.",
-  "online_editor": {
-    "indent_style": "space",
-    "indent_size": 4
+   "online_editor": {	
+    "indent_style": "space",	
+    "indent_size": 4	
   },
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
@@ -44,7 +44,7 @@
         "logic"
       ]
     },
-    {
+	{
       "slug": "anagram",
       "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
       "core": false,
@@ -55,7 +55,7 @@
         "strings"
       ]
     },
-    {
+	{
       "slug": "acronym",
       "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
       "core": false,
@@ -66,7 +66,7 @@
         "transforming"
       ]
     },
-    {
+  {
       "slug": "two-fer",
       "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
       "core": true,
@@ -77,18 +77,18 @@
         "strings"
       ]
     },
-    {
-      "slug": "difference-of-squares",
-      "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "integers",
-        "math"
-      ]
+ 	{
+       "slug": "difference-of-squares",
+       "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "integers",
+         "math"
+       ]
     },
-    {
+	{
       "slug": "hamming",
       "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
       "core": true,
@@ -99,7 +99,7 @@
         "strings"
       ]
     },
-    {
+	{
       "slug": "food-chain",
       "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
       "core": true,
@@ -109,8 +109,8 @@
         "strings",
         "recursion"
       ]
-    },
-    {
+     },
+	 {
       "slug": "kindergarten-garden",
       "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
       "core": false,
@@ -120,100 +120,89 @@
         "strings"
       ]
     },
-    {
-      "slug": "twelve-days",
-      "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings",
-        "recursion"
-      ]
+ 	 {
+       "slug": "twelve-days",
+       "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "strings",
+         "recursion"
+       ]
+     },
+   	{
+       "slug": "queen-attack",
+       "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "math"
+       ]
+     },
+ 	  {
+       "slug": "isbn-verifier",
+       "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "regex",
+         "strings"
+       ]
     },
-    {
-      "slug": "queen-attack",
-      "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "math"
-      ]
+ 	  {
+       "slug": "pig-latin",
+       "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "regex",
+         "strings"
+       ]
     },
-    {
-      "slug": "isbn-verifier",
-      "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "regex",
-        "strings"
-      ]
-    },
-    {
-      "slug": "pig-latin",
-      "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "regex",
-        "strings"
-      ]
-    },
-    {
-      "slug": "protein-translation",
-      "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings"
-      ]
-    },
-    {
-      "slug": "luhn",
-      "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "algorithms"
-      ]
-    },
-    {
-      "slug": "saddle-points",
-      "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "arrays"
-      ]
-    },
-    {
-      "slug": "forth",
-      "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings",
-        "regex",
-        "algorithms"
-      ]
-    },
-    {
-      "slug": "secret-handshake",
-      "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "bitwise_operations"
-      ]
+ 	  {
+       "slug": "protein-translation",
+       "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "strings"
+       ]
+     },
+ 	  {
+       "slug": "luhn",
+       "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "algorithms"
+       ]
+      },
+ 	  {
+       "slug": "saddle-points",
+       "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "arrays"
+       ]
+      },
+ 	  {
+       "slug": "binary-search",
+       "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
+       "core": false,
+       "unlocked_by": null,
+       "difficulty": 1,
+       "topics": [
+         "recursion",
+         "algorithms"
+       ]
     }
   ]
 }
