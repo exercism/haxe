@@ -254,6 +254,18 @@
         "topics": [
           "bitwise_operations"
         ]
+      },
+      {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "algorithms",
+          "strings"
+        ]
       }
     ]
   },
