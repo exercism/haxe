@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@master
       - run: |
           ./bin/fetch-configlet
-          ./bin/configlet lint .
+          ./bin/configlet lint
