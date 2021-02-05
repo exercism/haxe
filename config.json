@@ -266,6 +266,17 @@
           "algorithms",
           "strings"
         ]
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
       }
     ]
   },
