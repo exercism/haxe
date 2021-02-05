@@ -1,5 +1,6 @@
 {
   "language": "Haxe",
+  "slug": "haxe",
   "active": false,
   "status": {
     "concept_exercises": false,
