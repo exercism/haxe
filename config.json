@@ -230,6 +230,19 @@
           "strings",
           "recursion"
         ]
+      },
+      {
+        "slug": "forth",
+        "name": "Forth",
+        "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "strings",
+          "regex",
+          "algorithms"
+        ]
       }
     ]
   },
