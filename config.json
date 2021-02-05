@@ -256,6 +256,18 @@
         ]
       },
       {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "algorithms",
+          "strings"
+        ]
+      },
+      {
         "slug": "darts",
         "name": "Darts",
         "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
