@@ -18,63 +18,6 @@
   "test_pattern": "test.*Test[.]hx",
   "exercises": [
     {
-      "slug": "hello-world",
-      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
-      "core": false,
-      "auto_approve": true,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings"
-      ]
-    },
-    {
-      "slug": "bob",
-      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "booleans",
-        "conditionals",
-        "strings"
-      ]
-    },
-    {
-      "slug": "leap",
-      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "booleans",
-        "integers",
-        "logic"
-      ]
-    },
-    {
-      "slug": "anagram",
-      "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "filtering",
-        "strings"
-      ]
-    },
-    {
-      "slug": "acronym",
-      "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings",
-        "transforming"
-      ]
-    },
-    {
       "slug": "two-fer",
       "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
       "core": true,
@@ -83,17 +26,6 @@
       "topics": [
         "optional_values",
         "strings"
-      ]
-    },
-    {
-      "slug": "difference-of-squares",
-      "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "integers",
-        "math"
       ]
     },
     {
@@ -119,34 +51,70 @@
       ]
     },
     {
-      "slug": "kindergarten-garden",
-      "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings"
-      ]
-    },
-    {
-      "slug": "twelve-days",
-      "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+      "slug": "acronym",
+      "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
         "strings",
-        "recursion"
+        "transforming"
       ]
     },
     {
-      "slug": "queen-attack",
-      "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
+      "slug": "anagram",
+      "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
+        "filtering",
+        "strings"
+      ]
+    },
+    {
+      "slug": "binary-search",
+      "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "recursion",
+        "algorithms"
+      ]
+    },
+    {
+      "slug": "bob",
+      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "booleans",
+        "conditionals",
+        "strings"
+      ]
+    },
+    {
+      "slug": "difference-of-squares",
+      "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "integers",
         "math"
+      ]
+    },
+    {
+      "slug": "hello-world",
+      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
+      "core": false,
+      "auto_approve": true,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings"
       ]
     },
     {
@@ -158,6 +126,38 @@
       "topics": [
         "regex",
         "strings"
+      ]
+    },
+    {
+      "slug": "kindergarten-garden",
+      "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "strings"
+      ]
+    },
+    {
+      "slug": "leap",
+      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "booleans",
+        "integers",
+        "logic"
+      ]
+    },
+    {
+      "slug": "luhn",
+      "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "algorithms"
       ]
     },
     {
@@ -182,13 +182,13 @@
       ]
     },
     {
-      "slug": "luhn",
-      "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+      "slug": "queen-attack",
+      "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "algorithms"
+        "math"
       ]
     },
     {
@@ -202,14 +202,14 @@
       ]
     },
     {
-      "slug": "binary-search",
-      "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
+      "slug": "twelve-days",
+      "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "recursion",
-        "algorithms"
+        "strings",
+        "recursion"
       ]
     }
   ]
