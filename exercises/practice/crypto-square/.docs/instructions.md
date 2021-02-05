@@ -1,4 +1,5 @@
-# Crypto Square
+# Instructions
+
 Implement the classic method for composing secret messages called a square code.
 
 Given an English text, output the encoded version of that text.
@@ -70,10 +71,3 @@ ciphertext back in to the original message:
 "aohghn "
 "sseoau "
 ```
-
-## Source
-J Dalbey's Programming Practice problems
-http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
