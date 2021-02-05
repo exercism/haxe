@@ -17,6 +17,7 @@
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
   "exercises": {
+    "concept": [],
     "practice": [
       {
         "slug": "two-fer",
