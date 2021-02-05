@@ -243,6 +243,17 @@
           "regex",
           "algorithms"
         ]
+      },
+      {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "bitwise_operations"
+        ]
       }
     ]
   },
