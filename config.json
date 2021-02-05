@@ -23,6 +23,7 @@
         "slug": "two-fer",
         "name": "Two Fer",
         "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -34,6 +35,7 @@
         "slug": "hamming",
         "name": "Hamming",
         "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -45,6 +47,7 @@
         "slug": "food-chain",
         "name": "Food Chain",
         "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -56,6 +59,7 @@
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -67,6 +71,7 @@
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -78,6 +83,7 @@
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -89,6 +95,7 @@
         "slug": "bob",
         "name": "Bob",
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -101,6 +108,7 @@
         "slug": "difference-of-squares",
         "name": "Difference Of Squares",
         "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -112,6 +120,7 @@
         "slug": "hello-world",
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -122,6 +131,7 @@
         "slug": "isbn-verifier",
         "name": "Isbn Verifier",
         "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -133,6 +143,7 @@
         "slug": "kindergarten-garden",
         "name": "Kindergarten Garden",
         "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -143,6 +154,7 @@
         "slug": "leap",
         "name": "Leap",
         "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -155,6 +167,7 @@
         "slug": "luhn",
         "name": "Luhn",
         "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -165,6 +178,7 @@
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -176,6 +190,7 @@
         "slug": "protein-translation",
         "name": "Protein Translation",
         "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -186,6 +201,7 @@
         "slug": "queen-attack",
         "name": "Queen Attack",
         "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -196,6 +212,7 @@
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -206,6 +223,7 @@
         "slug": "twelve-days",
         "name": "Twelve Days",
         "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
