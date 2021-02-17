@@ -16,6 +16,20 @@
   },
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
+  "files": {
+    "solution": [
+      "path/to/%{kebab_slug}.ext"
+    ],
+    "test": [
+      "path/to/%{kebab_slug}.ext"
+    ],
+    "example": [
+      "path/to/%{kebab_slug}.ext"
+    ],
+    "exemplar": [
+      "path/to/%{kebab_slug}.ext"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
