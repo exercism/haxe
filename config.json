@@ -18,16 +18,16 @@
   "test_pattern": "test.*Test[.]hx",
   "files": {
     "solution": [
-      "path/to/%{kebab_slug}.ext"
+      "src/%{pascal_slug}.hx"
     ],
     "test": [
-      "path/to/%{kebab_slug}.ext"
+      "test/Test.hx"
     ],
     "example": [
-      "path/to/%{kebab_slug}.ext"
+      ".meta/Example.hx"
     ],
     "exemplar": [
-      "path/to/%{kebab_slug}.ext"
+      ".meta/Exemplar.hx"
     ]
   },
   "exercises": {
