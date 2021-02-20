@@ -16,6 +16,20 @@
   },
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
+  "files": {
+    "solution": [
+      "src/%{pascal_slug}.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [

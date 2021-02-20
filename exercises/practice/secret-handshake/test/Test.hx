@@ -2,7 +2,6 @@ package;
 
 using buddy.Should;
 
-// Created by testgen.hx
 class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("Create a handshake for a number", {

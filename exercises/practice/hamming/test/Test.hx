@@ -8,24 +8,19 @@ class Test extends buddy.SingleSuite {
 			it("empty strands", {
 				Hamming.distance("", "").should().be(0);
 			});
-			it("single letter identical strands", {
-				pending("Skipping");
+			xit("single letter identical strands", {
 				Hamming.distance("A", "A").should().be(0);
 			});
-			it("single letter different strands", {
-				pending("Skipping");
+			xit("single letter different strands", {
 				Hamming.distance("G", "T").should().be(1);
 			});
-			it("long identical strands", {
-				pending("Skipping");
+			xit("long identical strands", {
 				Hamming.distance("GGACTGAAATCTG", "GGACTGAAATCTG").should.be(0);
 			});
-			it("long different strands", {
-				pending("Skipping");
+			xit("long different strands", {
 				Hamming.distance("GGACGGATTCTG", "AGGACGGATTCT").should.be(9);
 			});
-			it("disallow first strand longer", {
-				pending("Skipping");
+			xit("disallow first strand longer", {
 				Hamming.distance.bind("AATG", "AAA").should().throwType(haxe.Exception);
 			});
 		});

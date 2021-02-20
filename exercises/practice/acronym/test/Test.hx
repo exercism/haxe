@@ -8,36 +8,28 @@ class Test extends buddy.SingleSuite {
 			it("basic", {
 				Acronym.abbreviate("Portable Network Graphics").should.be("PNG");
 			});
-			it("lowercase words", {
-				pending("Skipping");
+			xit("lowercase words", {
 				Acronym.abbreviate("Ruby on Rails").should.be("ROR");
 			});
-			it("punctuation", {
-				pending("Skipping");
+			xit("punctuation", {
 				Acronym.abbreviate("First In, First Out").should.be("FIFO");
 			});
-			it("all caps word", {
-				pending("Skipping");
+			xit("all caps word", {
 				Acronym.abbreviate("GNU Image Manipulation Program").should.be("GIMP");
 			});
-			it("punctuation without whitespace", {
-				pending("Skipping");
+			xit("punctuation without whitespace", {
 				Acronym.abbreviate("Complementary metal-oxide semiconductor").should.be("CMOS");
 			});
-			it("very long abbreviation", {
-				pending("Skipping");
+			xit("very long abbreviation", {
 				Acronym.abbreviate("Rolling On The Floor Laughing So Hard That My Dogs Came Over And Licked Me").should.be("ROTFLSHTMDCOALM");
 			});
-			it("consecutive delimiters", {
-				pending("Skipping");
+			xit("consecutive delimiters", {
 				Acronym.abbreviate("Something - I made up from thin air").should.be("SIMUFTA");
 			});
-			it("apostrophes", {
-				pending("Skipping");
+			xit("apostrophes", {
 				Acronym.abbreviate("Halley's Comet").should.be("HC");
 			});
-			it("underscore emphasis", {
-				pending("Skipping");
+			xit("underscore emphasis", {
 				Acronym.abbreviate("The Road _Not_ Taken").should.be("TRNT");
 			});
 		});

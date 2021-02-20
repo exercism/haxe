@@ -1,7 +1,3 @@
-package;
-
-class CryptoSquare {
-    public static function ciphertext(plaintext: String): String {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    } 
+function ciphertext(plaintext:String):String {
+	throw "Not Implemented"; // Delete this statement and write your own implementation.
 }
