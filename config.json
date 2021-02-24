@@ -295,6 +295,37 @@
     ]
   },
   "concepts": [],
-  "key_features": [],
+  "key_features": [
+    {
+      "icon": "features-cross-platform",
+      "title": "Cross-platform",
+      "content": "Cross-compile to 14 targets, including Javascript, PHP7, C++, Lua, the JVM, and the HashLink VM."
+    },
+    {
+      "icon": "features-multi-paradigm",
+      "title": "Multi-paradigm",
+      "content": "Haxe supports OOP, metaprogramming, and many functional features."
+    },
+    {
+      "icon": "features-type-system",
+      "title": "Advanced type system",
+      "content": "A robust and sohpisticated type system with type inference, generics, abstracts, and much more."
+    },
+    {
+      "icon": "features-general-purpose",
+      "title": "General purpose",
+      "content": "Haxe excels in game development but is used in many domains, include web, mobile, and desktop."
+    },
+    {
+      "icon": "features-native",
+      "title": "Native access",
+      "content": "Haxe externs enable type-safe interaction with the underlying target, providing access to native APIs."
+    },
+    {
+      "icon": "features-metaprogramming",
+      "title": "Metaprogramming",
+      "content": "Syntax-transformation using macros unlocks the power to fit the language to your problem domain."
+    }
+  ],
   "tags": []
 }
