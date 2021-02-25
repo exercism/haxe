@@ -8,12 +8,10 @@ class Test extends buddy.SingleSuite {
 			it("no name given", {
 				TwoFer.twoFer(null).should().be("One for you, one for me.");
 			});
-			it("a name given", {
-				pending("Skipping");
+			xit("a name given", {
 				TwoFer.twoFer("Alice").should().be("One for Alice, one for me.");
 			});
-			it("another name given", {
-				pending("Skipping");
+			xit("another name given", {
 				TwoFer.twoFer("Bob").should().be("One for Bob, one for me.");
 			});
 		});

@@ -2,7 +2,6 @@ package;
 
 using buddy.Should;
 
-// Created by testgen.hx
 class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("ay is added to words that start with vowels", {

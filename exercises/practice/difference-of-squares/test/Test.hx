@@ -8,40 +8,32 @@ class Test extends buddy.SingleSuite {
 			it("square of sum 1", {
 				DifferenceOfSquares.squareOfSum(1).should().be(1);
 			});
-			it("square of sum 5", {
-				pending("Skipping");
+			xit("square of sum 5", {
 				DifferenceOfSquares.squareOfSum(5).should().be(225);
 			});
-			it("square of sum 100", {
-				pending("Skipping");
+			xit("square of sum 100", {
 				DifferenceOfSquares.squareOfSum(100).should().be(25502500);
 			});
 		});
 		describe("Sum the squares of the numbers up to the given number", {
-			it("sum of squares 1", {
-				pending("Skipping");
+			xit("sum of squares 1", {
 				DifferenceOfSquares.sumOfSquares(1).should().be(1);
 			});
-			it("sum of squares 5", {
-				pending("Skipping");
+			xit("sum of squares 5", {
 				DifferenceOfSquares.sumOfSquares(5).should().be(55);
 			});
-			it("sum of squares 100", {
-				pending("Skipping");
+			xit("sum of squares 100", {
 				DifferenceOfSquares.sumOfSquares(100).should().be(338350);
 			});
 		});
 		describe("Subtract sum of squares from square of sums", {
-			it("difference of squares 1", {
-				pending("Skipping");
+			xit("difference of squares 1", {
 				DifferenceOfSquares.differenceOfSquares(1).should().be(0);
 			});
-			it("difference of squares 5", {
-				pending("Skipping");
+			xit("difference of squares 5", {
 				DifferenceOfSquares.differenceOfSquares(5).should().be(170);
 			});
-			it("difference of squares 100", {
-				pending("Skipping");
+			xit("difference of squares 100", {
 				DifferenceOfSquares.differenceOfSquares(100).should().be(25164150);
 			});
 		});
