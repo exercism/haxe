@@ -603,5 +603,28 @@
     }
   ],
   "key_features": [],
-  "tags": []
+  "tags": [
+    "execution_mode/compiled",
+    "execution_mode/interpreted",
+    "typing/static",
+    "runtime/standalone_executable",
+    "runtime/language_specific",
+    "runtime/clr",
+    "runtime/jvm",
+    "paradigm/functional",
+    "paradigm/object_oriented",
+    "paradigm/procedural",
+    "platform/windows",
+    "platform/linux",
+    "platform/mac",
+    "platform/ios",
+    "platform/android",
+    "platform/web",
+    "used_for/backends",
+    "used_for/frontends",
+    "used_for/guis",
+    "used_for/games",
+    "used_for/cross_platform_development",
+    "used_for/web_development"
+  ]
 }
