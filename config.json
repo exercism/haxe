@@ -34,42 +34,6 @@
     "concept": [],
     "practice": [
       {
-        "slug": "two-fer",
-        "name": "Two Fer",
-        "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "optional_values",
-          "strings"
-        ]
-      },
-      {
-        "slug": "hamming",
-        "name": "Hamming",
-        "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "filtering",
-          "strings"
-        ]
-      },
-      {
-        "slug": "food-chain",
-        "name": "Food Chain",
-        "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "strings",
-          "recursion"
-        ]
-      },
-      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
@@ -119,6 +83,29 @@
         ]
       },
       {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "algorithms",
+          "strings"
+        ]
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "math"
+        ]
+      },
+      {
         "slug": "difference-of-squares",
         "name": "Difference Of Squares",
         "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
@@ -128,6 +115,43 @@
         "topics": [
           "integers",
           "math"
+        ]
+      },
+      {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "strings",
+          "recursion"
+        ]
+      },
+      {
+        "slug": "forth",
+        "name": "Forth",
+        "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "strings",
+          "regex",
+          "algorithms"
+        ]
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "filtering",
+          "strings"
         ]
       },
       {
@@ -234,6 +258,17 @@
         ]
       },
       {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "bitwise_operations"
+        ]
+      },
+      {
         "slug": "twelve-days",
         "name": "Twelve Days",
         "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
@@ -246,50 +281,15 @@
         ]
       },
       {
-        "slug": "forth",
-        "name": "Forth",
-        "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
-          "strings",
-          "regex",
-          "algorithms"
-        ]
-      },
-      {
-        "slug": "secret-handshake",
-        "name": "Secret Handshake",
-        "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "bitwise_operations"
-        ]
-      },
-      {
-        "slug": "crypto-square",
-        "name": "Crypto Square",
-        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "algorithms",
+          "optional_values",
           "strings"
-        ]
-      },
-      {
-        "slug": "darts",
-        "name": "Darts",
-        "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "math"
         ]
       }
     ]
