@@ -17,21 +17,22 @@
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
   "files": {
-    "solution": [
-      "src/%{pascal_slug}.hx"
-    ],
-    "test": [
-      "test/Test.hx"
-    ],
-    "example": [
-      ".meta/Example.hx"
-    ],
-    "exemplar": [
-      ".meta/Exemplar.hx"
-    ]
+    "solution": ["src/%{pascal_slug}.hx"],
+    "test": ["test/Test.hx"],
+    "example": [".meta/Example.hx"],
+    "exemplar": [".meta/Exemplar.hx"]
   },
   "exercises": {
-    "concept": [],
+    "concept": [
+      {
+        "slug": "annalyns-infiltration",
+        "name": "Annalyn's Infiltration",
+        "uuid": "cf061fd5-cf99-4d6a-b083-ef1bffe9091c",
+        "concepts": ["booleans"],
+        "prerequisites": ["basics"],
+        "status": "wip"
+      }
+    ],
     "practice": [
       {
         "slug": "two-fer",
@@ -40,10 +41,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "optional_values",
-          "strings"
-        ]
+        "topics": ["optional_values", "strings"]
       },
       {
         "slug": "hamming",
@@ -52,10 +50,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "filtering",
-          "strings"
-        ]
+        "topics": ["filtering", "strings"]
       },
       {
         "slug": "food-chain",
@@ -64,10 +59,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings",
-          "recursion"
-        ]
+        "topics": ["strings", "recursion"]
       },
       {
         "slug": "acronym",
@@ -76,10 +68,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings",
-          "transforming"
-        ]
+        "topics": ["strings", "transforming"]
       },
       {
         "slug": "anagram",
@@ -88,10 +77,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "filtering",
-          "strings"
-        ]
+        "topics": ["filtering", "strings"]
       },
       {
         "slug": "binary-search",
@@ -100,10 +86,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "recursion",
-          "algorithms"
-        ]
+        "topics": ["recursion", "algorithms"]
       },
       {
         "slug": "bob",
@@ -112,11 +95,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "booleans",
-          "conditionals",
-          "strings"
-        ]
+        "topics": ["booleans", "conditionals", "strings"]
       },
       {
         "slug": "difference-of-squares",
@@ -125,10 +104,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "integers",
-          "math"
-        ]
+        "topics": ["integers", "math"]
       },
       {
         "slug": "hello-world",
@@ -137,9 +113,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings"
-        ]
+        "topics": ["strings"]
       },
       {
         "slug": "isbn-verifier",
@@ -148,10 +122,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "regex",
-          "strings"
-        ]
+        "topics": ["regex", "strings"]
       },
       {
         "slug": "kindergarten-garden",
@@ -160,9 +131,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings"
-        ]
+        "topics": ["strings"]
       },
       {
         "slug": "leap",
@@ -171,11 +140,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "booleans",
-          "integers",
-          "logic"
-        ]
+        "topics": ["booleans", "integers", "logic"]
       },
       {
         "slug": "luhn",
@@ -184,9 +149,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "algorithms"
-        ]
+        "topics": ["algorithms"]
       },
       {
         "slug": "pig-latin",
@@ -195,10 +158,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "regex",
-          "strings"
-        ]
+        "topics": ["regex", "strings"]
       },
       {
         "slug": "protein-translation",
@@ -207,9 +167,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings"
-        ]
+        "topics": ["strings"]
       },
       {
         "slug": "queen-attack",
@@ -218,9 +176,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "math"
-        ]
+        "topics": ["math"]
       },
       {
         "slug": "saddle-points",
@@ -229,9 +185,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "arrays"
-        ]
+        "topics": ["arrays"]
       },
       {
         "slug": "twelve-days",
@@ -240,10 +194,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings",
-          "recursion"
-        ]
+        "topics": ["strings", "recursion"]
       },
       {
         "slug": "forth",
@@ -252,11 +203,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "strings",
-          "regex",
-          "algorithms"
-        ]
+        "topics": ["strings", "regex", "algorithms"]
       },
       {
         "slug": "secret-handshake",
@@ -265,9 +212,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "bitwise_operations"
-        ]
+        "topics": ["bitwise_operations"]
       },
       {
         "slug": "crypto-square",
@@ -276,10 +221,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "algorithms",
-          "strings"
-        ]
+        "topics": ["algorithms", "strings"]
       },
       {
         "slug": "darts",
@@ -288,9 +230,7 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "topics": [
-          "math"
-        ]
+        "topics": ["math"]
       }
     ]
   },
