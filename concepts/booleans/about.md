@@ -1,6 +1,6 @@
 Booleans in Haxe are represented by the `Bool` type, whose values can be either `true` or `false`.
 
-Haxe supports three [boolean operators][boolean-operators]: `!` (unary NOT), `&&` (binary AND), and `||` (binary OR)
+Haxe supports three [boolean operators][operators]: `!` (unary NOT), `&&` (binary AND), and `||` (binary OR)
 
 Compound boolean expressions (`&&` and `||`) use _short-circuit_ evaluation, where expressions are evaluated from left to right but only as far as necessary. This is significant in cases such as the following:
 
@@ -19,5 +19,5 @@ Enclosing expressions in parantheses `()` allows overriding these precedence rul
 !(true && false) // => true
 ```
 
-[boolean-operators]: https://haxe.org/manual/expression-operators.html
+[operators]: https://haxe.org/manual/expression-operators-binops.html
 [precedence]: https://haxe.org/manual/expression-operators-precedence.html
