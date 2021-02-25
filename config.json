@@ -294,7 +294,314 @@
       }
     ]
   },
-  "concepts": [],
+  "concepts": [
+    {
+      "uuid": "dc822d69-c2c5-4864-8a6b-d32b4b311bf0",
+      "slug": "abstract-types",
+      "name": "Abstract Types",
+      "blurb": "TODO: add blurb for abstract types concept"
+    },
+    {
+      "uuid": "6d7de9ca-d86d-440b-8d32-e9706cc1c887",
+      "slug": "arrays",
+      "name": "Arrays",
+      "blurb": "TODO: add blurb for arrays concept"
+    },
+    {
+      "uuid": "0d9fdd70-9a02-4c80-9e58-a21f75db4022",
+      "slug": "array-comprehension",
+      "name": "Array Comprehension",
+      "blurb": "TODO: add blurb for array comprehension concept"
+    },
+    {
+      "uuid": "2ebbccb7-90c6-4c1a-98ec-0aae557e332c",
+      "slug": "basics",
+      "name": "Basics",
+      "blurb": "TODO: add blurb for basics concept"
+    },
+    {
+      "uuid": "eafd6776-8bb6-48a1-b350-700aa365b0ef",
+      "slug": "bit-manipulation",
+      "name": "Bit Manipulation",
+      "blurb": "TODO: add blurb for bit-manipulation concept"
+    },
+    {
+      "uuid": "efa768d3-0774-4b0e-a0b2-31f6542368d6",
+      "slug": "booleans",
+      "name": "Booleans",
+      "blurb": "TODO: add blurb for booleans concept"
+    },
+    {
+      "uuid": "fe407658-0199-4d78-98ac-2cfcbbd23c3b",
+      "slug": "chars",
+      "name": "Chars",
+      "blurb": "TODO: add blurb for chars concept"
+    },
+    {
+      "uuid": "934b7c38-bdd0-4013-b1a2-74882286db31",
+      "slug": "classes",
+      "name": "Classes",
+      "blurb": "TODO: add blurb for classes concept"
+    },
+    {
+      "uuid": "957e6fa2-5eb4-446b-9b03-0a9f5bd45de4",
+      "slug": "ternary-operators",
+      "name": "Conditionals Ternary",
+      "blurb": "TODO: add blurb for ternary-operators concept"
+    },
+    {
+      "uuid": "180a9a90-46e4-412f-8498-90e8bc71e4ae",
+      "slug": "constructors",
+      "name": "Constructors",
+      "blurb": "TODO: add blurb for constructors concept"
+    },
+    {
+      "uuid": "f2f71b9c-9d4b-4f0c-a3cd-bfb68aa2d440",
+      "slug": "datetimes",
+      "name": "Datetimes",
+      "blurb": "TODO: add blurb for datetimes concept"
+    },
+    {
+      "uuid": "0c3c91f5-1559-468f-8101-457d4af21a5c",
+      "slug": "do-while-loops",
+      "name": "Do While Loops",
+      "blurb": "TODO: add blurb for do-while-loops concept"
+    },
+    {
+      "uuid": "4315aab4-c9e1-40dc-988d-59c062bfd025",
+      "slug": "enums",
+      "name": "Enums",
+      "blurb": "TODO: add blurb for enums concept"
+    },
+    {
+      "uuid": "d4bb5105-3d0e-42e9-9a74-999f3dff634e",
+      "slug": "equality",
+      "name": "Equality",
+      "blurb": "TODO: add blurb for equality concept"
+    },
+    {
+      "uuid": "b8489415-8e7f-407e-9089-5bd62869e9ac",
+      "slug": "exceptions",
+      "name": "Exceptions",
+      "blurb": "TODO: add blurb for exceptions concept"
+    },
+    {
+      "uuid": "0a234e37-d282-4413-b109-8d49cde39637",
+      "slug": "finals",
+      "name": "Finals",
+      "blurb": "TODO: add blurb for finals concept"
+    },
+    {
+      "uuid": "e3c060ed-c0a0-4c97-bbb0-5addbd06bbb4",
+      "slug": "flag-enums",
+      "name": "Flag Enums",
+      "blurb": "TODO: add blurb for flag-enums concept"
+    },
+    {
+      "uuid": "77b9419b-d17f-47aa-9621-0173613e76f1",
+      "slug": "floating-point-numbers",
+      "name": "Floating Point Numbers",
+      "blurb": "TODO: add blurb for floating-point-numbers concept"
+    },
+    {
+      "uuid": "a6035e7f-166a-4c55-877a-57d3c3ac6e60",
+      "slug": "for-loops",
+      "name": "For Loops",
+      "blurb": "TODO: add blurb for for-loops concept"
+    },
+    {
+      "uuid": "42721af5-0b1d-4044-bf3c-1a4bbeffbab2",
+      "slug": "foreach-loops",
+      "name": "Foreach Loops",
+      "blurb": "TODO: add blurb for foreach-loops concept"
+    },
+    {
+      "uuid": "4c68f296-0938-4e7b-8c95-4b608d8f637f",
+      "slug": "generic-types",
+      "name": "Generic Types",
+      "blurb": "TODO: add blurb for generic-types concept"
+    },
+    {
+      "uuid": "f73f0d04-d507-42ef-b8cb-baa956e1bffc",
+      "slug": "if-statements",
+      "name": "If Statements",
+      "blurb": "TODO: add blurb for if-statements concept"
+    },
+    {
+      "uuid": "2e219dd7-3701-4498-9648-e2c428677814",
+      "slug": "indexers",
+      "name": "Indexers",
+      "blurb": "TODO: add blurb for indexers concept"
+    },
+    {
+      "uuid": "5a6f4399-aae2-4166-a463-e4b3f6dd6b14",
+      "slug": "inheritance",
+      "name": "Inheritance",
+      "blurb": "TODO: add blurb for inheritance concept"
+    },
+    {
+      "uuid": "a54bf7b9-110b-4411-acd6-2570fae02f01",
+      "slug": "integral-numbers",
+      "name": "Integral Numbers",
+      "blurb": "TODO: add blurb for integral-numbers concept"
+    },
+    {
+      "uuid": "7c9cc892-76fe-48b1-85fd-b6550687d5fd",
+      "slug": "interfaces",
+      "name": "Interfaces",
+      "blurb": "TODO: add blurb for interfaces concept"
+    },
+    {
+      "uuid": "fee9269b-8c3f-467a-8954-a6d77503cd44",
+      "slug": "iterators",
+      "name": "Iterators",
+      "blurb": "TODO: add blurb for iterators concept"
+    },
+    {
+      "uuid": "8091e584-70c0-456e-beca-4301ae5fa855",
+      "slug": "lambda",
+      "name": "Lambda",
+      "blurb": "TODO: add blurb for lambda concept"
+    },
+    {
+      "uuid": "abb5b666-29e9-4a3c-b474-73bc8a7cc7a8",
+      "slug": "lists",
+      "name": "Lists",
+      "blurb": "TODO: add blurb for lists concept"
+    },
+    {
+      "uuid": "d5650f6d-5e63-4c5a-827b-edfb69a722cd",
+      "slug": "maps",
+      "name": "Maps",
+      "blurb": "TODO: add blurb for maps concept"
+    },
+    {
+      "uuid": "708e38bd-584e-4ec7-9955-ad1d12d4d5f6",
+      "slug": "nullability",
+      "name": "Nullability",
+      "blurb": "TODO: add blurb for nullability concept"
+    },
+    {
+      "uuid": "dcf5fe4a-cb83-4157-9a48-3b9497451be1",
+      "slug": "numbers",
+      "name": "Numbers",
+      "blurb": "TODO: add blurb for numbers concept"
+    },
+    {
+      "uuid": "c7db9784-72e9-481f-9c2c-65639b67b06a",
+      "slug": "operator-overloading",
+      "name": "Operator Overloading",
+      "blurb": "TODO: add blurb for operator-overloading concept"
+    },
+    {
+      "uuid": "528952c5-724c-42e4-bd01-623d83bde799",
+      "slug": "option-type",
+      "name": "Option Type",
+      "blurb": "TODO: add blurb for option type concept"
+    },
+    {
+      "uuid": "f6c4b38d-c41a-47b2-a2b6-85dbab9f665a",
+      "slug": "optional-arguments",
+      "name": "Optional Arguments",
+      "blurb": "TODO: add blurb for optional-arguments concept"
+    },
+    {
+      "uuid": "0b0aaf29-4107-476f-b65b-595c0af0c61f",
+      "slug": "pattern-matching",
+      "name": "Pattern Matching",
+      "blurb": "TODO: add blurb for pattern-matching concept"
+    },
+    {
+      "uuid": "cef63cd3-55b9-4138-80cb-8f032092e0fb",
+      "slug": "properties",
+      "name": "Properties",
+      "blurb": "TODO: add blurb for properties concept"
+    },
+    {
+      "uuid": "5ed418c6-111f-41ef-9506-e2faa3b1211b",
+      "slug": "randomness",
+      "name": "Randomness",
+      "blurb": "TODO: add blurb for randomness concept"
+    },
+    {
+      "uuid": "275da84a-5255-45da-86c0-38cc5e5e1b1d",
+      "slug": "reflection",
+      "name": "Reflection",
+      "blurb": "TODO: add blurb for reflection concept"
+    },
+    {
+      "uuid": "b42ed342-afc1-4e91-b8fc-d45e5bef01fa",
+      "slug": "regular-expressions",
+      "name": "Regular Expressions",
+      "blurb": "TODO: add blurb for regular-expressions concept"
+    },
+    {
+      "uuid": "78d07a0a-e12e-4b95-a098-3f323636f804",
+      "slug": "rest-args",
+      "name": "Rest Args",
+      "blurb": "TODO: add blurb for rest args concept"
+    },
+    {
+      "uuid": "fffee673-ecb1-456b-9c9d-e081a705d5db",
+      "slug": "string-buffer",
+      "name": "String Buffer",
+      "blurb": "TODO: add blurb for string-buffer concept"
+    },
+    {
+      "uuid": "ebe21c69-0f45-4f9b-8c18-0aa8871e1f3c",
+      "slug": "string-interpolation",
+      "name": "String Interpolation",
+      "blurb": "TODO: add blurb for string-interpolation concept"
+    },
+    {
+      "uuid": "826f3347-254d-4b21-93cf-79224bca4e4e",
+      "slug": "strings",
+      "name": "Strings",
+      "blurb": "TODO: add blurb for strings concept"
+    },
+    {
+      "uuid": "5a723da2-aabf-4bcd-908e-9a2344702209",
+      "slug": "switch-expressions",
+      "name": "Switch Expressions",
+      "blurb": "TODO: add blurb for switch-expressions concept"
+    },
+    {
+      "uuid": "408b83d9-18b1-4f23-b04f-36743bf56c64",
+      "slug": "templates",
+      "name": "Templates",
+      "blurb": "TODO: add blurb for templates concept"
+    },
+    {
+      "uuid": "e8880b32-05ca-46e7-b512-b5af332f2fcb",
+      "slug": "throw-expressions",
+      "name": "Throw Expressions",
+      "blurb": "TODO: add blurb for throw-expressions concept"
+    },
+    {
+      "uuid": "ff4fe0e1-9f03-40bb-8fef-757d00febc30",
+      "slug": "time",
+      "name": "Time",
+      "blurb": "TODO: add blurb for time concept"
+    },
+    {
+      "uuid": "6da6536b-faff-41f0-a4ee-29339c045beb",
+      "slug": "typedefs",
+      "name": "Typedefs",
+      "blurb": "TODO: add blurb for typedefs concept"
+    },
+    {
+      "uuid": "0a25732c-87a6-4022-8a98-14659f6ebb9a",
+      "slug": "using-statements",
+      "name": "Using statements",
+      "blurb": "TODO: add blurb for using statements concept"
+    },
+    {
+      "uuid": "f599a2c9-269f-43d0-a57d-f7e66344a804",
+      "slug": "while-loops",
+      "name": "While Loops",
+      "blurb": "TODO: add blurb for while-loops concept"
+    }
+  ],
   "key_features": [],
   "tags": []
 }
