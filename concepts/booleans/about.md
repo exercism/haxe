@@ -5,7 +5,7 @@ Haxe supports three [boolean operators][operators]: `!` (unary NOT), `&&` (binar
 Compound boolean expressions (`&&` and `||`) use _short-circuit_ evaluation, where expressions are evaluated from left to right but only as far as necessary. This is significant in cases such as the following:
 
 ```haxe
-if (object != null && object.field == x) {}
+object != null && object.field == x
 ```
 
 The first boolean check ensures that `object.field` is only accessed if `object` is not `null`, guarding against a runtime error.
