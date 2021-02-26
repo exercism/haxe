@@ -1,2 +1,18 @@
-{
-}
+[
+  {
+    "description": "string",
+    "url": "https://code.haxe.org/category/beginner/strings.html"
+  },
+  {
+    "description": "String API",
+    "url": "https://api.haxe.org/String.html"
+  },
+  {
+    "description": "escaping",
+    "url": "https://haxe.org/manual/std-String-literals.html"
+  },
+  {
+    "description": "plus-operator",
+    "url": "https://haxe.org/manual/expression-operators-binops.html#string-concatenation-operator"
+  }
+]

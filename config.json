@@ -31,6 +31,14 @@
         "concepts": ["strings"],
         "prerequisites": ["basics"],
         "status": "wip"
+      },
+      {
+        "slug": "annalyns-infiltration",
+        "name": "Annalyn's Infiltration",
+        "uuid": "cf061fd5-cf99-4d6a-b083-ef1bffe9091c",
+        "concepts": ["booleans"],
+        "prerequisites": ["basics"],
+        "status": "wip"
       }
     ],
     "practice": [
