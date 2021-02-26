@@ -1,4 +1,4 @@
-While manually concatenating strings in Haxe is possible, Haxe supports [string interpolation](https://haxe.org/manual/lf-string-interpolation.html), which provides a shorter and more convenient syntax: 
+While manually concatenating strings in Haxe is possible, Haxe supports [string interpolation][interpolation], which provides a shorter and more convenient syntax:
 
 ```haxe
 var x = 42;
@@ -11,7 +11,7 @@ trace("the number is " + x);
 trace('the number is $x');
 ```
 
-As seen above, interpolated strings are enclosed by single-quote characters (`'`), unlike regular [strings](https://haxe.org/manual/std-String.html), and may contain special identifiers denoted by the dollar sign (`$`) which trigger interpolation. 
+As shown above, interpolated strings are enclosed by single-quote characters (`'`), unlike regular [strings][strings], and may contain special identifiers denoted by the dollar sign (`$`) which trigger interpolation.
 
 It is possible to include whole expressions by using `${expr}`, where `expr` is any valid Haxe expression:
 
@@ -26,3 +26,6 @@ trace('the price is $$42'); // outputs: the price is $42
 ```
 
 Lastly, note that string interpolation is a compile-time feature that has no impact on runtime performance. Internally, the Haxe compiler generates the equivalent code as manual concatenation.
+
+[interpolation]: https://haxe.org/manual/lf-string-interpolation.html
+[strings]: https://haxe.org/manual/std-String.html
