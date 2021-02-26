@@ -5,6 +5,7 @@
       "exercism_username": "mohammadfoda"
     }
   ],
+  "forked_from": ["csharp/log-levels"],
   "files": {
     "solution": ["LogLevels.hx"],
     "test": ["Tests.hx"],
