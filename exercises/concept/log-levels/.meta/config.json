@@ -1,0 +1,13 @@
+{
+  "authors": [
+    {
+      "github_username": "mfoda",
+      "exercism_username": "mohammadfoda"
+    }
+  ],
+  "files": {
+    "solution": ["LogLevels.hx"],
+    "test": ["Tests.hx"],
+    "exemplar": [".meta/Exemplar.hx"]
+  }
+}
