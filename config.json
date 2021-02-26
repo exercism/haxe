@@ -277,12 +277,11 @@
         "practices": [
           "bit-manipulation",
           "array-comprehension",
-          "array-comprehension",
           "maps",
           "booleans",
           "numbers"
         ],
-        "prerequisites": ["numbers", "bit-manipulation", "booleans", "numbers"],
+        "prerequisites": ["bit-manipulation", "booleans", "numbers"],
         "difficulty": 1
       },
       {
