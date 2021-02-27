@@ -1,0 +1,14 @@
+{
+  "authors": [
+    {
+      "github_username": "mfoda",
+      "exercism_username": "mohammadfoda"
+    }
+  ],
+  "forked_from": ["csharp/log-levels"],
+  "files": {
+    "solution": ["LogLevels.hx"],
+    "test": ["Tests.hx"],
+    "exemplar": [".meta/Exemplar.hx"]
+  }
+}

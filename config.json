@@ -25,6 +25,14 @@
   "exercises": {
     "concept": [
       {
+        "slug": "log-levels",
+        "name": "Log Levels",
+        "uuid": "04c0d4b6-4c0b-4107-ab9e-e3fd29bd37d4",
+        "concepts": ["strings"],
+        "prerequisites": ["basics"],
+        "status": "wip"
+      },
+      {
         "slug": "annalyns-infiltration",
         "name": "Annalyn's Infiltration",
         "uuid": "cf061fd5-cf99-4d6a-b083-ef1bffe9091c",
@@ -35,137 +43,218 @@
     ],
     "practice": [
       {
-        "slug": "two-fer",
-        "name": "Two Fer",
-        "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["optional_values", "strings"]
-      },
-      {
-        "slug": "hamming",
-        "name": "Hamming",
-        "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["filtering", "strings"]
-      },
-      {
-        "slug": "food-chain",
-        "name": "Food Chain",
-        "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["strings", "recursion"]
-      },
-      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["strings", "transforming"]
+        "practices": ["regular-expressions", "strings", "lambda"],
+        "prerequisites": ["regular-expressions", "strings"],
+        "difficulty": 1
       },
       {
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["filtering", "strings"]
+        "practices": [
+          "lambda",
+          "array-comprehension",
+          "strings",
+          "arrays",
+          "booleans"
+        ],
+        "prerequisites": ["strings", "arrays", "booleans"],
+        "difficulty": 1
       },
       {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["recursion", "algorithms"]
+        "practices": ["arrays", "recursion", "numbers", "booleans"],
+        "prerequisites": ["arrays", "numbers", "booleans"],
+        "difficulty": 1
       },
       {
         "slug": "bob",
         "name": "Bob",
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["booleans", "conditionals", "strings"]
+        "practices": ["final", "strings", "booleans", "if-statements"],
+        "prerequisites": ["strings", "booleans", "if-statements"],
+        "difficulty": 1
+      },
+      {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
+        "practices": [
+          "strings",
+          "regular-expressions",
+          "floating-point-numbers",
+          "for-loops"
+        ],
+        "prerequisites": ["strings", "arrays", "for-loops"],
+        "difficulty": 1
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
+        "practices": [
+          "typedefs",
+          "if-statements",
+          "floating-point-numbers",
+          "numbers"
+        ],
+        "prerequisites": ["if-statements", "floating-point-numbers", "numbers"],
+        "difficulty": 1
       },
       {
         "slug": "difference-of-squares",
         "name": "Difference Of Squares",
         "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["integers", "math"]
+        "practices": [
+          "array-comprehension",
+          "lambda",
+          "integral-numbers",
+          "arrays"
+        ],
+        "prerequisites": ["integral-numbers", "arrays"],
+        "difficulty": 1
+      },
+      {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+        "practices": [
+          "recursion",
+          "arrays",
+          "strings",
+          "if-statements",
+          "for-loops"
+        ],
+        "prerequisites": ["if-statements", "arrays", "strings", "for-loops"],
+        "difficulty": 1
+      },
+      {
+        "slug": "forth",
+        "name": "Forth",
+        "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
+        "practices": [
+          "strings",
+          "regular-expressions",
+          "recursion",
+          "arrays",
+          "typedefs",
+          "enums",
+          "lambda",
+          "for-loops",
+          "pattern-matching"
+        ],
+        "prerequisites": ["strings", "arrays", "enums"],
+        "difficulty": 1
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
+        "practices": ["strings", "exceptions", "for-loops", "lambda"],
+        "prerequisites": ["strings", "exceptions", "for-loops"],
+        "difficulty": 1
       },
       {
         "slug": "hello-world",
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["strings"]
+        "practices": ["strings"],
+        "prerequisites": ["basics", "strings"],
+        "difficulty": 1
       },
       {
         "slug": "isbn-verifier",
         "name": "Isbn Verifier",
         "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["regex", "strings"]
+        "practices": [
+          "regular-expressions",
+          "strings",
+          "lambda",
+          "numbers",
+          "integral-numbers"
+        ],
+        "prerequisites": [
+          "regular-expressions",
+          "strings",
+          "numbers",
+          "integral-numbers"
+        ],
+        "difficulty": 1
       },
       {
         "slug": "kindergarten-garden",
         "name": "Kindergarten Garden",
         "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["strings"]
+        "practices": [
+          "arrays",
+          "final",
+          "lambda",
+          "strings",
+          "for-loops",
+          "array-comprehension",
+          "maps",
+          "numbers"
+        ],
+        "prerequisites": ["arrays", "strings", "for-loops", "maps", "numbers"],
+        "difficulty": 1
       },
       {
         "slug": "leap",
         "name": "Leap",
         "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["booleans", "integers", "logic"]
+        "practices": ["booleans", "integral-numbers"],
+        "prerequisites": ["basics", "booleans", "integral-numbers"],
+        "difficulty": 1
       },
       {
         "slug": "luhn",
         "name": "Luhn",
         "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["algorithms"]
+        "practices": [
+          "strings",
+          "regular-expressions",
+          "for-loops",
+          "if-statements",
+          "numbers",
+          "integral-numbers"
+        ],
+        "prerequisites": ["strings", "for-loops", "if-statements", "numbers"],
+        "difficulty": 1
       },
       {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["regex", "strings"]
+        "practices": [
+          "regular-expressions",
+          "strings",
+          "string-interpolation",
+          "lambda"
+        ],
+        "prerequisites": [
+          "regular-expressions",
+          "strings",
+          "string-interpolation"
+        ],
+        "difficulty": 1
       },
       {
         "slug": "protein-translation",
         "name": "Protein Translation",
         "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
-        "practices": [],
-        "prerequisites": [],
+        "practices": [
+          "maps",
+          "array-comprehension",
+          "for-loops",
+          "strings",
+          "arrays"
+        ],
+        "prerequisites": ["maps", "for-loops", "strings", "arrays"],
         "difficulty": 1,
         "topics": ["strings"]
       },
@@ -173,64 +262,76 @@
         "slug": "queen-attack",
         "name": "Queen Attack",
         "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["math"]
+        "practices": [
+          "enums",
+          "typedefs",
+          "final",
+          "if-statements",
+          "numbers",
+          "booleans"
+        ],
+        "prerequisites": ["booleans", "if-statements"],
+        "difficulty": 1
       },
       {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["arrays"]
-      },
-      {
-        "slug": "twelve-days",
-        "name": "Twelve Days",
-        "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["strings", "recursion"]
-      },
-      {
-        "slug": "forth",
-        "name": "Forth",
-        "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["strings", "regex", "algorithms"]
+        "practices": [
+          "for-loops",
+          "if-statements",
+          "typedefs",
+          "arrays",
+          "booleans"
+        ],
+        "prerequisites": ["booleans", "for-loops", "if-statements", "arrays"],
+        "difficulty": 1
       },
       {
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["bitwise_operations"]
+        "practices": [
+          "bit-manipulation",
+          "array-comprehension",
+          "maps",
+          "booleans",
+          "numbers"
+        ],
+        "prerequisites": ["bit-manipulation", "booleans", "numbers"],
+        "difficulty": 1
       },
       {
-        "slug": "crypto-square",
-        "name": "Crypto Square",
-        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["algorithms", "strings"]
+        "slug": "twelve-days",
+        "name": "Twelve Days",
+        "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+        "practices": [
+          "arrays",
+          "array-comprehension",
+          "for-loops",
+          "strings",
+          "string-interpolation",
+          "recursion"
+        ],
+        "prerequisites": [
+          "arrays",
+          "for-loops",
+          "strings",
+          "string-interpolation"
+        ],
+        "difficulty": 1
       },
       {
-        "slug": "darts",
-        "name": "Darts",
-        "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": ["math"]
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
+        "practices": ["strings", "string-interpolation", "optional-arguments"],
+        "prerequisites": [
+          "optional-arguments",
+          "string-interpolation",
+          "strings"
+        ],
+        "difficulty": 1
       }
     ]
   },
