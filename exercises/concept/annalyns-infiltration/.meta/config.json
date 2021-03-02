@@ -1,14 +1,23 @@
 {
+  "blurb": "TODO: add blurb for annalyns-infiltration exercise",
   "authors": [
     {
       "github_username": "mfoda",
       "exercism_username": "mohammadfoda"
     }
   ],
-  "forked_from": ["csharp/booleans"],
+  "forked_from": [
+    "csharp/booleans"
+  ],
   "files": {
-    "solution": ["AnnalynsInfiltration.hx"],
-    "test": ["Tests.hx"],
-    "exemplar": [".meta/Exemplar.hx"]
+    "solution": [
+      "AnnalynsInfiltration.hx"
+    ],
+    "test": [
+      "Tests.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
   }
 }
