@@ -1,10 +1,7 @@
 {
   "blurb": "TODO: add blurb for log-levels exercise",
   "authors": [
-    {
-      "github_username": "mfoda",
-      "exercism_username": "mohammadfoda"
-    }
+    "mfoda"
   ],
   "forked_from": [
     "csharp/log-levels"
