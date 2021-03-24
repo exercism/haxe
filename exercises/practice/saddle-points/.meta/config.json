@@ -1,6 +1,11 @@
 {
   "blurb": "Detect saddle points in a matrix.",
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
   "files": {
     "solution": [],
     "test": [],

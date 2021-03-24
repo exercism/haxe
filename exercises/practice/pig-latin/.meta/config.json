@@ -1,6 +1,11 @@
 {
   "blurb": "Implement a program that translates from English to Pig Latin",
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
   "files": {
     "solution": [],
     "test": [],
