@@ -206,7 +206,7 @@
       {
         "slug": "leap",
         "name": "Leap",
-        "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
+        "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
         "practices": ["booleans", "integral-numbers"],
         "prerequisites": ["basics", "booleans", "integral-numbers"],
         "difficulty": 1
