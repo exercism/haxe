@@ -12,15 +12,25 @@
   "version": 3,
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 4,
+    "ace_editor_language": "haxe",
+    "highlightjs_language": "haxe"
   },
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
   "files": {
-    "solution": ["src/%{pascal_slug}.hx"],
-    "test": ["test/Test.hx"],
-    "example": [".meta/Example.hx"],
-    "exemplar": [".meta/Exemplar.hx"]
+    "solution": [
+      "src/%{pascal_slug}.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
   },
   "exercises": {
     "concept": [
@@ -28,16 +38,24 @@
         "slug": "log-levels",
         "name": "Log Levels",
         "uuid": "04c0d4b6-4c0b-4107-ab9e-e3fd29bd37d4",
-        "concepts": ["strings"],
-        "prerequisites": ["basics"],
+        "concepts": [
+          "strings"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
         "status": "wip"
       },
       {
         "slug": "annalyns-infiltration",
         "name": "Annalyn's Infiltration",
         "uuid": "cf061fd5-cf99-4d6a-b083-ef1bffe9091c",
-        "concepts": ["booleans"],
-        "prerequisites": ["basics"],
+        "concepts": [
+          "booleans"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
         "status": "wip"
       }
     ],
@@ -46,8 +64,15 @@
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
-        "practices": ["regular-expressions", "strings", "lambda"],
-        "prerequisites": ["regular-expressions", "strings"],
+        "practices": [
+          "regular-expressions",
+          "strings",
+          "lambda"
+        ],
+        "prerequisites": [
+          "regular-expressions",
+          "strings"
+        ],
         "difficulty": 1
       },
       {
@@ -61,23 +86,45 @@
           "arrays",
           "booleans"
         ],
-        "prerequisites": ["strings", "arrays", "booleans"],
+        "prerequisites": [
+          "strings",
+          "arrays",
+          "booleans"
+        ],
         "difficulty": 1
       },
       {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
-        "practices": ["arrays", "recursion", "numbers", "booleans"],
-        "prerequisites": ["arrays", "numbers", "booleans"],
+        "practices": [
+          "arrays",
+          "recursion",
+          "numbers",
+          "booleans"
+        ],
+        "prerequisites": [
+          "arrays",
+          "numbers",
+          "booleans"
+        ],
         "difficulty": 1
       },
       {
         "slug": "bob",
         "name": "Bob",
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
-        "practices": ["final", "strings", "booleans", "if-statements"],
-        "prerequisites": ["strings", "booleans", "if-statements"],
+        "practices": [
+          "final",
+          "strings",
+          "booleans",
+          "if-statements"
+        ],
+        "prerequisites": [
+          "strings",
+          "booleans",
+          "if-statements"
+        ],
         "difficulty": 1
       },
       {
@@ -90,7 +137,11 @@
           "floating-point-numbers",
           "for-loops"
         ],
-        "prerequisites": ["strings", "arrays", "for-loops"],
+        "prerequisites": [
+          "strings",
+          "arrays",
+          "for-loops"
+        ],
         "difficulty": 1
       },
       {
@@ -103,7 +154,11 @@
           "floating-point-numbers",
           "numbers"
         ],
-        "prerequisites": ["if-statements", "floating-point-numbers", "numbers"],
+        "prerequisites": [
+          "if-statements",
+          "floating-point-numbers",
+          "numbers"
+        ],
         "difficulty": 1
       },
       {
@@ -116,7 +171,10 @@
           "integral-numbers",
           "arrays"
         ],
-        "prerequisites": ["integral-numbers", "arrays"],
+        "prerequisites": [
+          "integral-numbers",
+          "arrays"
+        ],
         "difficulty": 1
       },
       {
@@ -130,7 +188,12 @@
           "if-statements",
           "for-loops"
         ],
-        "prerequisites": ["if-statements", "arrays", "strings", "for-loops"],
+        "prerequisites": [
+          "if-statements",
+          "arrays",
+          "strings",
+          "for-loops"
+        ],
         "difficulty": 1
       },
       {
@@ -148,23 +211,41 @@
           "for-loops",
           "pattern-matching"
         ],
-        "prerequisites": ["strings", "arrays", "enums"],
+        "prerequisites": [
+          "strings",
+          "arrays",
+          "enums"
+        ],
         "difficulty": 1
       },
       {
         "slug": "hamming",
         "name": "Hamming",
         "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
-        "practices": ["strings", "exceptions", "for-loops", "lambda"],
-        "prerequisites": ["strings", "exceptions", "for-loops"],
+        "practices": [
+          "strings",
+          "exceptions",
+          "for-loops",
+          "lambda"
+        ],
+        "prerequisites": [
+          "strings",
+          "exceptions",
+          "for-loops"
+        ],
         "difficulty": 1
       },
       {
         "slug": "hello-world",
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
-        "practices": ["strings"],
-        "prerequisites": ["basics", "strings"],
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "basics",
+          "strings"
+        ],
         "difficulty": 1
       },
       {
@@ -200,15 +281,28 @@
           "maps",
           "numbers"
         ],
-        "prerequisites": ["arrays", "strings", "for-loops", "maps", "numbers"],
+        "prerequisites": [
+          "arrays",
+          "strings",
+          "for-loops",
+          "maps",
+          "numbers"
+        ],
         "difficulty": 1
       },
       {
         "slug": "leap",
         "name": "Leap",
         "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
-        "practices": ["booleans", "integral-numbers"],
-        "prerequisites": ["basics", "booleans", "integral-numbers"],
+        "practices": [
+          "booleans",
+          "integral-numbers"
+        ],
+        "prerequisites": [
+          "basics",
+          "booleans",
+          "integral-numbers"
+        ],
         "difficulty": 1
       },
       {
@@ -223,7 +317,12 @@
           "numbers",
           "integral-numbers"
         ],
-        "prerequisites": ["strings", "for-loops", "if-statements", "numbers"],
+        "prerequisites": [
+          "strings",
+          "for-loops",
+          "if-statements",
+          "numbers"
+        ],
         "difficulty": 1
       },
       {
@@ -254,9 +353,16 @@
           "strings",
           "arrays"
         ],
-        "prerequisites": ["maps", "for-loops", "strings", "arrays"],
+        "prerequisites": [
+          "maps",
+          "for-loops",
+          "strings",
+          "arrays"
+        ],
         "difficulty": 1,
-        "topics": ["strings"]
+        "topics": [
+          "strings"
+        ]
       },
       {
         "slug": "queen-attack",
@@ -270,7 +376,10 @@
           "numbers",
           "booleans"
         ],
-        "prerequisites": ["booleans", "if-statements"],
+        "prerequisites": [
+          "booleans",
+          "if-statements"
+        ],
         "difficulty": 1
       },
       {
@@ -284,7 +393,12 @@
           "arrays",
           "booleans"
         ],
-        "prerequisites": ["booleans", "for-loops", "if-statements", "arrays"],
+        "prerequisites": [
+          "booleans",
+          "for-loops",
+          "if-statements",
+          "arrays"
+        ],
         "difficulty": 1
       },
       {
@@ -298,7 +412,11 @@
           "booleans",
           "numbers"
         ],
-        "prerequisites": ["bit-manipulation", "booleans", "numbers"],
+        "prerequisites": [
+          "bit-manipulation",
+          "booleans",
+          "numbers"
+        ],
         "difficulty": 1
       },
       {
@@ -325,7 +443,11 @@
         "slug": "two-fer",
         "name": "Two Fer",
         "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
-        "practices": ["strings", "string-interpolation", "optional-arguments"],
+        "practices": [
+          "strings",
+          "string-interpolation",
+          "optional-arguments"
+        ],
         "prerequisites": [
           "optional-arguments",
           "string-interpolation",
