@@ -11,7 +11,7 @@
       "AnnalynsInfiltration.hx"
     ],
     "test": [
-      "Tests.hx"
+      "test/Test.hx"
     ],
     "exemplar": [
       ".meta/Exemplar.hx"
