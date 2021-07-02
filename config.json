@@ -12,7 +12,8 @@
   "version": 3,
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 4,
+    "highlightjs_language": "haxe"
   },
   "checklist_issue": 2,
   "test_pattern": "test.*Test[.]hx",
@@ -291,7 +292,7 @@
       {
         "slug": "leap",
         "name": "Leap",
-        "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
+        "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
         "practices": [
           "booleans",
           "integral-numbers"
