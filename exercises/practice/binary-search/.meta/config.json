@@ -1,6 +1,11 @@
 {
   "blurb": "Implement a binary search algorithm.",
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
   "files": {
     "solution": [
       "src/BinarySearch.hx"

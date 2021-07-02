@@ -1,6 +1,11 @@
 {
   "blurb": "Translate RNA sequences into proteins.",
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
   "files": {
     "solution": [
       "src/ProteinTranslation.hx"

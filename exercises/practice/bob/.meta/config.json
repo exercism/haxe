@@ -1,6 +1,13 @@
 {
   "blurb": "Bob is a lackadaisical teenager. In conversation, his responses are very limited.",
-  "authors": [],
+  "authors": [
+    "NobbZ"
+  ],
+  "contributors": [
+    "davidbruce",
+    "kytrinyx",
+    "mfoda"
+  ],
   "files": {
     "solution": [
       "src/Bob.hx"
