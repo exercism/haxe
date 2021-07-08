@@ -16,7 +16,6 @@
     "highlightjs_language": "haxe"
   },
   "checklist_issue": 2,
-  "test_pattern": "test.*Test[.]hx",
   "files": {
     "solution": [
       "src/%{pascal_slug}.hx"
