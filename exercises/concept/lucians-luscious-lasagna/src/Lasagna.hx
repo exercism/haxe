@@ -1,9 +1,15 @@
-class Lasagna {
-  // TODO: define the 'expectedMinutesInOven()' method
+function expectedMinutesInOven():Int {
+  throw throw "Please implement the expectedMinutesInOven() function";
+}
 
-  // TODO: define the 'remainingMinutesInOven()' method
+function remainingMinutesInOven(minutesInOven:Int):Int {
+  throw "Please implement the remainingMinutesInOven() function";
+}
 
-	// TODO: define the 'preparationTimeInMinutes()' method
+function preparationTimeInMinutes(layers:Int):Int {
+  throw "Please implement the preparationTimeInMinutes() function";
+}
 
-	// TODO: define the 'totalTimeInMinutes()' method
+function totalTimeInMinutes(layers:Int, minutesInOven:Int):Int {
+  throw "Please implement the totalMinutesInOven() function";
 }

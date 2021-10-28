@@ -1,19 +1,15 @@
-class Lasagna {
-  static final EXPECTED_MINUTES_IN_OVEN = 40;
+function expectedMinutesInOven():Int {
+  return 40;
+}
 
-  public static function expectedMinutesInOven():Int {
-      return EXPECTED_MINUTES_IN_OVEN;
-  }
+function remainingMinutesInOven(minutesInOven:Int):Int {
+  return expectedMinutesInOven() - minutesInOven;
+}
 
-  public static function remainingMinutesInOven(minutes:Int):Int {
-      return expectedMinutesInOven() - minutes;
-  }
+function preparationTimeInMinutes(layers:Int):Int {
+  return layers * 2;
+}
 
-  public static function preparationTimeInMinutes(layers:Int):Int {
-      return layers * 2;
-  }
-
-  public static function totalTimeInMinutes(layers:Int, minutesInOven:Int) {
-      return preparationTimeInMinutes(layers) + minutesInOven;
-  }
+function totalTimeInMinutes(layers:Int, minutesInOven:Int) {
+  return preparationTimeInMinutes(layers) + minutesInOven;
 }
