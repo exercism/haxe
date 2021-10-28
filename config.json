@@ -33,6 +33,16 @@
   "exercises": {
     "concept": [
       {
+        "slug": "lucians-luscious-lasagna",
+        "name": "Lucian's Luscious Lasagna",
+        "uuid": "a2f1ef6c-e453-4225-ba56-1e147bfaa864",
+        "concepts": [
+          "basics"
+        ],
+        "prerequisites": [],
+        "status": "wip"
+      },
+      {
         "slug": "log-levels",
         "name": "Log Levels",
         "uuid": "04c0d4b6-4c0b-4107-ab9e-e3fd29bd37d4",

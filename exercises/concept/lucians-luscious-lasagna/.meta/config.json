@@ -1,0 +1,11 @@
+{
+  "blurb": "Learn the basics of Haxe by following a lasagna recipe.",
+  "authors": ["midyHamdoun"],
+  "contributors": [],
+  "files": {
+    "solution": ["src/Lasagna.hx"],
+    "test": ["Test.hx"],
+    "exemplar": [".meta/Exemplar.hx"]
+  },
+  "forked_from": ["javascript/lasagna"]
+}
