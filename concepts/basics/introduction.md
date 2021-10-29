@@ -21,28 +21,18 @@ var number = 1; // Variable number is of integer type
 number = "Hello" // Error trying to assign a string to an integer variable
 ```
 
-Haxe allows structuring code in classes making it a [object oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) language. To define a class, use the `class` keyword:
+A function that's inside a class is called a _method_. Methods can have zero or more parameters. All parameters must be explicitly typed. Just like the parameters, the return type of a method can't be inferred and must be typed. Values are returned from methods using the `return` keyword:
 
 ```haxe
-class Calculator {
-    // ...
-}
-```
-
-A function that's inside a class is called a _method_. Methods can have zero or more parameters. All parameters must be explicitly typed. Just like the parameters, the return type of a method can't be inferred and must be typed. Values are returned from methods using the `return` keyword. For a method to be called from other files, the `public` access modifier must be added:
-
-```haxe
-class Calculator {
-    public function add(x:Int, y:Int):Int {
-        return x + y;
-    }
+function add(x:Int, y:Int):Int {
+  return x + y;
 }
 ```
 
 Invoking a method is done by specifying its class and method name and passing arguments:
 
 ```haxe
-var sum = new Calculator().add(1, 2) // sum = 3
+var sum = add(1, 2) // sum = 3
 ```
 
 Scope in Haxe is defined between the `{` and `}` characters.
