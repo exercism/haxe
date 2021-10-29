@@ -1,4 +1,4 @@
-# Introduction
+# About
 
 Haxe is a strongly typed, but the typing system can be subverted where required. Assigning a value to a name is referred to as defining a variable. A variable can be defined either by explicitly specifying its type, or by letting the Haxe compiler infer the type using the [`var` keyword](var). Therefore, the following two variable definitions are equal:
 
