@@ -1,0 +1,12 @@
+{
+  "blurb": "Learn about numbers whilst helping a freelancer communicate with a project manager about day- and month rates.",
+  "authors": ["midyHamdoun"],
+  "contributors": [],
+  "files": {
+    "solution": ["src/FreelancerRates.hx"],
+    "test": ["test/Test.hx"],
+    "exemplar": [".meta/Exemplar.hx"]
+  },
+  "forked_from": ["javascript/freelancer-rates"],
+  "icon": "freelancer-rates"
+}

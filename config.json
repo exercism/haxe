@@ -33,6 +33,19 @@
   "exercises": {
     "concept": [
       {
+        "slug": "freelancer-rates",
+        "name": "Freelancer Rates",
+        "uuid": "013d5a91-6650-4c32-b3bd-4897143411c7",
+        "concepts": [
+          "numbers",
+          "arithmetic-operators"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
+        "status": "wip"
+      },
+      {
         "slug": "log-levels",
         "name": "Log Levels",
         "uuid": "04c0d4b6-4c0b-4107-ab9e-e3fd29bd37d4",
