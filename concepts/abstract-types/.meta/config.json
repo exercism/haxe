@@ -1,5 +1,5 @@
 {
-  "blurb": "TODO: add blurb for abstract types concept",
-  "authors": [],
+  "blurb": "Abstract types are types that change on run-time.",
+  "authors": ["midyHamdoun"],
   "contributors": []
 }
