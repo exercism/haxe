@@ -1,5 +1,5 @@
 {
-  "blurb": "TODO: add blurb for array comprehension concept",
-  "authors": [],
+  "blurb": "Array comprehension in Haxe is the combination of array decelartions and loops.",
+  "authors": ["midyHamdoun"],
   "contributors": []
 }
