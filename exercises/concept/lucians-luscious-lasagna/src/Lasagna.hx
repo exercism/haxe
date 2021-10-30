@@ -4,7 +4,7 @@
  * @return Int
  */
 function expectedMinutesInOven():Int {
-  throw throw "Please implement the expectedMinutesInOven() function";
+  throw "Please implement the expectedMinutesInOven() function";
 }
 
 /**
