@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for final concept",
-  "authors": [],
+  "blurb": "Final variables cannot change their values.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
