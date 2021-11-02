@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for if-statements concept",
-  "authors": [],
+  "blurb": "An if statement is used to conditionally execute code.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
