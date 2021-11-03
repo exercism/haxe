@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for lambda concept",
-  "authors": [],
+  "blurb": "Lambdas allow us to operate on an entire Iterable data type at once.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
