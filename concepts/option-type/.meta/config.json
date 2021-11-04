@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for option type concept",
-  "authors": [],
+  "blurb": "Option is an enum in Haxe that is used to check valid returns.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
