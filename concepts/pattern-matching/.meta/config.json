@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for pattern-matching concept",
-  "authors": [],
+  "blurb": "Pattern matching is the process of branching depending on a value matching given, possibly deep patterns.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
