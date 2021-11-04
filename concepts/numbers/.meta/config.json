@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for numbers concept",
-  "authors": [],
+  "blurb": "There are two types of numbers in Haxe - integers and floats.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
