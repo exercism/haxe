@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for regular-expressions concept",
-  "authors": [],
+  "blurb": "A regular expression is a sequence of characters that specifies a search pattern.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
