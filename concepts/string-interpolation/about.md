@@ -1,3 +1,5 @@
+# About
+
 While manually concatenating strings in Haxe is possible, Haxe supports [string interpolation][interpolation], which provides a shorter and more convenient syntax:
 
 ```haxe
