@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for typedefs concept",
-  "authors": [],
+  "blurb": "Typedefs are used to create new type structures.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

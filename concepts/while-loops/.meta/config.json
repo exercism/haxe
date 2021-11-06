@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for while-loops concept",
-  "authors": [],
+  "blurb": "A while loop continues looping until a boolean condition evaluates to false.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
