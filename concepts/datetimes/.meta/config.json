@@ -1,5 +1,5 @@
 {
-  "blurb": "TODO: add blurb for datetimes concept",
-  "authors": [],
+  "blurb": "Datetimes are objects that contain date and time.",
+  "authors": ["midyHamdoun"],
   "contributors": []
 }

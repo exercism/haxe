@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for randomness concept",
-  "authors": [],
+  "blurb": "The Std.random method can be used to generate random numbers.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

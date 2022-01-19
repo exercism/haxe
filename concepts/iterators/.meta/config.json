@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for iterators concept",
-  "authors": [],
+  "blurb": "Iterators are used to iterate over a variable.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

@@ -1,5 +1,9 @@
 {
-  "blurb": "TODO: add blurb for string-interpolation concept",
-  "authors": [],
-  "contributors": []
+  "blurb": "String interpolation is used to insert variables in strings faster.",
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "midyHamdoun"
+  ]
 }

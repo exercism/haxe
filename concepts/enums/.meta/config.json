@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for enums concept",
-  "authors": [],
+  "blurb": "Enum types are very useful for describing data structures.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

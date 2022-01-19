@@ -1,3 +1,5 @@
+# About
+
 Booleans in Haxe are represented by the `Bool` type, whose values can be either `true` or `false`.
 
 Haxe supports three [boolean operators][operators]: `!` (unary NOT), `&&` (binary AND), and `||` (binary OR)

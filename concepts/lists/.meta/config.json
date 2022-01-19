@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for lists concept",
-  "authors": [],
+  "blurb": "Lists in Haxe are collections for storing elements.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

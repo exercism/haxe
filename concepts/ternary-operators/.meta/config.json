@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for ternary-operators concept",
-  "authors": [],
+  "blurb": "Ternary operators allow if-conditions to be defined in expressions rather than statement blocks.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

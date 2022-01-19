@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for using statements concept",
-  "authors": [],
+  "blurb": "A static extension allows pseudo-extending existing types without modifying their source. That's achieved using the using statement.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

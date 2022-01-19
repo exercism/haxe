@@ -1,2 +1,10 @@
 [
+  {
+    "url": "https://haxe.org/manual/expression-try-catch.html",
+    "description": "Haxe: Try/Catch"
+  },
+  {
+    "url": "https://haxe.org/manual/expression-throw.html",
+    "description": "Haxe: Throw"
+  }
 ]

@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for rest args concept",
-  "authors": [],
+  "blurb": "Rest arguments are those with an indefinite number of elements.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

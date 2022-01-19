@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for nullability concept",
-  "authors": [],
+  "blurb": "A nullable type is a type that allows for null values.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

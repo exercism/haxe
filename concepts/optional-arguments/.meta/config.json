@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for optional-arguments concept",
-  "authors": [],
+  "blurb": "A method parameter can be made optional by assigning it a default value.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

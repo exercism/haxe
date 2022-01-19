@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for switch-expressions concept",
-  "authors": [],
+  "blurb": "A switch is a selection statement that executes a single case from a list of cases based on a pattern match.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }

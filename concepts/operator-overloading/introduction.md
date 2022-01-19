@@ -1,1 +1,28 @@
-TODO introduction: operator-overloading
+# Introduction
+
+The principal arithmetic and comparison operators can be adapted for use by your own **abstract**. This is known as operator overloading.
+
+Use the `@:op()` metadata class field to overload an operator:
+
+```haxe
+abstract MyAbstract(String) {
+  public inline function new(s:String) {
+    this = s;
+  }
+
+  @:op(A * B)
+  public function repeat(rhs:Int):MyAbstract {
+    var s:StringBuf = new StringBuf();
+    for (i in 0...rhs)
+      s.add(this);
+    return new MyAbstract(s.toString());
+  }
+}
+
+class Main {
+  static public function main() {
+    var a = new MyAbstract("foo");
+    trace(a * 3); // foofoofoo
+  }
+}
+```

@@ -1,5 +1,7 @@
 {
-  "blurb": "TODO: add blurb for operator-overloading concept",
-  "authors": [],
+  "blurb": "Operator-overloading is the idea of adapting the principal arithmetic and comparison operators for use by your own classes and structs.",
+  "authors": [
+    "midyHamdoun"
+  ],
   "contributors": []
 }
