@@ -24,7 +24,7 @@ jobs:
           haxe-version: ${{ matrix.haxe-version }}
 
       - name: Install testing framework
-      - run: haxelib install buddy
+        run: haxelib install buddy
 
       - name: Compile test
         run: bin/build.sh
