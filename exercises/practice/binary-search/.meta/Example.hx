@@ -1,5 +1,5 @@
 function find(array:Array<Int>, value:Int):Int {
-	if (array.empty())
+	if (array.length == 0)
 		throw "value not in array";
 
 	var midIndex = Std.int(array.length / 2);
