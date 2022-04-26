@@ -166,11 +166,9 @@
         "practices": [
           "array-comprehension",
           "lambda",
-          "integral-numbers",
           "arrays"
         ],
         "prerequisites": [
-          "integral-numbers",
           "arrays"
         ],
         "difficulty": 1
@@ -251,14 +249,12 @@
           "regular-expressions",
           "strings",
           "lambda",
-          "numbers",
-          "integral-numbers"
+          "numbers"
         ],
         "prerequisites": [
           "regular-expressions",
           "strings",
-          "numbers",
-          "integral-numbers"
+          "numbers"
         ],
         "difficulty": 1
       },
@@ -290,13 +286,11 @@
         "name": "Leap",
         "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
         "practices": [
-          "booleans",
-          "integral-numbers"
+          "booleans"
         ],
         "prerequisites": [
           "basics",
-          "booleans",
-          "integral-numbers"
+          "booleans"
         ],
         "difficulty": 1
       },
@@ -309,8 +303,7 @@
           "regular-expressions",
           "for-loops",
           "if-statements",
-          "numbers",
-          "integral-numbers"
+          "numbers"
         ],
         "prerequisites": [
           "strings",
@@ -484,11 +477,6 @@
       "name": "Booleans"
     },
     {
-      "uuid": "fe407658-0199-4d78-98ac-2cfcbbd23c3b",
-      "slug": "chars",
-      "name": "Chars"
-    },
-    {
       "uuid": "934b7c38-bdd0-4013-b1a2-74882286db31",
       "slug": "classes",
       "name": "Classes"
@@ -549,11 +537,6 @@
       "name": "For Loops"
     },
     {
-      "uuid": "42721af5-0b1d-4044-bf3c-1a4bbeffbab2",
-      "slug": "foreach-loops",
-      "name": "Foreach Loops"
-    },
-    {
       "uuid": "4c68f296-0938-4e7b-8c95-4b608d8f637f",
       "slug": "generic-types",
       "name": "Generic Types"
@@ -564,19 +547,9 @@
       "name": "If Statements"
     },
     {
-      "uuid": "2e219dd7-3701-4498-9648-e2c428677814",
-      "slug": "indexers",
-      "name": "Indexers"
-    },
-    {
       "uuid": "5a6f4399-aae2-4166-a463-e4b3f6dd6b14",
       "slug": "inheritance",
       "name": "Inheritance"
-    },
-    {
-      "uuid": "a54bf7b9-110b-4411-acd6-2570fae02f01",
-      "slug": "integral-numbers",
-      "name": "Integral Numbers"
     },
     {
       "uuid": "7c9cc892-76fe-48b1-85fd-b6550687d5fd",
