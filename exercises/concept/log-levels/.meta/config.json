@@ -1,10 +1,6 @@
 {
-  "blurb": "TODO: add blurb for log-levels exercise",
   "authors": [
     "mfoda"
-  ],
-  "forked_from": [
-    "csharp/log-levels"
   ],
   "files": {
     "solution": [
@@ -16,5 +12,9 @@
     "exemplar": [
       ".meta/Exemplar.hx"
     ]
-  }
+  },
+  "forked_from": [
+    "csharp/log-levels"
+  ],
+  "blurb": "TODO: add blurb for log-levels exercise"
 }
