@@ -238,7 +238,6 @@
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
