@@ -338,7 +338,6 @@
           "maps",
           "array-comprehension",
           "for-loops",
-          "strings",
           "arrays"
         ],
         "prerequisites": [
