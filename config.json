@@ -222,7 +222,6 @@
         "name": "Hamming",
         "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
         "practices": [
-          "strings",
           "exceptions",
           "for-loops",
           "lambda"
