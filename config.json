@@ -433,7 +433,6 @@
         "name": "Two Fer",
         "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
         "practices": [
-          "strings",
           "string-interpolation",
           "optional-arguments"
         ],
