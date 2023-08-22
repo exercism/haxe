@@ -16,7 +16,7 @@
     "highlightjs_language": "haxe"
   },
   "test_runner": {
-    "average_run_time": 3.0
+    "average_run_time": 3
   },
   "checklist_issue": 2,
   "files": {
@@ -222,7 +222,6 @@
         "name": "Hamming",
         "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
         "practices": [
-          "strings",
           "exceptions",
           "for-loops",
           "lambda"
@@ -239,7 +238,6 @@
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -269,7 +267,6 @@
           "arrays",
           "final",
           "lambda",
-          "strings",
           "for-loops",
           "array-comprehension",
           "maps",
@@ -341,7 +338,6 @@
           "maps",
           "array-comprehension",
           "for-loops",
-          "strings",
           "arrays"
         ],
         "prerequisites": [
@@ -435,7 +431,6 @@
         "name": "Two Fer",
         "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
         "practices": [
-          "strings",
           "string-interpolation",
           "optional-arguments"
         ],
