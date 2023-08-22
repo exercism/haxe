@@ -417,6 +417,16 @@
         "difficulty": 1
       },
       {
+        "slug": "triangle",
+        "name": "Triangle",
+        "uuid": "d4e8dd84-75c1-40e9-b028-771dbbcb1c09",
+        "practices": [
+          "math"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "twelve-days",
         "name": "Twelve Days",
         "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
