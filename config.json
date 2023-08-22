@@ -177,6 +177,16 @@
         "difficulty": 1
       },
       {
+        "slug": "dnd-character",
+        "name": "D&D Character",
+        "uuid": "a02ff2ef-a340-40b5-a940-a67c4ce891e0",
+        "practices": [
+          "randomness"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "food-chain",
         "name": "Food Chain",
         "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
