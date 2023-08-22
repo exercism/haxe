@@ -9,57 +9,45 @@ class Test extends buddy.SingleSuite {
 			it("all sides are equal", {
 				Triangle.equilateral([2, 2, 2]).should.be(true);
 			});
-			it("any side is unequal", {
-				pending("Skipping");
+			xit("any side is unequal", {
 				Triangle.equilateral([2, 3, 2]).should.be(false);
 			});
-			it("no sides are equal", {
-				pending("Skipping");
+			xit("no sides are equal", {
 				Triangle.equilateral([5, 4, 6]).should.be(false);
 			});
-			it("all zero sides is not a triangle", {
-				pending("Skipping");
+			xit("all zero sides is not a triangle", {
 				Triangle.equilateral([0, 0, 0]).should.be(false);
 			});
-			it("sides may be floats", {
-				pending("Skipping");
+			xit("sides may be floats", {
 				Triangle.equilateral([0.5, 0.5, 0.5]).should.be(true);
 			});
 		});
 		describe("isosceles triangle", {
-			it("last two sides are equal", {
+			xit("last two sides are equal", {
 				Triangle.isosceles([3, 4, 4]).should.be(true);
 			});
-			it("first two sides are equal", {
-				pending("Skipping");
+			xit("first two sides are equal", {
 				Triangle.isosceles([4, 4, 3]).should.be(true);
 			});
-			it("first and last sides are equal", {
-				pending("Skipping");
+			xit("first and last sides are equal", {
 				Triangle.isosceles([4, 3, 4]).should.be(true);
 			});
-			it("equilateral triangles are also isosceles", {
-				pending("Skipping");
+			xit("equilateral triangles are also isosceles", {
 				Triangle.isosceles([4, 4, 4]).should.be(true);
 			});
-			it("no sides are equal", {
-				pending("Skipping");
+			xit("no sides are equal", {
 				Triangle.isosceles([2, 3, 4]).should.be(false);
 			});
-			it("first triangle inequality violation", {
-				pending("Skipping");
+			xit("first triangle inequality violation", {
 				Triangle.isosceles([1, 1, 3]).should.be(false);
 			});
-			it("second triangle inequality violation", {
-				pending("Skipping");
+			xit("second triangle inequality violation", {
 				Triangle.isosceles([1, 3, 1]).should.be(false);
 			});
-			it("third triangle inequality violation", {
-				pending("Skipping");
+			xit("third triangle inequality violation", {
 				Triangle.isosceles([3, 1, 1]).should.be(false);
 			});
-			it("sides may be floats", {
-				pending("Skipping");
+			xit("sides may be floats", {
 				Triangle.isosceles([0.5, 0.4, 0.5]).should.be(true);
 			});
 		});
@@ -67,20 +55,22 @@ class Test extends buddy.SingleSuite {
 			it("no sides are equal", {
 				Triangle.scalene([5, 4, 6]).should.be(true);
 			});
-			it("all sides are equal", {
-				pending("Skipping");
+			xit("all sides are equal", {
 				Triangle.scalene([4, 4, 4]).should.be(false);
 			});
-			it("two sides are equal", {
-				pending("Skipping");
+			xit("first and second sides are equal", {
 				Triangle.scalene([4, 4, 3]).should.be(false);
 			});
-			it("may not violate triangle inequality", {
-				pending("Skipping");
+			xit("first and third sides are equal", {
+				Triangle.scalene([3, 4, 3]).should.be(false);
+			});
+			xit("second and third sides are equal", {
+				Triangle.scalene([4, 3, 3]).should.be(false);
+			});
+			xit("may not violate triangle inequality", {
 				Triangle.scalene([7, 3, 2]).should.be(false);
 			});
-			it("sides may be floats", {
-				pending("Skipping");
+			xit("sides may be floats", {
 				Triangle.scalene([0.5, 0.4, 0.6]).should.be(true);
 			});
 		});
