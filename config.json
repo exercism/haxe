@@ -1,155 +1,748 @@
 {
   "language": "Haxe",
+  "slug": "haxe",
   "active": false,
-  "blurb": "Haxe is an open source high-level strictly-typed programming language with a fast optimizing cross-compiler. Haxe can build cross-platform applications targeting JavaScript, C++, C#, Java, JVM, Python, Lua, PHP, Flash, and allows access to each platform's native capabilities. Haxe has its own VMs (HashLink and NekoVM) but can also run in interpreted mode. Code written in Haxe can be compiled to any target Haxe supports.",
-   "online_editor": {	
-    "indent_style": "space",	
-    "indent_size": 4	
+  "status": {
+    "concept_exercises": false,
+    "test_runner": true,
+    "representer": false,
+    "analyzer": false
+  },
+  "blurb": "Haxe is an open source high-level strictly-typed programming language with a fast cross-compiler. Haxe can build cross-platform applications targeting JavaScript, C++, C#, Java, JVM, Python, and allows access to each platform's native capabilities. Haxe has its own VMs (HashLink and NekoVM) but can also run in interpreted mode. Code written in Haxe can be compiled to any target Haxe supports.",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 2,
+    "highlightjs_language": "haxe"
+  },
+  "test_runner": {
+    "average_run_time": 3
   },
   "checklist_issue": 2,
-  "test_pattern": "test.*Test[.]hx",
-  "exercises": [
+  "files": {
+    "solution": [
+      "src/%{pascal_slug}.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
+  },
+  "exercises": {
+    "concept": [
+      {
+        "slug": "log-levels",
+        "name": "Log Levels",
+        "uuid": "04c0d4b6-4c0b-4107-ab9e-e3fd29bd37d4",
+        "concepts": [
+          "strings"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
+        "status": "wip"
+      },
+      {
+        "slug": "annalyns-infiltration",
+        "name": "Annalyn's Infiltration",
+        "uuid": "cf061fd5-cf99-4d6a-b083-ef1bffe9091c",
+        "concepts": [
+          "booleans"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
+        "status": "wip"
+      }
+    ],
+    "practice": [
+      {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
+        "practices": [
+          "regular-expressions",
+          "strings",
+          "lambda"
+        ],
+        "prerequisites": [
+          "regular-expressions",
+          "strings"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "anagram",
+        "name": "Anagram",
+        "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
+        "practices": [
+          "lambda",
+          "array-comprehension",
+          "strings",
+          "arrays",
+          "booleans"
+        ],
+        "prerequisites": [
+          "strings",
+          "arrays",
+          "booleans"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
+        "practices": [
+          "arrays",
+          "recursion",
+          "numbers",
+          "booleans"
+        ],
+        "prerequisites": [
+          "arrays",
+          "numbers",
+          "booleans"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "bob",
+        "name": "Bob",
+        "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
+        "practices": [
+          "final",
+          "strings",
+          "booleans",
+          "if-statements"
+        ],
+        "prerequisites": [
+          "strings",
+          "booleans",
+          "if-statements"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
+        "practices": [
+          "strings",
+          "regular-expressions",
+          "floating-point-numbers",
+          "for-loops"
+        ],
+        "prerequisites": [
+          "strings",
+          "arrays",
+          "for-loops"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
+        "practices": [
+          "typedefs",
+          "if-statements",
+          "floating-point-numbers",
+          "numbers"
+        ],
+        "prerequisites": [
+          "if-statements",
+          "floating-point-numbers",
+          "numbers"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "difference-of-squares",
+        "name": "Difference Of Squares",
+        "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
+        "practices": [
+          "array-comprehension",
+          "lambda",
+          "arrays"
+        ],
+        "prerequisites": [
+          "arrays"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "dnd-character",
+        "name": "D&D Character",
+        "uuid": "a02ff2ef-a340-40b5-a940-a67c4ce891e0",
+        "difficulty": 1,
+        "practices": [
+          "randomness"
+        ]
+      },
+      {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
+        "practices": [
+          "recursion",
+          "arrays",
+          "strings",
+          "if-statements",
+          "for-loops"
+        ],
+        "prerequisites": [
+          "if-statements",
+          "arrays",
+          "strings",
+          "for-loops"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "forth",
+        "name": "Forth",
+        "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
+        "practices": [
+          "strings",
+          "regular-expressions",
+          "recursion",
+          "arrays",
+          "typedefs",
+          "enums",
+          "lambda",
+          "for-loops",
+          "pattern-matching"
+        ],
+        "prerequisites": [
+          "strings",
+          "arrays",
+          "enums"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "hamming",
+        "name": "Hamming",
+        "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
+        "practices": [
+          "exceptions",
+          "for-loops",
+          "lambda"
+        ],
+        "prerequisites": [
+          "strings",
+          "exceptions",
+          "for-loops"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
+        "practices": [
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "isbn-verifier",
+        "name": "Isbn Verifier",
+        "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+        "practices": [
+          "regular-expressions",
+          "strings",
+          "lambda",
+          "numbers"
+        ],
+        "prerequisites": [
+          "regular-expressions",
+          "strings",
+          "numbers"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
+        "practices": [
+          "arrays",
+          "final",
+          "lambda",
+          "for-loops",
+          "array-comprehension",
+          "maps",
+          "numbers"
+        ],
+        "prerequisites": [
+          "arrays",
+          "strings",
+          "for-loops",
+          "maps",
+          "numbers"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
+        "practices": [
+          "booleans"
+        ],
+        "prerequisites": [
+          "basics",
+          "booleans"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "luhn",
+        "name": "Luhn",
+        "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
+        "practices": [
+          "strings",
+          "regular-expressions",
+          "for-loops",
+          "if-statements",
+          "numbers"
+        ],
+        "prerequisites": [
+          "strings",
+          "for-loops",
+          "if-statements",
+          "numbers"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "pig-latin",
+        "name": "Pig Latin",
+        "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
+        "practices": [
+          "regular-expressions",
+          "strings",
+          "string-interpolation",
+          "lambda"
+        ],
+        "prerequisites": [
+          "regular-expressions",
+          "strings",
+          "string-interpolation"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "ca87a324-19be-4146-a970-3ad20f2a9adb",
+        "practices": [
+          "maps",
+          "array-comprehension",
+          "for-loops",
+          "arrays"
+        ],
+        "prerequisites": [
+          "maps",
+          "for-loops",
+          "strings",
+          "arrays"
+        ],
+        "difficulty": 1,
+        "topics": [
+          "strings"
+        ]
+      },
+      {
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
+        "practices": [
+          "enums",
+          "typedefs",
+          "final",
+          "if-statements",
+          "numbers",
+          "booleans"
+        ],
+        "prerequisites": [
+          "booleans",
+          "if-statements"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "saddle-points",
+        "name": "Saddle Points",
+        "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
+        "practices": [
+          "for-loops",
+          "if-statements",
+          "typedefs",
+          "arrays",
+          "booleans"
+        ],
+        "prerequisites": [
+          "booleans",
+          "for-loops",
+          "if-statements",
+          "arrays"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
+        "practices": [
+          "bit-manipulation",
+          "array-comprehension",
+          "maps",
+          "booleans",
+          "numbers"
+        ],
+        "prerequisites": [
+          "bit-manipulation",
+          "booleans",
+          "numbers"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "twelve-days",
+        "name": "Twelve Days",
+        "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+        "practices": [
+          "arrays",
+          "array-comprehension",
+          "for-loops",
+          "strings",
+          "string-interpolation",
+          "recursion"
+        ],
+        "prerequisites": [
+          "arrays",
+          "for-loops",
+          "strings",
+          "string-interpolation"
+        ],
+        "difficulty": 1
+      },
+      {
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
+        "practices": [
+          "string-interpolation",
+          "optional-arguments"
+        ],
+        "prerequisites": [
+          "optional-arguments",
+          "string-interpolation",
+          "strings"
+        ],
+        "difficulty": 1
+      }
+    ]
+  },
+  "concepts": [
     {
-      "slug": "hello-world",
-      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
-      "core": false,
-      "auto_approve": true,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings"
-      ]
+      "uuid": "dc822d69-c2c5-4864-8a6b-d32b4b311bf0",
+      "slug": "abstract-types",
+      "name": "Abstract Types"
     },
     {
-      "slug": "bob",
-      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "booleans",
-        "conditionals",
-        "strings"
-      ]
+      "uuid": "6d7de9ca-d86d-440b-8d32-e9706cc1c887",
+      "slug": "arrays",
+      "name": "Arrays"
     },
     {
-      "slug": "leap",
-      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "booleans",
-        "integers",
-        "logic"
-      ]
+      "uuid": "0d9fdd70-9a02-4c80-9e58-a21f75db4022",
+      "slug": "array-comprehension",
+      "name": "Array Comprehension"
     },
-	{
-      "slug": "anagram",
-      "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "filtering",
-        "strings"
-      ]
+    {
+      "uuid": "2ebbccb7-90c6-4c1a-98ec-0aae557e332c",
+      "slug": "basics",
+      "name": "Basics"
     },
-	{
-      "slug": "acronym",
-      "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings",
-        "transforming"
-      ]
+    {
+      "uuid": "eafd6776-8bb6-48a1-b350-700aa365b0ef",
+      "slug": "bit-manipulation",
+      "name": "Bit Manipulation"
     },
-  {
-      "slug": "two-fer",
-      "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
-      "core": true,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "optional_values",
-        "strings"
-      ]
+    {
+      "uuid": "efa768d3-0774-4b0e-a0b2-31f6542368d6",
+      "slug": "booleans",
+      "name": "Booleans"
     },
- 	{
-       "slug": "difference-of-squares",
-       "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
-       "core": false,
-       "unlocked_by": null,
-       "difficulty": 1,
-       "topics": [
-         "integers",
-         "math"
-       ]
+    {
+      "uuid": "934b7c38-bdd0-4013-b1a2-74882286db31",
+      "slug": "classes",
+      "name": "Classes"
     },
-	{
-      "slug": "hamming",
-      "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
-      "core": true,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "filtering",
-        "strings"
-      ]
+    {
+      "uuid": "957e6fa2-5eb4-446b-9b03-0a9f5bd45de4",
+      "slug": "ternary-operators",
+      "name": "Conditionals Ternary"
     },
-	 {
-      "slug": "kindergarten-garden",
-      "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "strings"
-      ]
+    {
+      "uuid": "180a9a90-46e4-412f-8498-90e8bc71e4ae",
+      "slug": "constructors",
+      "name": "Constructors"
     },
- 	 {
-       "slug": "twelve-days",
-       "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
-       "core": false,
-       "unlocked_by": null,
-       "difficulty": 1,
-       "topics": [
-         "strings",
-         "recursion"
-       ]
-     },
-   	{
-       "slug": "queen-attack",
-       "uuid": "2db83e7c-2616-455b-b41e-87386cc84c5b",
-       "core": false,
-       "unlocked_by": null,
-       "difficulty": 1,
-       "topics": [
-         "math"
-       ]
-     },
- 	  {
-       "slug": "isbn-verifier",
-       "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
-       "core": false,
-       "unlocked_by": null,
-       "difficulty": 1,
-       "topics": [
-         "regex",
-         "strings"
-       ]
+    {
+      "uuid": "f2f71b9c-9d4b-4f0c-a3cd-bfb68aa2d440",
+      "slug": "datetimes",
+      "name": "Datetimes"
     },
- 	  {
-       "slug": "dnd-character",
-       "uuid": "a02ff2ef-a340-40b5-a940-a67c4ce891e0",
-       "core": false,
-       "unlocked_by": null,
-       "difficulty": 1,
-       "topics": [
-         "randomness"
-       ]
+    {
+      "uuid": "0c3c91f5-1559-468f-8101-457d4af21a5c",
+      "slug": "do-while-loops",
+      "name": "Do While Loops"
+    },
+    {
+      "uuid": "4315aab4-c9e1-40dc-988d-59c062bfd025",
+      "slug": "enums",
+      "name": "Enums"
+    },
+    {
+      "uuid": "d4bb5105-3d0e-42e9-9a74-999f3dff634e",
+      "slug": "equality",
+      "name": "Equality"
+    },
+    {
+      "uuid": "b8489415-8e7f-407e-9089-5bd62869e9ac",
+      "slug": "exceptions",
+      "name": "Exceptions"
+    },
+    {
+      "uuid": "0a234e37-d282-4413-b109-8d49cde39637",
+      "slug": "final",
+      "name": "Final"
+    },
+    {
+      "uuid": "e3c060ed-c0a0-4c97-bbb0-5addbd06bbb4",
+      "slug": "flag-enums",
+      "name": "Flag Enums"
+    },
+    {
+      "uuid": "77b9419b-d17f-47aa-9621-0173613e76f1",
+      "slug": "floating-point-numbers",
+      "name": "Floating Point Numbers"
+    },
+    {
+      "uuid": "a6035e7f-166a-4c55-877a-57d3c3ac6e60",
+      "slug": "for-loops",
+      "name": "For Loops"
+    },
+    {
+      "uuid": "4c68f296-0938-4e7b-8c95-4b608d8f637f",
+      "slug": "generic-types",
+      "name": "Generic Types"
+    },
+    {
+      "uuid": "f73f0d04-d507-42ef-b8cb-baa956e1bffc",
+      "slug": "if-statements",
+      "name": "If Statements"
+    },
+    {
+      "uuid": "5a6f4399-aae2-4166-a463-e4b3f6dd6b14",
+      "slug": "inheritance",
+      "name": "Inheritance"
+    },
+    {
+      "uuid": "7c9cc892-76fe-48b1-85fd-b6550687d5fd",
+      "slug": "interfaces",
+      "name": "Interfaces"
+    },
+    {
+      "uuid": "fee9269b-8c3f-467a-8954-a6d77503cd44",
+      "slug": "iterators",
+      "name": "Iterators"
+    },
+    {
+      "uuid": "8091e584-70c0-456e-beca-4301ae5fa855",
+      "slug": "lambda",
+      "name": "Lambda"
+    },
+    {
+      "uuid": "abb5b666-29e9-4a3c-b474-73bc8a7cc7a8",
+      "slug": "lists",
+      "name": "Lists"
+    },
+    {
+      "uuid": "d5650f6d-5e63-4c5a-827b-edfb69a722cd",
+      "slug": "maps",
+      "name": "Maps"
+    },
+    {
+      "uuid": "708e38bd-584e-4ec7-9955-ad1d12d4d5f6",
+      "slug": "nullability",
+      "name": "Nullability"
+    },
+    {
+      "uuid": "dcf5fe4a-cb83-4157-9a48-3b9497451be1",
+      "slug": "numbers",
+      "name": "Numbers"
+    },
+    {
+      "uuid": "c7db9784-72e9-481f-9c2c-65639b67b06a",
+      "slug": "operator-overloading",
+      "name": "Operator Overloading"
+    },
+    {
+      "uuid": "528952c5-724c-42e4-bd01-623d83bde799",
+      "slug": "option-type",
+      "name": "Option Type"
+    },
+    {
+      "uuid": "f6c4b38d-c41a-47b2-a2b6-85dbab9f665a",
+      "slug": "optional-arguments",
+      "name": "Optional Arguments"
+    },
+    {
+      "uuid": "0b0aaf29-4107-476f-b65b-595c0af0c61f",
+      "slug": "pattern-matching",
+      "name": "Pattern Matching"
+    },
+    {
+      "uuid": "cef63cd3-55b9-4138-80cb-8f032092e0fb",
+      "slug": "properties",
+      "name": "Properties"
+    },
+    {
+      "uuid": "5ed418c6-111f-41ef-9506-e2faa3b1211b",
+      "slug": "randomness",
+      "name": "Randomness"
+    },
+    {
+      "uuid": "275da84a-5255-45da-86c0-38cc5e5e1b1d",
+      "slug": "reflection",
+      "name": "Reflection"
+    },
+    {
+      "uuid": "b42ed342-afc1-4e91-b8fc-d45e5bef01fa",
+      "slug": "regular-expressions",
+      "name": "Regular Expressions"
+    },
+    {
+      "uuid": "78d07a0a-e12e-4b95-a098-3f323636f804",
+      "slug": "rest-args",
+      "name": "Rest Args"
+    },
+    {
+      "uuid": "fffee673-ecb1-456b-9c9d-e081a705d5db",
+      "slug": "string-buffer",
+      "name": "String Buffer"
+    },
+    {
+      "uuid": "ebe21c69-0f45-4f9b-8c18-0aa8871e1f3c",
+      "slug": "string-interpolation",
+      "name": "String Interpolation"
+    },
+    {
+      "uuid": "826f3347-254d-4b21-93cf-79224bca4e4e",
+      "slug": "strings",
+      "name": "Strings"
+    },
+    {
+      "uuid": "5a723da2-aabf-4bcd-908e-9a2344702209",
+      "slug": "switch-expressions",
+      "name": "Switch Expressions"
+    },
+    {
+      "uuid": "408b83d9-18b1-4f23-b04f-36743bf56c64",
+      "slug": "templates",
+      "name": "Templates"
+    },
+    {
+      "uuid": "e8880b32-05ca-46e7-b512-b5af332f2fcb",
+      "slug": "throw-expressions",
+      "name": "Throw Expressions"
+    },
+    {
+      "uuid": "ff4fe0e1-9f03-40bb-8fef-757d00febc30",
+      "slug": "time",
+      "name": "Time"
+    },
+    {
+      "uuid": "6da6536b-faff-41f0-a4ee-29339c045beb",
+      "slug": "typedefs",
+      "name": "Typedefs"
+    },
+    {
+      "uuid": "0a25732c-87a6-4022-8a98-14659f6ebb9a",
+      "slug": "using-statements",
+      "name": "Using statements"
+    },
+    {
+      "uuid": "f599a2c9-269f-43d0-a57d-f7e66344a804",
+      "slug": "while-loops",
+      "name": "While Loops"
     }
+  ],
+  "key_features": [
+    {
+      "icon": "cross-platform",
+      "title": "Cross-platform",
+      "content": "Cross-compile to 14 targets, including Javascript, PHP7, C++, Lua, the JVM, and the HashLink VM."
+    },
+    {
+      "icon": "multi-paradigm",
+      "title": "Multi-paradigm",
+      "content": "Haxe supports OOP, metaprogramming, and many functional features."
+    },
+    {
+      "icon": "stable",
+      "title": "Advanced type system",
+      "content": "A robust and sohpisticated type system with type inference, generics, abstracts, and much more."
+    },
+    {
+      "icon": "general-purpose",
+      "title": "General purpose",
+      "content": "Haxe excels in game development but is used in many domains, including web, mobile, and desktop."
+    },
+    {
+      "icon": "interop",
+      "title": "Native access",
+      "content": "Externs enable type-safe interaction with the underlying target, providing access to native APIs."
+    },
+    {
+      "icon": "powerful",
+      "title": "Metaprogramming",
+      "content": "Syntax-transformation using macros unlocks the power to fit the language to your problem domain."
+    }
+  ],
+  "tags": [
+    "execution_mode/compiled",
+    "execution_mode/interpreted",
+    "typing/static",
+    "runtime/standalone_executable",
+    "runtime/language_specific",
+    "runtime/clr",
+    "runtime/jvm",
+    "paradigm/functional",
+    "paradigm/object_oriented",
+    "paradigm/procedural",
+    "platform/windows",
+    "platform/linux",
+    "platform/mac",
+    "platform/ios",
+    "platform/android",
+    "platform/web",
+    "used_for/backends",
+    "used_for/frontends",
+    "used_for/guis",
+    "used_for/games",
+    "used_for/cross_platform_development",
+    "used_for/web_development"
   ]
 }
