@@ -180,10 +180,10 @@
         "slug": "dnd-character",
         "name": "D&D Character",
         "uuid": "a02ff2ef-a340-40b5-a940-a67c4ce891e0",
-        "difficulty": 1,
         "practices": [
           "randomness"
-        ]
+        ],
+        "difficulty": 1,
       },
       {
         "slug": "food-chain",
