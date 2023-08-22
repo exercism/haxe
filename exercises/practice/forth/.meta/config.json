@@ -1,5 +1,4 @@
 {
-  "blurb": "Implement an evaluator for a very simple subset of Forth.",
   "authors": [
     "mfoda"
   ],
@@ -16,5 +15,6 @@
     "example": [
       ".meta/Example.hx"
     ]
-  }
+  },
+  "blurb": "Implement an evaluator for a very simple subset of Forth"
 }

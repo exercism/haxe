@@ -1,10 +1,6 @@
 {
-  "blurb": "TODO: add blurb for annalyns-infiltration exercise",
   "authors": [
     "mfoda"
-  ],
-  "forked_from": [
-    "csharp/booleans"
   ],
   "files": {
     "solution": [
@@ -16,5 +12,9 @@
     "exemplar": [
       ".meta/Exemplar.hx"
     ]
-  }
+  },
+  "forked_from": [
+    "csharp/booleans"
+  ],
+  "blurb": "TODO: add blurb for annalyns-infiltration exercise"
 }
