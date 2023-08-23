@@ -1,9 +1,7 @@
 package;
 
-typedef ResistanceValue = { unit: String, value: Int };
-
 class ResistorColorTrio {
-    public static function label(colors: Array<String>): ResistanceValue {
+    public static function label(colors: Array<String>): String {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     } 
 }
