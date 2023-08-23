@@ -347,6 +347,18 @@
         "difficulty": 1
       },
       {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "ccf3f19d-e57e-46c0-8043-d8359ef050d2",
+        "practices": [
+          "strings",
+          "filtering",
+          "regex"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
