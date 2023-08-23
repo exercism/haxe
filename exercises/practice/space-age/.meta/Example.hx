@@ -14,8 +14,11 @@ class SpaceAge {
     ];
 
      public static function age(seconds: Int, planet: String): Float {
-        var periodInEarthYears = earthYearToPlanetPeriod[planet]; 
+        if (!earthYearToPlanetPeriod.exists(planet)) {
+            throw "not a planet";
+        }
 
+        var periodInEarthYears = earthYearToPlanetPeriod[planet]; 
         return round(seconds / (earthOrbitInSeconds * periodInEarthYears), 2);
     } 
 
