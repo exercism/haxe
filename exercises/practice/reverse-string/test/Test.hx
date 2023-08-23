@@ -9,24 +9,19 @@ class Test extends buddy.SingleSuite {
 			it("an empty string", {
 				ReverseString.reverse("").should.be("");
 			});
-			it("a word", {
-				pending("Skipping");
+			xit("a word", {
 				ReverseString.reverse("robot").should.be("tobor");
 			});
-			it("a capitalized word", {
-				pending("Skipping");
+			xit("a capitalized word", {
 				ReverseString.reverse("Ramen").should.be("nemaR");
 			});
-			it("a sentence with punctuation", {
-				pending("Skipping");
+			xit("a sentence with punctuation", {
 				ReverseString.reverse("I'm hungry!").should.be("!yrgnuh m'I");
 			});
-			it("a palindrome", {
-				pending("Skipping");
+			xit("a palindrome", {
 				ReverseString.reverse("racecar").should.be("racecar");
 			});
-			it("an even-sized word", {
-				pending("Skipping");
+			xit("an even-sized word", {
 				ReverseString.reverse("drawer").should.be("reward");
 			});
 		});
