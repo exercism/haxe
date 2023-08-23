@@ -8,21 +8,23 @@ class Test extends buddy.SingleSuite {
             it("Brown and black", {
                 ResistorColorDuo.value(["brown", "black"]).should.be(10);
             });
-            it("Blue and gray", {
-                pending("Skipping");
+            xit("Blue and grey", {
                 ResistorColorDuo.value(["blue", "grey"]).should.be(68);
             });
-            it("Yellow and violet", {
-                pending("Skipping");
+            xit("Yellow and violet", {
                 ResistorColorDuo.value(["yellow", "violet"]).should.be(47);
             });
-            it("Orange and orange", {
-                pending("Skipping");
+            xit("White and red", {
+                ResistorColorDuo.value(["white", "red"]).should.be(92);
+            });
+            xit("Orange and orange", {
                 ResistorColorDuo.value(["orange", "orange"]).should.be(33);
             });
-            it("Ignore additional colors", {
-                pending("Skipping");
+            xit("Ignore additional colors", {
                 ResistorColorDuo.value(["green", "brown", "orange"]).should.be(51);
+            });
+            xit("Black and brown, one-digit", {
+                ResistorColorDuo.value(["black", "brown"]).should.be(1);
             });
         });
     }
