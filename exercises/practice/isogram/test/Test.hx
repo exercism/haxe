@@ -9,53 +9,44 @@ class Test extends buddy.SingleSuite {
 			it("empty string", {
 				Isogram.isIsogram("").should.be(true);
 			});
-			it("isogram with only lower case characters", {
-				pending("Skipping");
+			xit("isogram with only lower case characters", {
 				Isogram.isIsogram("isogram").should.be(true);
 			});
-			it("word with one duplicated character", {
-				pending("Skipping");
+			xit("word with one duplicated character", {
 				Isogram.isIsogram("eleven").should.be(false);
 			});
-			it("word with one duplicated character from the end of the alphabet", {
-				pending("Skipping");
+			xit("word with one duplicated character from the end of the alphabet", {
 				Isogram.isIsogram("zzyzx").should.be(false);
 			});
-			it("longest reported english isogram", {
-				pending("Skipping");
+			xit("longest reported english isogram", {
 				Isogram.isIsogram("subdermatoglyphic").should.be(true);
 			});
-			it("word with duplicated character in mixed case", {
-				pending("Skipping");
+			xit("word with duplicated character in mixed case", {
 				Isogram.isIsogram("Alphabet").should.be(false);
 			});
-			it("word with duplicated character in mixed case, lowercase first", {
-				pending("Skipping");
+			xit("word with duplicated character in mixed case, lowercase first", {
 				Isogram.isIsogram("alphAbet").should.be(false);
 			});
-			it("hypothetical isogrammic word with hyphen", {
-				pending("Skipping");
+			xit("hypothetical isogrammic word with hyphen", {
 				Isogram.isIsogram("thumbscrew-japingly").should.be(true);
 			});
-			it("hypothetical word with duplicated character following hyphen", {
-				pending("Skipping");
+			xit("hypothetical word with duplicated character following hyphen", {
 				Isogram.isIsogram("thumbscrew-jappingly").should.be(false);
 			});
-			it("isogram with duplicated hyphen", {
-				pending("Skipping");
+			xit("isogram with duplicated hyphen", {
 				Isogram.isIsogram("six-year-old").should.be(true);
 			});
-			it("made-up name that is an isogram", {
-				pending("Skipping");
+			xit("made-up name that is an isogram", {
 				Isogram.isIsogram("Emily Jung Schwartzkopf").should.be(true);
 			});
-			it("duplicated character in the middle", {
-				pending("Skipping");
+			xit("duplicated character in the middle", {
 				Isogram.isIsogram("accentor").should.be(false);
 			});
-			it("same first and last characters", {
-				pending("Skipping");
+			xit("same first and last characters", {
 				Isogram.isIsogram("angola").should.be(false);
+			});
+			xit("word with duplicated character and with two hyphens", {
+				Isogram.isIsogram("up-to-date").should.be(false);
 			});
 		});
 	}
