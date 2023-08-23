@@ -441,7 +441,7 @@
         "uuid": "01144b98-9b2f-40fd-a296-2006d0d910b9",
         "practices": [
           "generics",
-          "pattern_matching",
+          "pattern-matching",
           "recursion"
         ],
         "prerequisites": [],
