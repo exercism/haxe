@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://haxe.org/manual/std-String.html",
+    "description": "Haxe: String"
+  },
+  {
+    "url": "https://code.haxe.org/category/beginner/strings.html",
+    "description": "Haxe Cookbook: Strings"
+  },
+  {
+    "url": "https://api.haxe.org/String.html",
+    "description": "Haxe API: String"
+  },
+  {
+    "url": "https://haxe.org/manual/std-String-literals.html",
+    "description": "Haxe: Escaping strings"
+  },
+  {
+    "url": "https://haxe.org/manual/expression-operators-binops.html#string-concatenation-operator",
+    "description": "Haxe: plus-operator"
+  }
+]
