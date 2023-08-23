@@ -314,6 +314,18 @@
         "difficulty": 1
       },
       {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "81803fd1-20a4-495a-9b0a-c1ffd4fcc25d",
+        "practices": [
+          "strings",
+          "filtering",
+          "regex"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "kindergarten-garden",
         "name": "Kindergarten Garden",
         "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
