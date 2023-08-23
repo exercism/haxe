@@ -95,6 +95,17 @@
         "difficulty": 1
       },
       {
+        "slug": "atbash-cipher",
+        "name": "Atbash Cipher",
+        "uuid": "f752b7b9-e9f4-4c8c-b2c2-7b82a763dfd7",
+        "practices": [
+          "regex",
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
