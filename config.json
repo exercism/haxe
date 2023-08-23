@@ -501,7 +501,7 @@
         "name": "Reverse String",
         "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
         "practices": [
-          "strings",
+          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
