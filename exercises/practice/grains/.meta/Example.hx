@@ -7,7 +7,7 @@ using Lambda;
 class Grains {
 	public static function square(square: Int): Float {
 		if (square < 1 || square > 64) {
-			throw new Exception("square must be between 1 and 64");
+			throw "square must be between 1 and 64";
 		}
 
 		return Math.pow(2, square - 1);
