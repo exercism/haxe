@@ -1,12 +1,30 @@
 name: Test
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        haxe-version: [4.2.5]
+
     steps:
-      - uses: actions/checkout@master
-      - run: |
-          ./bin/fetch-configlet
-          ./bin/configlet lint .
+      - uses: actions/checkout@v3
+
+      - name: Setup Haxe environment
+        uses: krdlab/setup-haxe@v1.5.0
+        with:
+          haxe-version: ${{ matrix.haxe-version }}
+
+      - name: Install testing framework
+        run: haxelib install buddy
+
+      - name: Compile test
+        run: bin/build.sh
