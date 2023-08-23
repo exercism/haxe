@@ -322,8 +322,8 @@
           "filtering",
           "regex"
         ],
-      "prerequisites": [],
-      "difficulty": 1
+        "prerequisites": [],
+        "difficulty": 1
       },
       {
         "slug": "kindergarten-garden",
