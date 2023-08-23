@@ -198,6 +198,18 @@
         "difficulty": 1
       },
       {
+        "slug": "flatten-array",
+        "name": "Flatten Array",
+        "uuid": "ea94c4a3-8cba-4a63-800a-35694bdff63f",
+        "practices": [
+          "dynamic",
+          "generics",
+          "recursion"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "food-chain",
         "name": "Food Chain",
         "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
