@@ -475,6 +475,16 @@
         "difficulty": 1
       },
       {
+        "slug": "resistor-color-trio",
+        "name": "Resistor Color Trio",
+        "uuid": "130f09c4-dd80-4eaa-bc9d-a38dcd065c8e",
+        "practices": [
+          "math"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "rna-transcription",
         "name": "RNA Transcription",
         "uuid": "5737a68d-8edd-429e-bf67-d0151fe7cb92",
