@@ -1,3 +1,5 @@
+# Tests
+
 ## Running Tests
 The Haxe track relies on the testing framework [Buddy](https://github.com/ciscoheat/buddy).  You can install it with the following:
 
