@@ -470,6 +470,17 @@
         "difficulty": 1
       },
       {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "35d0e74f-29fe-4acb-83e2-c9c800e48709",
+        "practices": [
+          "dictionaries",
+          "floating-point-numbers"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "sublist",
         "name": "Sublist",
         "uuid": "01144b98-9b2f-40fd-a296-2006d0d910b9",
