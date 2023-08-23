@@ -34,7 +34,6 @@ class Test extends buddy.SingleSuite {
 				AtbashCipher.encode("Truth is fiction.").should.be("gifgs rhurx grlm");
 			});
 			it("encode all the letters", {
-				pending("Skipping");
 				AtbashCipher.encode("The quick brown fox jumps over the lazy dog.").should.be("gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt");
 			});
 		});
