@@ -380,6 +380,14 @@
         "difficulty": 1
       },
       {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "31b323d0-dca9-4cf8-9682-b799f763bc56",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
