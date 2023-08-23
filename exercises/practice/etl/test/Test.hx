@@ -8,16 +8,13 @@ class Test extends buddy.SingleSuite {
 			it("single letter", {
 				ETL.transform(["1" => ["A"]]).should.containExactly(["a" => 1]);
 			});
-			it("single score with multiple letters", {
-				pending("Skpping");
+			xit("single score with multiple letters", {
 				ETL.transform(["1" => ["A", "E", "I", "O", "U"]]).should.containExactly(["a" => 1, "e" => 1, "i" => 1, "o" => 1, "u" => 1]);
 			});
-			it("multiple scores with multiple letters", {
-				pending("Skpping");
+			xit("multiple scores with multiple letters", {
 				ETL.transform(["1" => ["A", "E"], "2" => ["D", "G"]]).should.containExactly(["a" => 1, "d" => 2, "e" => 1, "g" => 2]);
 			});
-			it("multiple scores with differing numbers of letters", {
-				pending("Skpping");
+			xit("multiple scores with differing numbers of letters", {
 				ETL.transform([
 					"1" => ["A", "E", "I", "O", "U", "L", "N", "R", "S", "T"],
 					"2" => ["D", "G"],
