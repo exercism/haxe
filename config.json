@@ -261,6 +261,17 @@
         "difficulty": 1
       },
       {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "d71ad671-56fd-46cd-9f00-b5eb816fe2b9",
+        "practices": [
+          "math",
+          "exception-handling"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "hamming",
         "name": "Hamming",
         "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
