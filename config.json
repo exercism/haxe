@@ -355,6 +355,7 @@
           "filtering",
           "regex"
         ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
