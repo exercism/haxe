@@ -8,16 +8,13 @@ class Test extends buddy.SingleSuite {
             it("Black", {
                 ResistorColor.colorCode("black").should.be(0);
             });
-            it("White", {
-                pending("Skipping");
+            xit("White", {
                 ResistorColor.colorCode("white").should.be(9);
             });
-            it("Orange", {
-                pending("Skipping");
+            xit("Orange", {
                 ResistorColor.colorCode("orange").should.be(3);
             });
-            it("Colors", {
-                pending("Skipping");
+            xit("Colors", {
                 ResistorColor.colors.should.containExactly([
                     "black", "brown",    "red", "orange", "yellow",
                     "green",  "blue", "violet",   "grey",  "white"
