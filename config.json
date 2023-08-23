@@ -436,6 +436,18 @@
         "difficulty": 1
       },
       {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "01144b98-9b2f-40fd-a296-2006d0d910b9",
+        "practices": [
+          "generics",
+          "pattern-matching",
+          "recursion"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "d4e8dd84-75c1-40e9-b028-771dbbcb1c09",
