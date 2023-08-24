@@ -1,4 +1,5 @@
-# Scrabble Score
+# Instructions
+
 Given a word, compute the Scrabble score for that word.
 
 ## Letter Values
@@ -37,10 +38,3 @@ And to total:
 
 - You can play a double or a triple letter.
 - You can play a double or a triple word.
-
-## Source
-Inspired by the Extreme Startup game
-https://github.com/rchatley/extreme_startup
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
