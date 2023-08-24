@@ -150,6 +150,17 @@
         "difficulty": 1
       },
       {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "5e687d9c-f997-4a44-94d6-7069413c4238",
+        "practices": [
+          "algorithms",
+          "loops"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "crypto-square",
         "name": "Crypto Square",
         "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
