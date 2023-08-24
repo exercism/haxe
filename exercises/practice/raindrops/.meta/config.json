@@ -1,5 +1,7 @@
 {
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
   "files": {
     "solution": [
       "src/Raindrops.hx"
