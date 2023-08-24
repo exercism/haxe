@@ -536,6 +536,16 @@
         "difficulty": 1
       },
       {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "cab2656a-540a-4a83-987a-eed4f12cc380",
+        "practices": [
+          "dictionaries"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
