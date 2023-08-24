@@ -1,11 +1,9 @@
 package;
 
-import haxe.Exception;
-
 class CollatzConjecture {
     public static function steps(number: Int): Int {
         if (number <= 0)
-            throw new Exception("Only positive numbers are allowed");
+            throw "Only positive integers are allowed";
 
         var steps = 0;
         while (number != 1) {
