@@ -3,9 +3,13 @@ package;
 using buddy.Should;
 
 class Test extends buddy.SingleSuite {
+
     public function new() {
         describe("Translate input RNA sequences into proteins", {
-            it("Methionine RNA sequence", {
+            it("Empty RNA sequence", {
+                ProteinTranslation.proteins("").should.containExactly([]);
+            });
+            xit("Methionine RNA sequence", {
                 ProteinTranslation.proteins("AUG").should.containExactly(["Methionine"]);
             });
             xit("Phenylalanine RNA sequence 1", {
@@ -53,13 +57,19 @@ class Test extends buddy.SingleSuite {
             xit("STOP codon RNA sequence 2", {
                 ProteinTranslation.proteins("UAG").should.containExactly([]);
             });
-            xit("STOP codon RNA sequence 2", {
+            xit("STOP codon RNA sequence 3", {
                 ProteinTranslation.proteins("UGA").should.containExactly([]);
+            });
+            xit("Sequence of two protein codons", {
+                ProteinTranslation.proteins("UUUUUU").should.containExactly(["Phenylalanine", "Phenylalanine"]);
+            });
+            xit("Sequence of two different proteins", {
+                ProteinTranslation.proteins("UUAUUG").should.containExactly(["Leucine", "Leucine"]);
             });
             xit("Translate RNA strand into correct protein list", {
                 ProteinTranslation.proteins("AUGUUUUGG").should.containExactly(["Methionine","Phenylalanine","Tryptophan"]);
             });
-            xit("Translation stops if STOP codon at containExactlyginning of sequence", {
+            xit("Translation stops if STOP codon at beginning of sequence", {
                 ProteinTranslation.proteins("UAGUGG").should.containExactly([]);
             });
             xit("Translation stops if STOP codon at end of two-codon sequence", {
@@ -73,6 +83,18 @@ class Test extends buddy.SingleSuite {
             });
             xit("Translation stops if STOP codon in middle of six-codon sequence", {
                 ProteinTranslation.proteins("UGGUGUUAUUAAUGGUUU").should.containExactly(["Tryptophan","Cysteine","Tyrosine"]);
+            });
+            xit("Non-existing codon can't translate", {
+                ProteinTranslation.proteins.bind("AAA").should.throwValue("Invalid codon");
+            });
+            xit("Unknown amino acids, can't translate", {
+                ProteinTranslation.proteins.bind("XYZ").should.throwValue("Invalid codon");
+            });
+            xit("Incomplete RNA sequence, can't translate", {
+                ProteinTranslation.proteins.bind("AUGU").should.throwValue("Invalid codon");
+            });
+            xit("Incomplete RNA sequence, can translate if valid with STOP codon", {
+                ProteinTranslation.proteins("UUCUUCUAAUGGU").should.containExactly(["Phenylalanine", "Phenylalanine"]);
             });
         });
     }

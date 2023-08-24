@@ -23,7 +23,9 @@ function proteins(strand:String):Array<String> {
 
 	for (codon in chunksOf(3, strand)) {
 		var protein = codon2protein[codon];
-		if (protein == STOP)
+		if (protein == null)
+			throw "Invalid codon";
+		else if (protein == STOP)
 			break;
 		else
 			proteins.push(protein);
@@ -34,7 +36,7 @@ function proteins(strand:String):Array<String> {
 
 private function chunksOf(count:Int, str:String):Array<String> {
 	return [
-		for (i in 0...Std.int(str.length / count))
+		for (i in 0...Std.int((str.length + count - 1) / count))
 			str.substr(i * count, count)
 	];
 }
