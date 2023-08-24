@@ -151,6 +151,7 @@
       },
       {
         "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
         "uuid": "5e687d9c-f997-4a44-94d6-7069413c4238",
         "practices": [
           "algorithms",
