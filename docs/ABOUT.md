@@ -2,7 +2,7 @@
 
 Haxe is an open source high-level, strongly-types, cross-platform, object-oriented programming language and compiler that can produce applications and source code, for many different computing platforms from one code-base.
 
-Currently, there are 12 supported target languages which allow for different use-cases: [Supported Target Languages][supported-target-languages]
+There are several supported target languages which allow for different use-cases: [Supported Target Languages][supported-target-languages]
 
 [Types][types] introduces the seven different kinds of types in Haxe and how they interact with each other. The discussion of types is continued in [Type System][type-system], where features like unification, type parameters and type inference are explained.
 
