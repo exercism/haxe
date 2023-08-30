@@ -13,23 +13,12 @@ class SpaceAge {
         "Neptune" => 164.79132
     ];
 
-     public static function age(seconds: Int, planet: String): Float {
+    public static function age(seconds: Int, planet: String): Float {
         if (!earthYearToPlanetPeriod.exists(planet)) {
             throw "not a planet";
         }
 
         var periodInEarthYears = earthYearToPlanetPeriod[planet]; 
-        return round(seconds / (earthOrbitInSeconds * periodInEarthYears), 2);
+        return seconds / (earthOrbitInSeconds * periodInEarthYears);
     } 
-
-    /**
-        Uses Math.round to fix a floating point number to a set precision.
-        Taken from Franco Ponticelli's THX library: 
-        https://github.com/fponticelli/thx/blob/master/src/Floats.hx#L206
-    **/
-    public static function round(number:Float, ?precision=2): Float
-    {
-        number *= Math.pow(10, precision);
-        return Math.round(number) / Math.pow(10, precision);
-    }
 }
