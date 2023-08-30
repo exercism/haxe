@@ -67,7 +67,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("lyrics", {
-			it("recites first three verses of the song", {
+			xit("recites first three verses of the song", {
 				TwelveDays.recite(1, 3).should.containExactly([
 					"On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.",
 					"On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.",
