@@ -16,7 +16,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("multiple students for the same garden with three students", {
-			it("second student's garden", {
+			xit("second student's garden", {
 				KindergartenGarden.plants("VVCCGGVVCCGG", "Bob").should.containExactly(["clover", "clover", "clover", "clover"]);
 			});
 			xit("third student's garden", {
@@ -24,7 +24,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("full garden", {
-			it("first student's garden", {
+			xit("first student's garden", {
 				KindergartenGarden.plants("VRCGVVRVCGGCCGVRGCVCGCGVVRCCCGCRRGVCGCRVVCVGCGCV", "Alice")
 					.should.containExactly(["violets", "radishes", "violets", "radishes"]);
 			});
