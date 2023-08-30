@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "LogLevels.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
+  },
+  "forked_from": [
+    "csharp/log-levels"
+  ],
+  "blurb": "TODO: add blurb for log-levels exercise"
+}

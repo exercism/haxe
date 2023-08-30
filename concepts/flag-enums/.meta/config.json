@@ -1,0 +1,7 @@
+{
+  "blurb": "To allow a single enum instance to represent multiple values (usually referred to as flags), one can use EnumFlags.",
+  "authors": [
+    "midyHamdoun"
+  ],
+  "contributors": []
+}
