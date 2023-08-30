@@ -414,6 +414,18 @@
         "difficulty": 1
       },
       {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "560d8dc8-033e-465c-b0bc-6182ce6667c5",
+        "practices": [
+          "math",
+          "pattern-matching",
+          "exception-handling"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
