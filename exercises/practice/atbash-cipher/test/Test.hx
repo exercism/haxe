@@ -9,56 +9,45 @@ class Test extends buddy.SingleSuite {
 			it("encode yes", {
 				AtbashCipher.encode("yes").should.be("bvh");
 			});
-			it("encode no", {
-				pending("Skipping");
+			xit("encode no", {
 				AtbashCipher.encode("no").should.be("ml");
 			});
-			it("encode OMG", {
-				pending("Skipping");
+			xit("encode OMG", {
 				AtbashCipher.encode("OMG").should.be("lnt");
 			});
-			it("encode spaces", {
-				pending("Skipping");
+			xit("encode spaces", {
 				AtbashCipher.encode("O M G").should.be("lnt");
 			});
-			it("encode mindblowingly", {
-				pending("Skipping");
+			xit("encode mindblowingly", {
 				AtbashCipher.encode("mindblowingly").should.be("nrmwy oldrm tob");
 			});
-			it("encode numbers", {
-				pending("Skipping");
+			xit("encode numbers", {
 				AtbashCipher.encode("Testing,1 2 3, testing.").should.be("gvhgr mt123 gvhgr mt");
 			});
-			it("encode deep thought", {
-				pending("Skipping");
+			xit("encode deep thought", {
 				AtbashCipher.encode("Truth is fiction.").should.be("gifgs rhurx grlm");
 			});
-			it("encode all the letters", {
+			xit("encode all the letters", {
 				AtbashCipher.encode("The quick brown fox jumps over the lazy dog.").should.be("gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt");
 			});
 		});
 		describe("decode", {
-			it("decode exercism", {
+			xit("decode exercism", {
 				AtbashCipher.decode("vcvix rhn").should.be("exercism");
 			});
-			it("decode a sentence", {
-				pending("Skipping");
+			xit("decode a sentence", {
 				AtbashCipher.decode("zmlyh gzxov rhlug vmzhg vkkrm thglm v").should.be("anobstacleisoftenasteppingstone");
 			});
-			it("decode numbers", {
-				pending("Skipping");
+			xit("decode numbers", {
 				AtbashCipher.decode("gvhgr mt123 gvhgr mt").should.be("testing123testing");
 			});
-			it("decode all the letters", {
-				pending("Skipping");
+			xit("decode all the letters", {
 				AtbashCipher.decode("gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt").should.be("thequickbrownfoxjumpsoverthelazydog");
 			});
-			it("decode with too many spaces", {
-				pending("Skipping");
+			xit("decode with too many spaces", {
 				AtbashCipher.decode("vc vix    r hn").should.be("exercism");
 			});
-			it("decode with no spaces", {
-				pending("Skipping");
+			xit("decode with no spaces", {
 				AtbashCipher.decode("zmlyhgzxovrhlugvmzhgvkkrmthglmv").should.be("anobstacleisoftenasteppingstone");
 			});
 		});

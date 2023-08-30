@@ -8,12 +8,12 @@ using buddy.Should;
 class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("parsing and numbers", {
-			it("numbers just get pushed onto the stack", {
+			xit("numbers just get pushed onto the stack", {
 				Forth.evaluate(["1 2 3 4 5"]).should.containExactly([1, 2, 3, 4, 5]);
 			});
 		});
 		describe("addition", {
-			it("can add two numbers", {
+			xit("can add two numbers", {
 				Forth.evaluate(["1 2 +"]).should.containExactly([3]);
 			});
 			xit("errors if there is nothing on the stack", {
@@ -24,7 +24,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("subtraction", {
-			it("can subtract two numbers", {
+			xit("can subtract two numbers", {
 				Forth.evaluate(["3 4 -"]).should.containExactly([-1]);
 			});
 			xit("errors if there is nothing on the stack", {
@@ -35,7 +35,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("multiplication", {
-			it("can multiply two numbers", {
+			xit("can multiply two numbers", {
 				Forth.evaluate(["2 4 *"]).should.containExactly([8]);
 			});
 			xit("errors if there is nothing on the stack", {
@@ -46,7 +46,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("division", {
-			it("can divide two numbers", {
+			xit("can divide two numbers", {
 				Forth.evaluate(["12 3 /"]).should.containExactly([4]);
 			});
 			xit("performs integer division", {
@@ -63,7 +63,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("combined arithmetic", {
-			it("addition and subtraction", {
+			xit("addition and subtraction", {
 				Forth.evaluate(["1 2 + 4 -"]).should.containExactly([-1]);
 			});
 			xit("multiplication and division", {
@@ -71,7 +71,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("dup", {
-			it("copies a value on the stack", {
+			xit("copies a value on the stack", {
 				Forth.evaluate(["1 dup"]).should.containExactly([1, 1]);
 			});
 			xit("copies the top value on the stack", {
@@ -82,7 +82,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("drop", {
-			it("removes the top value on the stack if it is the only one", {
+			xit("removes the top value on the stack if it is the only one", {
 				Forth.evaluate(["1 drop"]).should.containExactly([]);
 			});
 			xit("removes the top value on the stack if it is not the only one", {
@@ -93,7 +93,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("swap", {
-			it("swaps the top two values on the stack if they are the only ones", {
+			xit("swaps the top two values on the stack if they are the only ones", {
 				Forth.evaluate(["1 2 swap"]).should.containExactly([2, 1]);
 			});
 			xit("swaps the top two values on the stack if they are not the only ones", {
@@ -107,7 +107,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("over", {
-			it("copies the second element if there are only two", {
+			xit("copies the second element if there are only two", {
 				Forth.evaluate(["1 2 over"]).should.containExactly([1, 2, 1]);
 			});
 			xit("copies the second element if there are more than two", {
@@ -121,7 +121,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("user-defined words", {
-			it("can consist of built-in words", {
+			xit("can consist of built-in words", {
 				Forth.evaluate([": dup-twice dup dup ;", "1 dup-twice"]).should.containExactly([1, 1, 1]);
 			});
 			xit("execute in the right order", {
@@ -150,7 +150,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("case-insensitivity", {
-			it("DUP is case-insensitive", {
+			xit("DUP is case-insensitive", {
 				Forth.evaluate(["1 DUP Dup dup"]).should.containExactly([1, 1, 1, 1]);
 			});
 			xit("DROP is case-insensitive", {

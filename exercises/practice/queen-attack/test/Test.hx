@@ -40,7 +40,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("Test the ability of one queen to attack another", {
-			it("cannot attack", {
+			xit("cannot attack", {
 				QueenAttack.canAttack({
 					column: 4,
 					row: 2
