@@ -38,7 +38,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("Total", {
-			it("returns the total number of grains on the board", {
+			xit("returns the total number of grains on the board", {
 				Grains.total().should.be(18446744073709551615);
 			});
 		});
