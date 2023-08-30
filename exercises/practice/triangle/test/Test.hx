@@ -52,7 +52,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("scalene triangle", {
-			it("no sides are equal", {
+			xit("no sides are equal", {
 				Triangle.scalene([5, 4, 6]).should.be(true);
 			});
 			xit("all sides are equal", {
