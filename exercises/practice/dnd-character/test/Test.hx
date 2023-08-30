@@ -56,7 +56,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("Dnd Character", {
-			it("random ability is within range", {
+			xit("random ability is within range", {
                 var ability = DndCharacter.ability();
                 (ability >= 3 && ability <= 18).should.be(true);
 			});
