@@ -6,16 +6,16 @@ class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("Transform legacy to new", {
 			it("single letter", {
-				ETL.transform(["1" => ["A"]]).should.containExactly(["a" => 1]);
+				Etl.transform(["1" => ["A"]]).should.containExactly(["a" => 1]);
 			});
 			xit("single score with multiple letters", {
-				ETL.transform(["1" => ["A", "E", "I", "O", "U"]]).should.containExactly(["a" => 1, "e" => 1, "i" => 1, "o" => 1, "u" => 1]);
+				Etl.transform(["1" => ["A", "E", "I", "O", "U"]]).should.containExactly(["a" => 1, "e" => 1, "i" => 1, "o" => 1, "u" => 1]);
 			});
 			xit("multiple scores with multiple letters", {
-				ETL.transform(["1" => ["A", "E"], "2" => ["D", "G"]]).should.containExactly(["a" => 1, "d" => 2, "e" => 1, "g" => 2]);
+				Etl.transform(["1" => ["A", "E"], "2" => ["D", "G"]]).should.containExactly(["a" => 1, "d" => 2, "e" => 1, "g" => 2]);
 			});
 			xit("multiple scores with differing numbers of letters", {
-				ETL.transform([
+				Etl.transform([
 					"1" => ["A", "E", "I", "O", "U", "L", "N", "R", "S", "T"],
 					"2" => ["D", "G"],
 					"3" => ["B", "C", "M", "P"],
