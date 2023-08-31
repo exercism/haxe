@@ -219,6 +219,16 @@
         "difficulty": 1
       },
       {
+        "slug": "etl",
+        "name": "ETL",
+        "uuid": "dc071752-442e-4029-a565-835f862f471b",
+        "practices": [
+          "dictionaries"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "flatten-array",
         "name": "Flatten Array",
         "uuid": "ea94c4a3-8cba-4a63-800a-35694bdff63f",

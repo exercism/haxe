@@ -13,7 +13,10 @@ do
   echo '-------------------------'
   echo "Testing ${exercise}"
   cd $exercise_dir/.meta
+  
+  # TODO: This converts exercise names to PascalCase, which affects the names of the Haxe modules that get compiled. We should change this someday.
   exercise_file=$(sed -r 's/(^|-)(\w)/\U\2/g' <<< "${exercise}")
+  
   cp -rf ../test ../test.hxml .
   mkdir -p src
   cp Example.hx src/${exercise_file}.hx
@@ -33,7 +36,10 @@ do
   echo '-------------------------'
   echo "Testing ${exercise}"
   cd exercises/concept/$exercise/.meta
+  
+  # TODO: This converts exercise names to PascalCase, which affects the names of the Haxe modules that get compiled. We should change this someday.
   exercise_file=$(sed -r 's/(^|-)(\w)/\U\2/g' <<< "${exercise}")
+  
   cp -rf ../test ../test.hxml .
   mkdir -p src
   cp Exemplar.hx src/${exercise_file}.hx
