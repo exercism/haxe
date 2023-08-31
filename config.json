@@ -95,6 +95,16 @@
         "difficulty": 1
       },
       {
+        "slug": "armstrong-numbers",
+        "name": "Armstrong Numbers",
+        "uuid": "3afae356-d29c-4dfa-b2ac-3311a07eb72c",
+        "practices": [
+          "math"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "atbash-cipher",
         "name": "Atbash Cipher",
         "uuid": "f752b7b9-e9f4-4c8c-b2c2-7b82a763dfd7",
@@ -137,6 +147,17 @@
           "booleans",
           "if-statements"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "5e687d9c-f997-4a44-94d6-7069413c4238",
+        "practices": [
+          "algorithms",
+          "loops"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -202,7 +223,19 @@
         "name": "ETL",
         "uuid": "dc071752-442e-4029-a565-835f862f471b",
         "practices": [
-          "randomness"
+          "dictionaries"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "flatten-array",
+        "name": "Flatten Array",
+        "uuid": "ea94c4a3-8cba-4a63-800a-35694bdff63f",
+        "practices": [
+          "dynamic",
+          "generics",
+          "recursion"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -249,6 +282,17 @@
         "difficulty": 1
       },
       {
+        "slug": "grains",
+        "name": "Grains",
+        "uuid": "d71ad671-56fd-46cd-9f00-b5eb816fe2b9",
+        "practices": [
+          "math",
+          "exception-handling"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "hamming",
         "name": "Hamming",
         "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
@@ -288,6 +332,18 @@
           "strings",
           "numbers"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "81803fd1-20a4-495a-9b0a-c1ffd4fcc25d",
+        "practices": [
+          "strings",
+          "filtering",
+          "regex"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -342,6 +398,41 @@
           "if-statements",
           "numbers"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "nucleotide-count",
+        "name": "Nucleotide Count",
+        "uuid": "1ed5068c-7998-404d-8159-d6df5a5610b2",
+        "practices": [
+          "dictionaries",
+          "exception-handling"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "ccf3f19d-e57e-46c0-8043-d8359ef050d2",
+        "practices": [
+          "strings",
+          "filtering",
+          "regex"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "560d8dc8-033e-465c-b0bc-6182ce6667c5",
+        "practices": [
+          "math",
+          "pattern-matching",
+          "exception-handling"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -409,6 +500,56 @@
         "difficulty": 1
       },
       {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "4b023d93-e8ef-4e4c-8535-d27e5f873c62",
+        "practices": [
+          "arrays"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "resistor-color-duo",
+        "name": "Resistor Color Duo",
+        "uuid": "f5119a7e-762b-40aa-ae93-3922197e9029",
+        "practices": [
+          "arrays"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "resistor-color-trio",
+        "name": "Resistor Color Trio",
+        "uuid": "130f09c4-dd80-4eaa-bc9d-a38dcd065c8e",
+        "practices": [
+          "math"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "rna-transcription",
+        "name": "RNA Transcription",
+        "uuid": "5737a68d-8edd-429e-bf67-d0151fe7cb92",
+        "practices": [
+          "dictionaries"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "saddle-points",
         "name": "Saddle Points",
         "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
@@ -428,6 +569,16 @@
         "difficulty": 1
       },
       {
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "cab2656a-540a-4a83-987a-eed4f12cc380",
+        "practices": [
+          "dictionaries"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "b54dcd60-b5b2-4da7-893b-cc50bcc8ba35",
@@ -443,6 +594,29 @@
           "booleans",
           "numbers"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "35d0e74f-29fe-4acb-83e2-c9c800e48709",
+        "practices": [
+          "dictionaries",
+          "floating-point-numbers"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "01144b98-9b2f-40fd-a296-2006d0d910b9",
+        "practices": [
+          "generics",
+          "pattern-matching",
+          "recursion"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
