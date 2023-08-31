@@ -4,7 +4,7 @@
   ],
   "files": {
     "solution": [
-      "src/ETL.hx"
+      "src/Etl.hx"
     ],
     "test": [
       "test/Test.hx"
