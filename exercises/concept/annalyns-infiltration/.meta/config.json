@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "AnnalynsInfiltration.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
+  },
+  "forked_from": [
+    "csharp/booleans"
+  ],
+  "blurb": "TODO: add blurb for annalyns-infiltration exercise"
+}
