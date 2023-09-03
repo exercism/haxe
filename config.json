@@ -442,8 +442,8 @@
         "practices": [
           "regex",
           "strings",
-          "pattern_matching",
-          "exception_handling"
+          "pattern-matching",
+          "exception-handling"
         ],
         "prerequisites": [],
         "difficulty": 1
