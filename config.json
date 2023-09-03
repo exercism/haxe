@@ -436,6 +436,19 @@
         "difficulty": 1
       },
       {
+        "slug": "phone-number",
+        "name": "Phone Number",
+        "uuid": "ab220c9b-4358-4ae0-aa71-9e98f57253d9",
+        "practices": [
+          "regex",
+          "strings",
+          "pattern-matching",
+          "exception-handling"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
