@@ -99,7 +99,7 @@ class Test extends buddy.SingleSuite {
 			xit("non-empty list", {
 				ListOps.reverse([1, 3, 5, 7]).should.containExactly([7, 5, 3, 1]);
 			});
-			
+
 			xit("list of lists is not flattened", {
 				var result = ListOps.reverse([[1, 2], [3], [], [4, 5, 6]]);
 				var expected = [[4, 5, 6], [], [3], [1, 2]];

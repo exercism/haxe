@@ -57,28 +57,28 @@ class Test extends buddy.SingleSuite {
 		});
 		describe("Dnd Character", {
 			xit("random ability is within range", {
-                var ability = DndCharacter.ability();
-                (ability >= 3 && ability <= 18).should.be(true);
+				var ability = DndCharacter.ability();
+				(ability >= 3 && ability <= 18).should.be(true);
 			});
 			xit("random character is valid", {
-                var c = DndCharacter.character();
-                (c.dexterity    >= 3 && c.dexterity    <= 18).should.be(true);
-                (c.wisdom       >= 3 && c.wisdom       <= 18).should.be(true);
-                (c.intelligence >= 3 && c.intelligence <= 18).should.be(true);
-                (c.charisma     >= 3 && c.charisma     <= 18).should.be(true);
-                (c.constitution >= 3 && c.constitution <= 18).should.be(true);
-                (c.strength     >= 3 && c.strength     <= 18).should.be(true);
+				var c = DndCharacter.character();
+				(c.dexterity >= 3 && c.dexterity <= 18).should.be(true);
+				(c.wisdom >= 3 && c.wisdom <= 18).should.be(true);
+				(c.intelligence >= 3 && c.intelligence <= 18).should.be(true);
+				(c.charisma >= 3 && c.charisma <= 18).should.be(true);
+				(c.constitution >= 3 && c.constitution <= 18).should.be(true);
+				(c.strength >= 3 && c.strength <= 18).should.be(true);
 
-                (c.hitpoints == 10 + DndCharacter.modifier(c.constitution)).should.be(true);
+				(c.hitpoints == 10 + DndCharacter.modifier(c.constitution)).should.be(true);
 			});
 			xit("each ability is only calculated once", {
-                var char = DndCharacter.character();
-                char.dexterity.should.be(char.dexterity);
-                char.wisdom.should.be(char.wisdom);
-                char.intelligence.should.be(char.intelligence);
-                char.charisma.should.be(char.charisma);
-                char.constitution.should.be(char.constitution);
-                char.strength.should.be(char.strength);
+				var char = DndCharacter.character();
+				char.dexterity.should.be(char.dexterity);
+				char.wisdom.should.be(char.wisdom);
+				char.intelligence.should.be(char.intelligence);
+				char.charisma.should.be(char.charisma);
+				char.constitution.should.be(char.constitution);
+				char.strength.should.be(char.strength);
 			});
 		});
 	}
