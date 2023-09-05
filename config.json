@@ -621,6 +621,16 @@
         "difficulty": 1
       },
       {
+        "slug": "series",
+        "name": "Series",
+        "uuid": "9155e5de-822d-4615-9aa3-5bfc8eec70db",
+        "practices": [
+          "transforming"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "35d0e74f-29fe-4acb-83e2-c9c800e48709",
