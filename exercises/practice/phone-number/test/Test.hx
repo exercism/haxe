@@ -21,7 +21,7 @@ class Test extends buddy.SingleSuite {
 			xit("invalid when 9 digits", {
 				PhoneNumber.clean.bind("123456789").should.throwValue("must not be fewer than 10 digits");
 			});
-			
+
 			xit("invalid when 11 digits does not start with a 1", {
 				PhoneNumber.clean.bind("22234567890").should.throwValue("11 digits must start with 1");
 			});

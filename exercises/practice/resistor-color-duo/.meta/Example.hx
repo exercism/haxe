@@ -6,7 +6,7 @@ class ResistorColorDuo {
 		"green",  "blue", "violet",   "grey",  "white"
 	];
 
-	public static function value(colors: Array<String>): Int {
+	public static function value(colors:Array<String>):Int {
 		var val1 = allColors.indexOf(colors[0]);
 		var val2 = allColors.indexOf(colors[1]);
 
