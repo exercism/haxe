@@ -84,7 +84,7 @@ class Test extends buddy.SingleSuite {
                 var students = [
                     { name: "Chelsea", grade: 3 },
                     { name: "Logan",   grade: 7 }
-                ]);
+                ];
 
                 school.add(students).should.containExactly([true, true]);
             });
@@ -92,12 +92,12 @@ class Test extends buddy.SingleSuite {
             // 75a51579-d1d7-407c-a2f8-2166e984e8ab
             xit("Students in multiple grades are added to the roster", {
                 var school = new GradeSchool();
-                var students = [
+                school.add([
                     { name: "Chelsea", grade: 3 },
                     { name: "Logan",   grade: 7 }
                 ]);
 
-                school.add(students).should.containExactly(["Chelsea", "Logan"]);
+                school.roster().should.containExactly(["Chelsea", "Logan"]);
             });
 
             // 7df542f1-57ce-433c-b249-ff77028ec479
@@ -108,7 +108,7 @@ class Test extends buddy.SingleSuite {
                     { name: "James", grade: 2 },
                     { name: "James", grade: 3 },
                     { name: "Paul",  grade: 2 }
-                ]);
+                ];
 
                 school.add(students).should.containExactly([true, true, false, true]);
             });
