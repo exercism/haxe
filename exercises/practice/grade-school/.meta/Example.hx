@@ -1,5 +1,3 @@
-package;
-
 using Lambda;
 
 typedef Name    = String;
@@ -9,17 +7,30 @@ typedef Student = { name: Name, grade: Grade };
 class GradeSchool {
     private final grades: Map<Grade, List<Name>> = [];
 
-    public function new(students: Array<Student>) {
-        for (student in students) {
-            if (!grades.exists(student.grade))
-                grades[student.grade] = new List();
+    public function new() {
+    }
 
-            grades[student.grade].add(student.name);
+    public function add(students: Array<Student>): Array<Bool> {
+        var results = [];
+        var roster = [];
+        for (student in students) {
+            if (roster.contains(student.name)) {
+                results.push(false);
+            } else {
+                if (!grades.exists(student.grade))
+                    grades[student.grade] = new List();
+    
+                grades[student.grade].add(student.name);
+                results.push(true);
+
+                roster = this.roster();
+            }
         }
+
+        return results;
     }
 
     public function roster(): Array<Name> {
-        var roster = [];
         var sortedKeys = [for (n in grades.keys()) n];
         sortedKeys.sort(compareInt);
 
@@ -29,7 +40,10 @@ class GradeSchool {
         ].flatten();
     }
 
-    public function grade(desiredGrade: Grade): Array<String> {
+    public function grade(desiredGrade: Grade): Array<Name> {
+        if (!grades.exists(desiredGrade))
+            return [];
+
         var grade = grades[desiredGrade].array();
         grade.sort(compareString);
 
