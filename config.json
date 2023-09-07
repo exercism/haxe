@@ -369,6 +369,16 @@
         "difficulty": 1
       },
       {
+        "slug": "largest-series-product",
+        "name": "Largest Series Product",
+        "uuid": "2f370725-4a48-43c1-942c-bafce7ad160a",
+        "practices": [
+          "arrays"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "leap",
         "name": "Leap",
         "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
