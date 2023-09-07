@@ -631,6 +631,17 @@
         "difficulty": 1
       },
       {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "0c22d0d4-8659-4bd0-9871-9e228405dc8c",
+        "practices": [
+          "math",
+          "algorithms"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "35d0e74f-29fe-4acb-83e2-c9c800e48709",
