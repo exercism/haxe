@@ -154,7 +154,6 @@
         "name": "Clock",
         "uuid": "4dee213a-0cbb-421e-a99a-fed2e0a2bf3d",
         "practices": [
-          "anonymous-structures",
           "equality"
         ],
         "prerequisites": [],
