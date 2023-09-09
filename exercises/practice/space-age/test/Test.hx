@@ -30,7 +30,7 @@ class Test extends buddy.SingleSuite {
 				SpaceAge.age(1821023456, "Neptune").should.beCloseTo(0.35, 2);
 			});
 			xit("invalid planet causes error", {
-				SpaceAge.age.bind(680804807, "Sun").should.throwValue("not a planet");		
+				SpaceAge.age.bind(680804807, "Sun").should.throwValue("not a planet");
 			});
 		});
 	}

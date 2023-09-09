@@ -88,6 +88,17 @@
         "difficulty": 1
       },
       {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "7878e75f-581d-4985-ade8-9ed5638d41e6",
+        "practices": [
+          "algorithms",
+          "math"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
@@ -380,6 +391,16 @@
         "difficulty": 1
       },
       {
+        "slug": "largest-series-product",
+        "name": "Largest Series Product",
+        "uuid": "2f370725-4a48-43c1-942c-bafce7ad160a",
+        "practices": [
+          "arrays"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "leap",
         "name": "Leap",
         "uuid": "0d4c7c57-7496-411c-a603-caa125c9eae1",
@@ -390,6 +411,17 @@
           "basics",
           "booleans"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "list-ops",
+        "name": "List Ops",
+        "uuid": "ae7dcd4f-19f1-406c-a99a-9ccb776f1535",
+        "practices": [
+          "filtering",
+          "generics"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -447,6 +479,19 @@
         "difficulty": 1
       },
       {
+        "slug": "phone-number",
+        "name": "Phone Number",
+        "uuid": "ab220c9b-4358-4ae0-aa71-9e98f57253d9",
+        "practices": [
+          "regex",
+          "strings",
+          "pattern-matching",
+          "exception-handling"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "pig-latin",
         "name": "Pig Latin",
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
@@ -461,6 +506,17 @@
           "strings",
           "string-interpolation"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "prime-factors",
+        "name": "Prime Factors",
+        "uuid": "19ab4444-64ea-4efa-a314-99e4d643355c",
+        "practices": [
+          "math",
+          "algorithms"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -483,6 +539,16 @@
         "topics": [
           "strings"
         ]
+      },
+      {
+        "slug": "proverb",
+        "name": "Proverb",
+        "uuid": "2aa1a5a6-0194-417b-8195-b44aa21cffaf",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
       },
       {
         "slug": "queen-attack",
@@ -608,6 +674,27 @@
         "difficulty": 1
       },
       {
+        "slug": "series",
+        "name": "Series",
+        "uuid": "9155e5de-822d-4615-9aa3-5bfc8eec70db",
+        "practices": [
+          "transforming"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "0c22d0d4-8659-4bd0-9871-9e228405dc8c",
+        "practices": [
+          "math",
+          "algorithms"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "35d0e74f-29fe-4acb-83e2-c9c800e48709",
@@ -684,6 +771,17 @@
           "string-interpolation",
           "strings"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "yacht",
+        "name": "Yacht",
+        "uuid": "f4c0d163-44ee-4d4b-9316-4df8b4ae8558",
+        "practices": [
+          "strings",
+          "pattern-matching"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       }
     ]
