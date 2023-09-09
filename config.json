@@ -62,6 +62,19 @@
     ],
     "practice": [
       {
+        "slug": "accumulate",
+        "name": "Accumulate",
+        "uuid": "3d570a0c-4477-41b2-8675-35cfbc8468da",
+        "practices": [
+          "collections",
+          "generics",
+          "static-extensions"
+        ],
+        "prerequisites": [],
+        "difficulty": 1,
+        "status": deprecated
+      },
+      {
         "slug": "acronym",
         "name": "Acronym",
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
