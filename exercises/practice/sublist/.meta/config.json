@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "src/Sublist.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Write a function to determine if a list is a sublist of another list."
+}
