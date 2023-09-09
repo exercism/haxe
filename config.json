@@ -68,7 +68,7 @@
         "practices": [
           "collections",
           "generics",
-          "static_extensions"
+          "static-extensions"
         ],
         "prerequisites": [],
         "difficulty": 1
