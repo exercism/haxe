@@ -9,24 +9,24 @@ class Test extends buddy.SingleSuite {
 			it("zero pieces", {
 				Proverb.recite([]).should.containExactly([]);
 			});
-			it("one piece", {
-				pending("Skipping");
+
+			xit("one piece", {
 				Proverb.recite(["nail"]).should.containExactly(["And all for the want of a nail."]);
 			});
-			it("two pieces", {
-				pending("Skipping");
+
+			xit("two pieces", {
 				Proverb.recite(["nail", "shoe"]).should.containExactly(["For want of a nail the shoe was lost.", "And all for the want of a nail."]);
 			});
-			it("three pieces", {
-				pending("Skipping");
+
+			xit("three pieces", {
 				Proverb.recite(["nail", "shoe", "horse"]).should.containExactly([
 					"For want of a nail the shoe was lost.",
 					"For want of a shoe the horse was lost.",
 					"And all for the want of a nail."
 				]);
 			});
-			it("full proverb", {
-				pending("Skipping");
+
+			xit("full proverb", {
 				Proverb.recite(["nail", "shoe", "horse", "rider", "message", "battle", "kingdom"]).should.containExactly([
 					"For want of a nail the shoe was lost.",
 					"For want of a shoe the horse was lost.",
@@ -37,8 +37,8 @@ class Test extends buddy.SingleSuite {
 					"And all for the want of a nail."
 				]);
 			});
-			it("four pieces modernized", {
-				pending("Skipping");
+
+			xit("four pieces modernized", {
 				Proverb.recite(["pin", "gun", "soldier", "battle"]).should.containExactly([
 					"For want of a pin the gun was lost.",
 					"For want of a gun the soldier was lost.",

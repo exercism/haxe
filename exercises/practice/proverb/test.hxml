@@ -1,5 +1,6 @@
 -x Test
--lib buddy 
+-lib buddy
+-D buddy-colors
 -cp src/
 -cp test/
 
