@@ -65,14 +65,10 @@
         "slug": "accumulate",
         "name": "Accumulate",
         "uuid": "3d570a0c-4477-41b2-8675-35cfbc8468da",
-        "practices": [
-          "collections",
-          "generics",
-          "static-extensions"
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1,
-        "status": deprecated
+        "status": "deprecated"
       },
       {
         "slug": "acronym",
@@ -703,6 +699,17 @@
         "practices": [
           "dictionaries",
           "floating-point-numbers"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "strain",
+        "name": "Strain",
+        "uuid": "cbbea747-8b38-4956-8d1e-3555c9978f14",
+        "practices": [
+          "static-extensions",
+          "generics"
         ],
         "prerequisites": [],
         "difficulty": 1
