@@ -71,7 +71,8 @@
           "static-extensions"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 1,
+        "status": deprecated
       },
       {
         "slug": "acronym",
