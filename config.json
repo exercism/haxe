@@ -77,6 +77,17 @@
         "difficulty": 1
       },
       {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "7878e75f-581d-4985-ade8-9ed5638d41e6",
+        "practices": [
+          "algorithms",
+          "math"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
