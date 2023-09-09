@@ -59,7 +59,7 @@ class Test extends buddy.SingleSuite {
 			});
 
 			xit("input base is zero", {
-				AllYourBase.rebase.bind(0, [0], 10).should.throwValue("input base must be >= 2");
+				AllYourBase.rebase.bind(0, [], 10).should.throwValue("input base must be >= 2");
 			});
 
 			xit("input base is negative", {
@@ -83,7 +83,7 @@ class Test extends buddy.SingleSuite {
 			});
 
 			xit("output base is negative", {
-				AllYourBase.rebase.bind(2, [-1], -7).should.throwValue("output base must be >= 2");
+				AllYourBase.rebase.bind(2, [1], -7).should.throwValue("output base must be >= 2");
 			});
 
 			xit("both bases are negative", {
