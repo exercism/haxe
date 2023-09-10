@@ -139,12 +139,10 @@
         "slug": "beer-song",
         "name": "Beer Song",
         "uuid": "9bcc869c-580a-4ec7-9d84-09c97796aff2",
-        "practices": [
-          "strings",
-          "recursion"
-        ],
+        "practices": [],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 1,
+        "status": "deprecated"
       },
       {
         "slug": "binary-search",
