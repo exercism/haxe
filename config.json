@@ -136,6 +136,15 @@
         "difficulty": 1
       },
       {
+        "slug": "beer-song",
+        "name": "Beer Song",
+        "uuid": "9bcc869c-580a-4ec7-9d84-09c97796aff2",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "status": "deprecated"
+      },
+      {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
