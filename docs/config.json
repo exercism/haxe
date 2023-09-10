@@ -1,0 +1,25 @@
+{
+  "docs": [
+    {
+      "uuid": "79eb8467-e429-4bf4-8bf7-1cc28ad5d670",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing Haxe locally",
+      "blurb": "Learn how to install Haxe locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "77853979-cd8c-4a70-b6f3-2d1f29f383da",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn Haxe",
+      "blurb": "An overview of how to get started from scratch with Haxe"
+    },
+    {
+      "uuid": "99cd9a91-555d-45c6-b220-84751e01ffed",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the Haxe track",
+      "blurb": "Learn how to test your Haxe exercises on Exercism"
+    }
+  ]
+}
