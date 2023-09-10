@@ -7,52 +7,52 @@ class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("single verse", {
 			it("first generic verse", {
-				BeerSong.recite(1, 99).should.containExactly([
+				BeerSong.recite(99, 1).should.containExactly([
 					"99 bottles of beer on the wall, 99 bottles of beer.",
 					"Take one down and pass it around, 98 bottles of beer on the wall."
 				]);
 			});
-			it("last generic verse", {
-				pending("Skipping");
-				BeerSong.recite(1, 3).should.containExactly([
+
+			xit("last generic verse", {
+				BeerSong.recite(3, 1).should.containExactly([
 					"3 bottles of beer on the wall, 3 bottles of beer.",
 					"Take one down and pass it around, 2 bottles of beer on the wall."
 				]);
 			});
-			it("verse with 2 bottles", {
-				pending("Skipping");
-				BeerSong.recite(1, 2).should.containExactly([
+
+			xit("verse with 2 bottles", {
+				BeerSong.recite(2, 1).should.containExactly([
 					"2 bottles of beer on the wall, 2 bottles of beer.",
 					"Take one down and pass it around, 1 bottle of beer on the wall."
 				]);
 			});
-			it("verse with 1 bottle", {
-				pending("Skipping");
+
+			xit("verse with 1 bottle", {
 				BeerSong.recite(1, 1).should.containExactly([
 					"1 bottle of beer on the wall, 1 bottle of beer.",
 					"Take it down and pass it around, no more bottles of beer on the wall."
 				]);
 			});
-			it("verse with 0 bottles", {
-				pending("Skipping");
-				BeerSong.recite(1, 0).should.containExactly([
+
+			xit("verse with 0 bottles", {
+				BeerSong.recite(0, 1).should.containExactly([
 					"No more bottles of beer on the wall, no more bottles of beer.",
 					"Go to the store and buy some more, 99 bottles of beer on the wall."
 				]);
 			});
 		});
 		describe("multiple verses", {
-			it("first two verses", {
-				BeerSong.recite(2, 99).should.containExactly([
+			xit("first two verses", {
+				BeerSong.recite(99, 2).should.containExactly([
 					"99 bottles of beer on the wall, 99 bottles of beer.",
 					"Take one down and pass it around, 98 bottles of beer on the wall.",
 					"98 bottles of beer on the wall, 98 bottles of beer.",
 					"Take one down and pass it around, 97 bottles of beer on the wall."
 				]);
 			});
-			it("last three verses", {
-				pending("Skipping");
-				BeerSong.recite(3, 2).should.containExactly([
+			
+			xit("last three verses", {
+				BeerSong.recite(2, 3).should.containExactly([
 					"2 bottles of beer on the wall, 2 bottles of beer.",
 					"Take one down and pass it around, 1 bottle of beer on the wall.",
 					"1 bottle of beer on the wall, 1 bottle of beer.",
@@ -61,9 +61,9 @@ class Test extends buddy.SingleSuite {
 					"Go to the store and buy some more, 99 bottles of beer on the wall."
 				]);
 			});
-			it("all verses", {
-				pending("Skipping");
-				BeerSong.recite(100, 99).should.containExactly([
+
+			xit("all verses", {
+				BeerSong.recite(99, 100).should.containExactly([
 					          "99 bottles of beer on the wall, 99 bottles of beer.",     "Take one down and pass it around, 98 bottles of beer on the wall.",
 					          "98 bottles of beer on the wall, 98 bottles of beer.",     "Take one down and pass it around, 97 bottles of beer on the wall.",
 					          "97 bottles of beer on the wall, 97 bottles of beer.",     "Take one down and pass it around, 96 bottles of beer on the wall.",
