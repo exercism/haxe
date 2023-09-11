@@ -17,7 +17,6 @@ description = "second test for date only specification of time"
 
 [77eb8502-2bca-4d92-89d9-7b39ace28dd5]
 description = "third test for date only specification of time"
-comment = "input changed since only dates between 1970 and 2038 supported on all targets"
 
 [c9d89a7d-06f8-4e28-a305-64f1b2abc693]
 description = "full time specified"

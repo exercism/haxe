@@ -2,6 +2,9 @@
   "authors": [
     "mfoda"
   ],
+  "contributors": [
+    "BNAndras"
+  ],
   "files": {
     "solution": [
       "src/Gigasecond.hx"
