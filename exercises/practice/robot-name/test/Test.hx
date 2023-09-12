@@ -5,6 +5,8 @@ using Lambda;
 using StringTools;
 using Test.IteratorTools;
 
+// No canonical tests so tests are adapted from C# track
+
 class IteratorTools {
     public static function toIterable<T>(f:Void->Iterator<T>):Iterable<T>
     {
