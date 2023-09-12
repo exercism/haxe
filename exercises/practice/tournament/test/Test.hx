@@ -8,7 +8,6 @@ class Test extends buddy.SingleSuite {
 		describe("Tournament", {
 			it("just the header if no input", {
 				Tournament.tally([]).should.containExactly(["Team                           | MP |  W |  D |  L |  P"]);
-
 			});
 
 			xit("a win is three points, a loss is zero points", {
@@ -51,7 +50,7 @@ class Test extends buddy.SingleSuite {
 					"Team                           | MP |  W |  D |  L |  P",
 					"Allegoric Alaskans             |  2 |  2 |  0 |  0 |  6",
 					"Blithering Badgers             |  2 |  0 |  0 |  2 |  0"
-				]);
+					]);
 			});
 
 			xit("There can be more than one winner", {
@@ -62,7 +61,7 @@ class Test extends buddy.SingleSuite {
 					"Team                           | MP |  W |  D |  L |  P",
 					"Allegoric Alaskans             |  2 |  1 |  0 |  1 |  3",
 					"Blithering Badgers             |  2 |  1 |  0 |  1 |  3"
-				]);
+					]);
 			});
 
 			xit("There can be more than two teams", {
@@ -75,7 +74,7 @@ class Test extends buddy.SingleSuite {
 					"Allegoric Alaskans             |  2 |  2 |  0 |  0 |  6",
 					"Blithering Badgers             |  2 |  1 |  0 |  1 |  3",
 					"Courageous Californians        |  2 |  0 |  0 |  2 |  0"
-				]);
+					]);
 			});
 
 			xit("typical input", {
@@ -92,7 +91,7 @@ class Test extends buddy.SingleSuite {
 					"Allegoric Alaskans             |  3 |  2 |  0 |  1 |  6",
 					"Blithering Badgers             |  3 |  1 |  0 |  2 |  3",
 					"Courageous Californians        |  3 |  0 |  1 |  2 |  1"
-				]);
+					]);
 			});
 
 			xit("incomplete competition (not all pairs have played)", {
@@ -107,7 +106,7 @@ class Test extends buddy.SingleSuite {
 					"Blithering Badgers             |  2 |  1 |  1 |  0 |  4",
 					"Courageous Californians        |  2 |  0 |  1 |  1 |  1",
 					"Devastating Donkeys            |  1 |  0 |  0 |  1 |  0"
-				]);
+					]);
 			});
 
 			xit("ties broken alphabetically", {
@@ -124,7 +123,7 @@ class Test extends buddy.SingleSuite {
 					"Courageous Californians        |  3 |  2 |  1 |  0 |  7",
 					"Blithering Badgers             |  3 |  0 |  1 |  2 |  1",
 					"Devastating Donkeys            |  3 |  0 |  1 |  2 |  1"
-				]);
+					]);
 			});
 
 			xit("ensure points sorted numerically", {
@@ -138,7 +137,7 @@ class Test extends buddy.SingleSuite {
 					"Team                           | MP |  W |  D |  L |  P",
 					"Devastating Donkeys            |  5 |  4 |  0 |  1 | 12",
 					"Blithering Badgers             |  5 |  1 |  0 |  4 |  3"
-				]);
+					]);
 			});
 		});
 	}
