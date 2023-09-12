@@ -10,40 +10,40 @@ class Test extends buddy.SingleSuite {
 				Tournament.tally([]).should.containExactly(["Team                           | MP |  W |  D |  L |  P"]);
 
 			});
-			it("a win is three points, a loss is zero points", {
-				pending("Skipping");
+
+			xit("a win is three points, a loss is zero points", {
 				Tournament.tally(["Allegoric Alaskans;Blithering Badgers;win"]).should.containExactly([
 					"Team                           | MP |  W |  D |  L |  P",
 					"Allegoric Alaskans             |  1 |  1 |  0 |  0 |  3",
 					"Blithering Badgers             |  1 |  0 |  0 |  1 |  0"
 				]);
 			});
-			it("a win can also be expressed as a loss", {
-				pending("Skipping");
+
+			xit("a win can also be expressed as a loss", {
 				Tournament.tally(["Blithering Badgers;Allegoric Alaskans;loss"]).should.containExactly([
 					"Team                           | MP |  W |  D |  L |  P",
 					"Allegoric Alaskans             |  1 |  1 |  0 |  0 |  3",
 					"Blithering Badgers             |  1 |  0 |  0 |  1 |  0"
 				]);
 			});
-			it("a different team can win", {
-				pending("Skipping");
+
+			xit("a different team can win", {
 				Tournament.tally(["Blithering Badgers;Allegoric Alaskans;win"]).should.containExactly([
 					"Team                           | MP |  W |  D |  L |  P",
 					"Blithering Badgers             |  1 |  1 |  0 |  0 |  3",
 					"Allegoric Alaskans             |  1 |  0 |  0 |  1 |  0"
 				]);
 			});
-			it("a draw is one point each", {
-				pending("Skipping");
+
+			xit("a draw is one point each", {
 				Tournament.tally(["Allegoric Alaskans;Blithering Badgers;draw"]).should.containExactly([
 					"Team                           | MP |  W |  D |  L |  P",
 					"Allegoric Alaskans             |  1 |  0 |  1 |  0 |  1",
 					"Blithering Badgers             |  1 |  0 |  1 |  0 |  1"
 				]);
 			});
-			it("There can be more than one match", {
-				pending("Skipping");
+
+			xit("There can be more than one match", {
 				Tournament.tally([
 					"Allegoric Alaskans;Blithering Badgers;win",
 					"Allegoric Alaskans;Blithering Badgers;win"
@@ -53,8 +53,8 @@ class Test extends buddy.SingleSuite {
 					"Blithering Badgers             |  2 |  0 |  0 |  2 |  0"
 				]);
 			});
-			it("There can be more than one winner", {
-				pending("Skipping");
+
+			xit("There can be more than one winner", {
 				Tournament.tally([
 					"Allegoric Alaskans;Blithering Badgers;loss",
 					"Allegoric Alaskans;Blithering Badgers;win"
@@ -64,8 +64,8 @@ class Test extends buddy.SingleSuite {
 					"Blithering Badgers             |  2 |  1 |  0 |  1 |  3"
 				]);
 			});
-			it("There can be more than two teams", {
-				pending("Skipping");
+
+			xit("There can be more than two teams", {
 				Tournament.tally([
 					"Allegoric Alaskans;Blithering Badgers;win",
 					"Blithering Badgers;Courageous Californians;win",
@@ -77,8 +77,8 @@ class Test extends buddy.SingleSuite {
 					"Courageous Californians        |  2 |  0 |  0 |  2 |  0"
 				]);
 			});
-			it("typical input", {
-				pending("Skipping");
+
+			xit("typical input", {
 				Tournament.tally([
 					"Allegoric Alaskans;Blithering Badgers;win",
 					"Devastating Donkeys;Courageous Californians;draw",
@@ -94,8 +94,8 @@ class Test extends buddy.SingleSuite {
 					"Courageous Californians        |  3 |  0 |  1 |  2 |  1"
 				]);
 			});
-			it("incomplete competition (not all pairs have played)", {
-				pending("Skipping");
+
+			xit("incomplete competition (not all pairs have played)", {
 				Tournament.tally([
 					"Allegoric Alaskans;Blithering Badgers;loss",
 					"Devastating Donkeys;Allegoric Alaskans;loss",
@@ -109,8 +109,8 @@ class Test extends buddy.SingleSuite {
 					"Devastating Donkeys            |  1 |  0 |  0 |  1 |  0"
 				]);
 			});
-			it("ties broken alphabetically", {
-				pending("Skipping");
+
+			xit("ties broken alphabetically", {
 				Tournament.tally([
 					"Courageous Californians;Devastating Donkeys;win",
 					"Allegoric Alaskans;Blithering Badgers;win",
@@ -124,6 +124,20 @@ class Test extends buddy.SingleSuite {
 					"Courageous Californians        |  3 |  2 |  1 |  0 |  7",
 					"Blithering Badgers             |  3 |  0 |  1 |  2 |  1",
 					"Devastating Donkeys            |  3 |  0 |  1 |  2 |  1"
+				]);
+			});
+
+			xit("ensure points sorted numerically", {
+				Tournament.tally([
+					"Devastating Donkeys;Blithering Badgers;win",
+					"Devastating Donkeys;Blithering Badgers;win",
+					"Devastating Donkeys;Blithering Badgers;win",
+					"Devastating Donkeys;Blithering Badgers;win",
+					"Blithering Badgers;Devastating Donkeys;win"
+				]).should.containExactly([
+					"Team                           | MP |  W |  D |  L |  P",
+					"Devastating Donkeys            |  5 |  4 |  0 |  1 | 12",
+					"Blithering Badgers             |  5 |  1 |  0 |  4 |  3"
 				]);
 			});
 		});

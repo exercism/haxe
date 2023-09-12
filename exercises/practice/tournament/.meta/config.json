@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "src/Tournament.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Tally the results of a small football competition."
+}
