@@ -1,14 +1,19 @@
 {
   "authors": [
-    {
-      "github_username": "mfoda",
-      "exercism_username": "mohammadfoda"
-    }
+    "mfoda"
   ],
-  "forked_from": ["csharp/AnnalynsInfiltration"],
+  "forked_from": [
+    "csharp/annalyns-infiltration"
+  ],
   "files": {
-    "solution": ["AnnalynsInfiltration.hx"],
-    "test": ["Test.hx"],
-    "exemplar": [".meta/Exemplar.hx"]
+    "solution": [
+      "AnnalynsInfiltration.hx"
+    ],
+    "test": [
+      "Test.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
   }
 }
