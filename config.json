@@ -485,6 +485,17 @@
         "difficulty": 1
       },
       {
+        "slug": "minesweeper",
+        "name": "Minesweeper",
+        "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
+        "practices": [
+          "arrays",
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "nucleotide-count",
         "name": "Nucleotide Count",
         "uuid": "1ed5068c-7998-404d-8159-d6df5a5610b2",
