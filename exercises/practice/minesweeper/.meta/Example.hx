@@ -3,13 +3,14 @@ package;
 using Lambda;
 
 typedef Cell = {
-    row: Int, col: Int
+	row:Int,
+	col:Int
 }
 
 class Minesweeper {
-    static inline var MINE = "*";
+	static inline var MINE = "*";
 
-    public static function annotate(minefield: Array<String>): Array<String> {
+	public static function annotate(minefield:Array<String>):Array<String> {
 		if (minefield.empty())
 			return [];
 
@@ -26,9 +27,9 @@ class Minesweeper {
 					markAdjacentToMine(neighbor, minefield);
 
 		return minefield;
-    } 
+	}
 
-    private static function getMineCells(minefield: Array<String>): Array<Cell> {
+	private static function getMineCells(minefield:Array<String>):Array<Cell> {
 		var mines = [];
 		for (rowIndex in 0...minefield.length) {
 			var row = minefield[rowIndex];
@@ -38,9 +39,9 @@ class Minesweeper {
 		};
 
 		return mines;
-    }
+	}
 
-    private static function getNeighbors(cell: Cell, maxRows: Int, maxCols: Int): Array<Cell> {
+	private static function getNeighbors(cell:Cell, maxRows:Int, maxCols:Int):Array<Cell> {
 		var row = cell.row;
 		var col = cell.col;
 		var neighbors = [
@@ -58,9 +59,9 @@ class Minesweeper {
 			return cell.row >= 0 && cell.row < maxRows && cell.col >= 0 && cell.col < maxCols;
 
 		return neighbors.filter(isValidCell);
-    }
+	}
 
-    private static function markAdjacentToMine(cell: Cell, minefield: Array<String>): Void {
+	private static function markAdjacentToMine(cell:Cell, minefield:Array<String>):Void {
 		var row = minefield[cell.row];
 		var char = row.charAt(cell.col);
 		var newCell = char == " " ? 0 : Std.parseInt(row.charAt(cell.col));
@@ -68,5 +69,5 @@ class Minesweeper {
 		var newRow = row.substring(0, cell.col) + newCell + row.substring(cell.col + 1);
 
 		minefield[cell.row] = newRow;
-    }
+	}
 }

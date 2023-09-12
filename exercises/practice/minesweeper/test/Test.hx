@@ -29,7 +29,7 @@ class Test extends buddy.SingleSuite {
 			xit("space surrounded by mines", {
 				Minesweeper.annotate(["***", "* *", "***"]).should.containExactly(["***", "*8*", "***"]);
 			});
-			
+
 			xit("horizontal line", {
 				Minesweeper.annotate([" * * "]).should.containExactly(["1*2*1"]);
 			});
