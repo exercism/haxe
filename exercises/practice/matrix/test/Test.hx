@@ -33,7 +33,7 @@ class Test extends buddy.SingleSuite {
 			xit("can extract column from non-square matrix with no corresponding row", {
 				Matrix.column("1 2 3 4\n5 6 7 8\n9 8 7 6", 4).should.containExactly([4, 8, 6]);
 			});
-			
+
 			xit("extract column where numbers have different widths", {
 				Matrix.column("89 1903 3\n18 3 1\n9 4 800", 2).should.containExactly([1903, 3, 4]);
 			});
