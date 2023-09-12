@@ -1,2 +1,6 @@
-{
-}
+[
+  {
+    "url": "https://haxe.org/manual/type-system-typedef.html",
+    "description": "Haxe: Typedefs"
+  }
+]

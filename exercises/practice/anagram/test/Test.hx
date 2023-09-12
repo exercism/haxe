@@ -9,7 +9,7 @@ class Test extends buddy.SingleSuite {
 				Anagram.findAnagrams("diaper", ["hello", "world", "zombies", "pants"]).should.containExactly([]);
 			});
 			xit("detects two anagrams", {
-				Anagram.findAnagrams("master", ["stream", "pigeon", "maters"]).should.containExactly(["stream", "maters"]);
+				Anagram.findAnagrams("solemn", ["lemons", "cherry", "melons"]).should.containExactly(["lemons", "melons"]);
 			});
 			xit("does not detect anagram subsets", {
 				Anagram.findAnagrams("good", ["dog", "goody"]).should.containExactly([]);
@@ -42,11 +42,17 @@ class Test extends buddy.SingleSuite {
 			xit("anagrams must use all letters exactly once", {
 				Anagram.findAnagrams("tapper", ["patter"]).should.containExactly([]);
 			});
-			xit("words are not anagrams of themselves (case-insensitive)", {
-				Anagram.findAnagrams("BANANA", ["BANANA", "Banana", "banana"]).should.containExactly([]);
+			xit("words are not anagrams of themselves", {
+				Anagram.findAnagrams("BANANA", ["BANANA"]).should.containExactly([]);
+			});
+			xit("words are not anagrams of themselves even if letter case is partially different", {
+				Anagram.findAnagrams("BANANA", ["Banana"]).should.containExactly([]);
+			});
+			xit("words are not anagrams of themselves even if letter case is completely different", {
+				Anagram.findAnagrams("BANANA", ["banana"]).should.containExactly([]);
 			});
 			xit("words other than themselves can be anagrams", {
-				Anagram.findAnagrams("LISTEN", ["Listen", "Silent", "LISTEN"]).should.containExactly(["Silent"]);
+				Anagram.findAnagrams("LISTEN", ["LISTEN", "Silent"]).should.containExactly(["Silent"]);
 			});
 		});
 	}

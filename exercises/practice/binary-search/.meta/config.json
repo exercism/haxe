@@ -1,10 +1,22 @@
 {
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
   "files": {
-    "solution": [],
-    "test": [],
-    "example": []
+    "solution": [
+      "src/BinarySearch.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
   },
+  "blurb": "Implement a binary search algorithm.",
   "source": "Wikipedia",
-  "source_url": "http://en.wikipedia.org/wiki/Binary_search_algorithm"
+  "source_url": "https://en.wikipedia.org/wiki/Binary_search_algorithm"
 }

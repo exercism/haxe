@@ -25,7 +25,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("first letter and ay are moved to the end of words that start with consonants", {
-			it("word beginning with p", {
+			xit("word beginning with p", {
 				PigLatin.translate("pig").should.be("igpay");
 			});
 			xit("word beginning with k", {
@@ -39,7 +39,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("some letter clusters are treated like a single consonant", {
-			it("word beginning with ch", {
+			xit("word beginning with ch", {
 				PigLatin.translate("chair").should.be("airchay");
 			});
 			xit("word beginning with qu", {
@@ -59,7 +59,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("some letter clusters are treated like a single vowel", {
-			it("word beginning with yt", {
+			xit("word beginning with yt", {
 				PigLatin.translate("yttria").should.be("yttriaay");
 			});
 			xit("word beginning with xr", {
@@ -67,7 +67,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("position of y in a word determines if it is a consonant or a vowel", {
-			it("y is treated like a consonant at the beginning of a word", {
+			xit("y is treated like a consonant at the beginning of a word", {
 				PigLatin.translate("yellow").should.be("ellowyay");
 			});
 			xit("y is treated like a vowel at the end of a consonant cluster", {
@@ -78,7 +78,7 @@ class Test extends buddy.SingleSuite {
 			});
 		});
 		describe("phrases are translated", {
-			it("a whole phrase", {
+			xit("a whole phrase", {
 				PigLatin.translate("quick fast run").should.be("ickquay astfay unray");
 			});
 		});

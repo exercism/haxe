@@ -2,18 +2,19 @@
   "authors": [
     "mfoda"
   ],
-  "forked_from": [
-    "csharp/annalyns-infiltration"
-  ],
   "files": {
     "solution": [
       "AnnalynsInfiltration.hx"
     ],
     "test": [
-      "Test.hx"
+      "test/Test.hx"
     ],
     "exemplar": [
       ".meta/Exemplar.hx"
     ]
-  }
+  },
+  "forked_from": [
+    "csharp/annalyns-infiltration"
+  ], 
+  "blurb": "Learn about booleans while helping Annalyn rescue her friend."
 }

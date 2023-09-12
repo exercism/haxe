@@ -1,2 +1,10 @@
-{
-}
+[
+  {
+    "url": "https://haxe.org/manual/std-Array.html",
+    "description": "Haxe: Arrays"
+  },
+  {
+    "url": "https://api.haxe.org/Array.html",
+    "description": "Haxe: Array class"
+  }
+]

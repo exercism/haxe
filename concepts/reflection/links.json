@@ -1,2 +1,14 @@
-{
-}
+[
+  {
+    "url": "https://haxe.org/manual/std-reflection.html",
+    "description": "Haxe: Reflection"
+  },
+  {
+    "url": "https://api.haxe.org/Reflect.html",
+    "description": "Haxe API: Reflect"
+  },
+  {
+    "url": "https://api.haxe.org/Type.html",
+    "description": "Haxe API: Type"
+  }
+]

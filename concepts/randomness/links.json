@@ -1,2 +1,6 @@
-{
-}
+[
+  {
+    "url": "https://api.haxe.org/Std.html#random",
+    "description": "Haxe API: Random"
+  }
+]

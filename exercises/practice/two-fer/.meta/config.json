@@ -1,9 +1,21 @@
 {
-  "authors": [],
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
   "files": {
-    "solution": [],
-    "test": [],
-    "example": []
+    "solution": [
+      "src/TwoFer.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
   },
+  "blurb": "Create a sentence of the form \"One for X, one for me.\"",
   "source_url": "https://github.com/exercism/problem-specifications/issues/757"
 }

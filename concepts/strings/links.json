@@ -1,18 +1,22 @@
 [
   {
-    "description": "string",
-    "url": "https://code.haxe.org/category/beginner/strings.html"
+    "url": "https://haxe.org/manual/std-String.html",
+    "description": "Haxe: String"
   },
   {
-    "description": "String API",
-    "url": "https://api.haxe.org/String.html"
+    "url": "https://code.haxe.org/category/beginner/strings.html",
+    "description": "Haxe Cookbook: Strings"
   },
   {
-    "description": "escaping",
-    "url": "https://haxe.org/manual/std-String-literals.html"
+    "url": "https://api.haxe.org/String.html",
+    "description": "Haxe API: String"
   },
   {
-    "description": "plus-operator",
-    "url": "https://haxe.org/manual/expression-operators-binops.html#string-concatenation-operator"
+    "url": "https://haxe.org/manual/std-String-literals.html",
+    "description": "Haxe: Escaping strings"
+  },
+  {
+    "url": "https://haxe.org/manual/expression-operators-binops.html#string-concatenation-operator",
+    "description": "Haxe: plus-operator"
   }
 ]
