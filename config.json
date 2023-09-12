@@ -347,6 +347,16 @@
         "difficulty": 1
       },
       {
+        "slug": "house",
+        "name": "House",
+        "uuid": "8cbeb582-a76e-4504-935b-e36e232b3f9b",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "isbn-verifier",
         "name": "Isbn Verifier",
         "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
