@@ -1,32 +1,32 @@
 var pairs = [
-    ["house", "Jack built"],
-    ["malt", "lay in"],
-    ["rat", "ate"],
-    ["cat", "killed"],
-    ["dog", "worried"],
-    ["cow with the crumpled horn", "tossed"],
-    ["maiden all forlorn", "milked"],
-    ["man all tattered and torn", "kissed"],
-    ["priest all shaven and shorn", "married"],
-    ["rooster that crowed in the morn", "woke"],
-    ["farmer sowing his corn", "kept"],
-    ["horse and the hound and the horn", "belonged to"]
+	["house", "Jack built"],
+	["malt", "lay in"],
+	["rat", "ate"],
+	["cat", "killed"],
+	["dog", "worried"],
+	["cow with the crumpled horn", "tossed"],
+	["maiden all forlorn", "milked"],
+	["man all tattered and torn", "kissed"],
+	["priest all shaven and shorn", "married"],
+	["rooster that crowed in the morn", "woke"],
+	["farmer sowing his corn", "kept"],
+	["horse and the hound and the horn", "belonged to"]
 ];
 
-function recite(startVerse: Int, endVerse: Int): Array<String> {
-    return [
-        for (i in (startVerse-1)...endVerse)
-            reciteOne(i)
-    ];
-} 
+function recite(startVerse:Int, endVerse:Int):Array<String> {
+	return [
+		for (i in (startVerse - 1)...endVerse)
+			reciteOne(i)
+	];
+}
 
-function reciteOne(verse: Int) {
-    var result = new StringBuf();
-    for (i in 0...verse+1) {
-        var a = pairs[verse-i][0];
-        var b = pairs[verse-i][1];
-        result.add(' the $a that $b');
-    }
+function reciteOne(verse:Int) {
+	var result = new StringBuf();
+	for (i in 0...verse + 1) {
+		var a = pairs[verse - i][0];
+		var b = pairs[verse - i][1];
+		result.add(' the $a that $b');
+	}
 
-    return 'This is$result.';
+	return 'This is$result.';
 }

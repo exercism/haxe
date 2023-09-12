@@ -9,7 +9,7 @@ class Test extends buddy.SingleSuite {
 			it("verse one - the house that jack built", {
 				House.recite(1, 1).should.containExactly(["This is the house that Jack built."]);
 			});
-			
+
 			xit("verse two - the malt that lay", {
 				House.recite(2, 2).should.containExactly(["This is the malt that lay in the house that Jack built."]);
 			});
@@ -29,7 +29,7 @@ class Test extends buddy.SingleSuite {
 					"This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built."
 				]);
 			});
-			
+
 			xit("verse six - the cow with the crumpled horn", {
 				House.recite(6, 6).should.containExactly([
 					"This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built."
