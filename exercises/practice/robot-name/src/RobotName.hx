@@ -1,4 +1,4 @@
-class Robot {
+class RobotName {
     public var name(default, null): String;
 
     public function new() {

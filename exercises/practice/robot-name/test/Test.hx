@@ -15,7 +15,7 @@ class IteratorTools {
 class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("robot-name", {
-			var robot = new Robot();
+			var robot = new RobotName();
 
 			it("robot has a name", {
 				robot.name.should.match(~/^[A-Z]{2}\d{3}$/);
@@ -26,7 +26,7 @@ class Test extends buddy.SingleSuite {
 			});
 
 			xit("different robots have different names", {
-				var robot2 = new Robot();
+				var robot2 = new RobotName();
 				robot2.name.should.not.be(robot.name);
 			});
 
@@ -44,7 +44,7 @@ class Test extends buddy.SingleSuite {
 			xit("robot names are unique", {
 				var names = new Map<String, Bool>();
 				for (i in 0...10000) {
-					var robot = new Robot();
+					var robot = new RobotName();
 					names.exists(robot.name).should.be(false);
 					robot.name.should.match(~/^[A-Z]{2}\d{3}$/);
 					names[robot.name] = true;
@@ -54,17 +54,17 @@ class Test extends buddy.SingleSuite {
 			xit("robot names should generate edge case 'A'", {
 				var names = new Map<String, Bool>();
 				for (i in 0...10000) {
-					var robot = new Robot();
+					var robot = new RobotName();
 					names[robot.name] = true;
 				}
-				
+
 				names.keys.toIterable().exists( (k) -> StringTools.contains(k, 'A')).should.be(true);
 			});
 
 			xit("robot names should generate edge case 'Z'", {
 				var names = new Map<String, Bool>();
 				for (i in 0...10000) {
-					var robot = new Robot();
+					var robot = new RobotName();
 					names[robot.name] = true;
 				}
 
