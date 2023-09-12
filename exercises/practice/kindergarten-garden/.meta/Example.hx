@@ -2,7 +2,7 @@ using StringTools;
 
 private final plantsPerStudent = 4;
 private final rowsInGarden = 2;
-private static var plantNames = ["G" => "grass", "C" => "clover", "R" => "radishes", "V" => "violets"];
+private var plantNames = ["G" => "grass", "C" => "clover", "R" => "radishes", "V" => "violets"];
 
 private var students = [
 	 "Alice",    "Bob", "Charlie",   "David",

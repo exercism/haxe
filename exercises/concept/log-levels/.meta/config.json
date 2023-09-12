@@ -1,14 +1,20 @@
 {
   "authors": [
-    {
-      "github_username": "mfoda",
-      "exercism_username": "mohammadfoda"
-    }
+    "mfoda"
   ],
-  "forked_from": ["csharp/log-levels"],
   "files": {
-    "solution": ["LogLevels.hx"],
-    "test": ["Tests.hx"],
-    "exemplar": [".meta/Exemplar.hx"]
-  }
+    "solution": [
+      "LogLevels.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
+  },
+  "forked_from": [
+    "csharp/log-levels"
+  ],
+  "blurb": "TODO: add blurb for log-levels exercise"
 }

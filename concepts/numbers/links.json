@@ -1,2 +1,14 @@
-{
-}
+[
+  {
+    "url": "https://haxe.org/manual/types-numeric-types.html",
+    "description": "Haxe: Numeric types"
+  },
+  {
+    "url": "https://api.haxe.org/Float.html",
+    "description": "Haxe: Float numbers"
+  },
+  {
+    "url": "https://api.haxe.org/Int.html",
+    "description": "Haxe: Integers"
+  }
+]
