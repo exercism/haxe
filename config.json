@@ -451,11 +451,22 @@
         "difficulty": 1
       },
       {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "9071338c-b202-44f0-853f-8aa5f2bf8d90",
+        "practices": [
+          "arrays",
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "minesweeper",
         "name": "Minesweeper",
         "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
         "practices": [
-          "algorithms",
+          "arrays",
           "strings"
         ],
         "prerequisites": [],
@@ -630,6 +641,18 @@
         "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
         "practices": [
           "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "robot-name",
+        "name": "Robot Name",
+        "uuid": "cf67e341-7092-4cf7-8e41-8c6a6dc6390a",
+        "practices": [
+          "classes",
+          "strings",
+          "randomness"
         ],
         "prerequisites": [],
         "difficulty": 1

@@ -2,12 +2,9 @@
   "authors": [
     "mfoda"
   ],
-  "contributors": [
-    "davidbruce"
-  ],
   "files": {
     "solution": [
-      "src/KindergartenGarden.hx"
+      "src/Matrix.hx"
     ],
     "test": [
       "test/Test.hx"
@@ -16,7 +13,7 @@
       ".meta/Example.hx"
     ]
   },
-  "blurb": "Given a diagram, determine which plants each child in the kindergarten class is responsible for.",
+  "blurb": "Given a string representing a matrix of numbers, return the rows and columns of that matrix.",
   "source": "Exercise by the JumpstartLab team for students at The Turing School of Software and Design.",
   "source_url": "https://turing.edu"
 }

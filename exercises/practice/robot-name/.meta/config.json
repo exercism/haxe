@@ -2,12 +2,9 @@
   "authors": [
     "mfoda"
   ],
-  "contributors": [
-    "davidbruce"
-  ],
   "files": {
     "solution": [
-      "src/Forth.hx"
+      "src/RobotName.hx"
     ],
     "test": [
       "test/Test.hx"
@@ -16,5 +13,6 @@
       ".meta/Example.hx"
     ]
   },
-  "blurb": "Implement an evaluator for a very simple subset of Forth."
+  "blurb": "Manage robot factory settings.",
+  "source": "A debugging session with Paul Blackwell at gSchool."
 }
