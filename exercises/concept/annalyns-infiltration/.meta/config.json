@@ -14,7 +14,7 @@
     ]
   },
   "forked_from": [
-    "csharp/booleans"
-  ],
-  "blurb": "TODO: add blurb for annalyns-infiltration exercise"
+    "csharp/annalyns-infiltration"
+  ], 
+  "blurb": "Learn about booleans while helping Annalyn rescue her friend."
 }
