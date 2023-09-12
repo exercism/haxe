@@ -104,7 +104,7 @@ class Test extends buddy.SingleSuite {
 						row: 1
 					}).should.be(true);
 				});
-				
+
 				xit("can attack on fourth diagonal", {
 					QueenAttack.canAttack({
 						column: 7,
@@ -114,6 +114,16 @@ class Test extends buddy.SingleSuite {
 						row: 0
 					}).should.be(true);
 				});
+
+				xit("cannot attack if falling diagonals are only the same when reflected across the longest falling diagonal", {
+					QueenAttack.canAttack({
+						column: 1,
+						row: 4
+					}, {
+						column: 5,
+						row: 2
+					}).should.be(false);
+				});				
 			});
 		});
 	}
