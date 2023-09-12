@@ -162,6 +162,19 @@
         "difficulty": 1
       },
       {
+        "slug": "binary-search-tree",
+        "name": "Binary Search Tree",
+        "uuid": "2db8d89a-bc41-4a38-ac4e-743ab3bb1d6a",
+        "practices": [
+          "recursion",
+          "pattern-matching",
+          "option",
+          "generics"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "bob",
         "name": "Bob",
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
