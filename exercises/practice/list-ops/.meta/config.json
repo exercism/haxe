@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "src/ListOps.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Implement basic list operations."
+}
