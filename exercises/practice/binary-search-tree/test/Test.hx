@@ -16,7 +16,7 @@ class Test extends buddy.SingleSuite {
 						left: None,
 						right: None
 					};
-						BinarySearchTree.equals(result, expected).should.be(true);
+					BinarySearchTree.equals(result, expected).should.be(true);
 				});
 
 				xit("can create complex tree", {
@@ -50,7 +50,7 @@ class Test extends buddy.SingleSuite {
 							})
 						})
 					};
-						BinarySearchTree.equals(result, expected).should.be(true);
+					BinarySearchTree.equals(result, expected).should.be(true);
 				});
 			});
 
@@ -84,7 +84,7 @@ class Test extends buddy.SingleSuite {
 				});
 
 				xit("greater number at right node", {
-					var result = BinarySearchTree.data(["4", "5"]); 
+					var result = BinarySearchTree.data(["4", "5"]);
 					var expected = {
 						data: "4",
 						left: None,
