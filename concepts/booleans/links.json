@@ -1,0 +1,14 @@
+[
+  {
+    "description": "Booleans",
+    "url": "https://haxe.org/manual/types-bool.html"
+  },
+  {
+    "description": "Operators",
+    "url": "https://haxe.org/manual/expression-operators-binops.html"
+  },
+  {
+    "description": "Precedence",
+    "url": "https://haxe.org/manual/expression-operators-precedence.html"
+  }
+]
