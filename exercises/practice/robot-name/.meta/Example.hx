@@ -1,5 +1,3 @@
-package;
-
 class Robot {
     public var name(default, null): String;
     private static var generatedNames = new Map<String, Bool>();
