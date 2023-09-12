@@ -1,0 +1,6 @@
+-x Test
+-lib buddy 
+-D buddy-colors
+-cp src/
+-cp test/
+
