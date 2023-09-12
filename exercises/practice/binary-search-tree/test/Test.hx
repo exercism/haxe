@@ -17,8 +17,8 @@ class Test extends buddy.SingleSuite {
 				};
 					BinarySearchTree.equals(result, expected).should.be(true);
 			});
-			it("can create complex tree", {
-				// pending("Skipping");
+
+			xit("can create complex tree", {
 				var result = BinarySearchTree.data(["4", "2", "6", "1", "3", "5", "7"]);
 				var expected = {
 					data: "4",
@@ -52,8 +52,9 @@ class Test extends buddy.SingleSuite {
 					BinarySearchTree.equals(result, expected).should.be(true);
 			});
 		});
+
 		describe("insert data at proper node", {
-			it("smaller number at left node", {
+			xit("smaller number at left node", {
 				var result = BinarySearchTree.data(["4", "2"]);
 				var expected = {
 					data: "4",
@@ -66,8 +67,8 @@ class Test extends buddy.SingleSuite {
 				};
 				BinarySearchTree.equals(result, expected).should.be(true);
 			});
-			it("same number at left node", {
-				// pending("Skipping");
+
+			xit("same number at left node", {
 				var result = BinarySearchTree.data(["4", "4"]);
 				var expected = {
 					data: "4",
@@ -80,8 +81,8 @@ class Test extends buddy.SingleSuite {
 				};
 				BinarySearchTree.equals(result, expected).should.be(true);
 			});
-			it("greater number at right node", {
-				// pending("Skipping");
+
+			xit("greater number at right node", {
 				var result = BinarySearchTree.data(["4", "5"]); 
 				var expected = {
 					data: "4",
@@ -95,24 +96,25 @@ class Test extends buddy.SingleSuite {
 				BinarySearchTree.equals(result, expected).should.be(true);
 			});
 		});
+
 		describe("can sort data", {
-			it("can sort single number", {
+			xit("can sort single number", {
 				BinarySearchTree.sortedData(["2"]).should.containExactly(["2"]);
 			});
-			it("can sort if second number is smaller than first", {
-				// pending("Skipping");
+
+			xit("can sort if second number is smaller than first", {
 				BinarySearchTree.sortedData(["2", "1"]).should.containExactly(["1", "2"]);
 			});
-			it("can sort if second number is same as first", {
-				// pending("Skipping");
+
+			xit("can sort if second number is same as first", {
 				BinarySearchTree.sortedData(["2", "2"]).should.containExactly(["2", "2"]);
 			});
-			it("can sort if second number is greater than first", {
-				// pending("Skipping");
+
+			xit("can sort if second number is greater than first", {
 				BinarySearchTree.sortedData(["2", "3"]).should.containExactly(["2", "3"]);
 			});
-			it("can sort complex tree", {
-				// pending("Skipping");
+
+			xit("can sort complex tree", {
 				BinarySearchTree.sortedData(["2", "1", "3", "6", "7", "5"]).should.containExactly(["1", "2", "3", "5", "6", "7"]);
 			});
 		});

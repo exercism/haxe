@@ -1,5 +1,3 @@
-package;
-
 import haxe.ds.Option;
 
 typedef Node<T> = {
