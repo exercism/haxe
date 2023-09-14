@@ -4,7 +4,7 @@
   ],
   "files": {
     "solution": [
-      "LogLevels.hx"
+      "src/LogLevels.hx"
     ],
     "test": [
       "test/Test.hx"
