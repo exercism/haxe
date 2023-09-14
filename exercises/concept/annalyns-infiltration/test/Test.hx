@@ -6,247 +6,247 @@ class Test extends buddy.SingleSuite {
 	public function new() {
 		describe("annalyns-infiltration", {
 			it("cannot execute fast attack if knight is awake", {
-				var knightIsAwake = true;
+				final knightIsAwake = true;
 
 				canFastAttack(knightIsAwake).should.be(false);
 			});
 
 			xit("can execute fast attack if knight is sleeping", {
-				var knightIsAwake = false;
+				final knightIsAwake = false;
 
 				canFastAttack(knightIsAwake).should.be(true);
 			});
 
 			xit("cannot spy if everyone is sleeping", {
-				var knightIsAwake = false;
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
+				final knightIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(false);
 			});
 
 			xit("can spy if everyone but knight is sleeping", {
-				var knightIsAwake = true;
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
+				final knightIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can spy if everyone but archer is sleeping", {
-				var knightIsAwake = false;
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
+				final knightIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can spy if everyone but prisoner is sleeping", {
-				var knightIsAwake = false;
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
+				final knightIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can spy if only knight is sleeping", {
-				var knightIsAwake = false;
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
+				final knightIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can spy if only archer is sleeping", {
-				var knightIsAwake = true;
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
+				final knightIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can spy if only prisoner is sleeping", {
-				var knightIsAwake = true;
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
+				final knightIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can spy if everyone is awake", {
-				var knightIsAwake = true;
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
+				final knightIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
 
 				canSpy(knightIsAwake, archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("can signal prisoner if archer is sleeping and prisoner is awake", {
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
 
 				canSignalPrisoner(archerIsAwake, prisonerIsAwake).should.be(true);
 			});
 
 			xit("cannot signal prisoner if archer is awake and prisoner is sleeping", {
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
 
 				canSignalPrisoner(archerIsAwake, prisonerIsAwake).should.be(false);
 			});
 
 			xit("cannot signal prisoner if archer and prisoner are both sleeping", {
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
 
 				canSignalPrisoner(archerIsAwake, prisonerIsAwake).should.be(false);
 			});
 
 			xit("cannot signal prisoner if archer and prisoner are both awake", {
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
 
 				canSignalPrisoner(archerIsAwake, prisonerIsAwake).should.be(false);
 			});
 
 			xit("cannot release prisoner if everyone is awake and pet dog is present", {
-				var knightIsAwake = true;
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = true;
+				final knightIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("cannot release prisoner if everyone is awake and pet dog is absent", {
-				var knightIsAwake = true;
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = false;
+				final knightIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = false;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("can release prisoner if everyone is asleep and pet dog is present", {
-				var knightIsAwake = false;
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = true;
+				final knightIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(true);
 			});
 
 			xit("cannot release prisoner if everyone is asleep and pet dog is absent", {
-				var knightIsAwake = false;
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = false;
+				final knightIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = false;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("can release prisoner if only prisoner is awake and pet dog is present", {
-				var knightIsAwake = false;
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = true;
+				final knightIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(true);
 			});
 
 			xit("can release prisoner if only prisoner is awake and pet dog is absent", {
-				var knightIsAwake = false;
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = false;
+				final knightIsAwake = false;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = false;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(true);
 			});
 
 			xit("cannot release prisoner if only archer is awake and pet dog is present", {
-				var knightIsAwake = false;
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = true;
+				final knightIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("cannot release prisoner if only archer is awake and pet dog is absent", {
-				var knightIsAwake = false;
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = false;
+				final knightIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = false;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("can release prisoner if only knight is awake and pet dog is present", {
-				var knightIsAwake = true;
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = true;
+				final knightIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(true);
 			});
 
 			xit("cannot release prisoner if only knight is awake and pet dog is absent", {
-				var knightIsAwake = true;
-				var archerIsAwake = false;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = false;
+				final knightIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = false;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("cannot release prisoner if only knight is asleep and pet dog is present", {
-				var knightIsAwake = false;
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = true;
+				final knightIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("cannot release prisoner if only knight is asleep and pet dog is absent", {
-				var knightIsAwake = false;
-				var archerIsAwake = true;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = false;
+				final knightIsAwake = false;
+				final archerIsAwake = true;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = false;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("can release prisoner if only archer is asleep and pet dog is present", {
-				var knightIsAwake = true;
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = true;
+				final knightIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = true;
 
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(true);
 			});
 
 			xit("cannot release prisoner if only archer is asleep and pet dog is absent", {
-				var knightIsAwake = true;
-				var archerIsAwake = false;
-				var prisonerIsAwake = true;
-				var petDogIsPresent = false;
+				final knightIsAwake = true;
+				final archerIsAwake = false;
+				final prisonerIsAwake = true;
+				final petDogIsPresent = false;
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("cannot release prisoner if only prisoner is asleep and pet dog is present", {
-				var knightIsAwake = true;
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = true;
+				final knightIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = true;
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 
 			xit("cannot release prisoner if only prisoner is asleep and pet dog is absent", {
-				var knightIsAwake = true;
-				var archerIsAwake = true;
-				var prisonerIsAwake = false;
-				var petDogIsPresent = false;
+				final knightIsAwake = true;
+				final archerIsAwake = true;
+				final prisonerIsAwake = false;
+				final petDogIsPresent = false;
 				canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent).should.be(false);
 			});
 		});
