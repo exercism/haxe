@@ -1,58 +1,46 @@
-package;
+class Robot {
+    public var x:Int;
+    public var y:Int;
+    public var direction:String;
 
-typedef RobotState = {
-	position:  Position,
-	direction: String
-}
-
-typedef Position = {
-    x: Int, 
-    y: Int
-}
-
-class RobotStateExt {
-    public static function equals(a: RobotState, b: RobotState) {
-        return (a.direction == b.direction) && 
-               (a.position.x == b.position.x) && 
-               (a.position.y == b.position.y);
-    }
-}
-
-class RobotSimulator {
-    public static function create(position: Position, direction: String): RobotState {
-		return {position: position, direction: direction};
+    public function new(x:Int, y:Int, direction:String) {
+       this.x = x;
+       this.y = y;
+       this.direction = direction;
     }
 
-	public static function move(position: Position, instructions: String, direction: String): RobotState {
-        var state = create(position, direction);
+	public function move(instructions: String): Robot {
         for (i in instructions.split("")) 
             switch (i) {
-                case "R": turn(state, true);
-                case "L": turn(state, false);
-                case "A": advance(state);
+                case "R": this.turn(true);
+                case "L": this.turn(false);
+                case "A": this.advance();
             }
 
-        return state;
+        return this;
     } 
 
-    private static inline function turn(state: RobotState, clockwise: Bool) {
-        state.direction = switch (state.direction) {
+    private function turn(clockwise: Bool) {
+        this.direction = switch (this.direction) {
             case "north": clockwise ? "east"  : "west";
             case "east":  clockwise ? "south" : "north";
             case "south": clockwise ? "west"  : "east";
             case "west":  clockwise ? "north" : "south";
             case _: throw "invalid direction";
-        }
+        };
     }
 
-    private static inline function advance(state: RobotState) {
-        var pos = state.position;
-        switch (state.direction) {
-            case "north": pos.y++;
-            case "east":  pos.x++;
-            case "south": pos.y--;
-            case "west":  pos.x--;
+    private function advance() {
+        switch (this.direction) {
+            case "north": this.y++;
+            case "east":  this.x++;
+            case "south": this.y--;
+            case "west":  this.x--;
             case _: throw "invalid direction";
-        }
+        };
     }
+
+    public function equals(other:Robot):Bool {
+        return this.x == other.x && this.y == other.y && this.direction == other.direction;
+	}
 }

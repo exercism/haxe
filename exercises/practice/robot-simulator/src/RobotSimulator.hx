@@ -1,27 +1,13 @@
-package;
-
-typedef RobotState = {
-	position:  Position,
-	direction: String
-}
-
-typedef Position = {
-    x: Int, 
-    y: Int
-}
-
-class RobotStateExt {
-    public static function equals(a: RobotState, b: RobotState) {
-        throw "Not Implemented"; // Delete this statement and write your own implementation.
-    }
-}
-
-class RobotSimulator {
-    public static function create(position: Position, direction: String): RobotState {
+class Robot {
+    public function new(x:Int, y:Int, direction:String) {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     }
 
-	public static function move(position: Position, instructions: String, direction: String): RobotState {
+	public function move(instructions:String):Robot {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
-    } 
+	}
+
+    public function equals(other:Robot):Bool {
+        throw "Not Implemented"; // Delete this statement and write your own implementation.
+	}
 }
