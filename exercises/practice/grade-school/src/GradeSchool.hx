@@ -9,7 +9,7 @@ class GradeSchool {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     }
 
-    public function add(students: Array<Student): Array<Bool> {
+    public function add(students: Array<Student>): Array<Bool> {
         throw "Not Implemented"; // Delete this statement and write your own implementation.
     }
 
