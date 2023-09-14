@@ -138,6 +138,7 @@ class Test extends buddy.SingleSuite {
 				xit("subtract across midnight", {
 					new Clock(0, 3).subtract(4).toString().should.be("23:59");
 				});
+				
 				xit("subtract more than two hours", {
 					new Clock(0, 0).subtract(160).toString().should.be("21:20");
 				});
