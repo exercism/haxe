@@ -157,67 +157,115 @@ class Test extends buddy.SingleSuite {
 	
 			describe("Compare two clocks for equality", {
 				xit("clocks with same time", {
-					new Clock(15, 37).hashCode().should.be(new Clock(15, 37).hashCode());
+					final clock  = new Clock(15, 37);
+					final expected = new Clock(15, 37); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks a minute apart", {
-					new Clock(15, 36).hashCode().should.not.be(new Clock(15, 37).hashCode());
+					final clock  = new Clock(15, 36);
+					final expected = new Clock(15, 37); 
+					
+					clock.equals(expected).should.be(false);
 				});
 	
 				xit("clocks an hour apart", {
-					new Clock(14, 37).hashCode().should.not.be(new Clock(15, 37).hashCode());
+					final clock  = new Clock(14, 37);
+					final expected = new Clock(15, 37); 
+					
+					clock.equals(expected).should.be(false);
 				});
 	
 				xit("clocks with hour overflow", {
-					new Clock(10, 37).hashCode().should.be(new Clock(34, 37).hashCode());
+					final clock  = new Clock(10, 37);
+					final expected = new Clock(34, 37); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with hour overflow by several days", {
-					new Clock(3, 11).hashCode().should.be(new Clock(99, 11).hashCode());
+					final clock  = new Clock(3, 11);
+					final expected = new Clock(99, 11); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative hour", {
-					new Clock(22, 40).hashCode().should.be(new Clock(-2, 40).hashCode());
+					final clock  = new Clock(22, 40);
+					final expected = new Clock(-2, 40); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative hour that wraps", {
-					new Clock(17, 3).hashCode().should.be(new Clock(-31, 3).hashCode());
+					final clock  = new Clock(17, 3);
+					final expected = new Clock(-31, 3); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative hour that wraps multiple times", {
-					new Clock(13, 49).hashCode().should.be(new Clock(-83, 49).hashCode());
+					final clock  = new Clock(13, 49);
+					final expected = new Clock(-83, 49); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with minute overflow", {
-					new Clock(0, 1).hashCode().should.be(new Clock(0, 1441).hashCode());
+					final clock  = new Clock(0, 1);
+					final expected = new Clock(0, 1441); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with minute overflow by several days", {
-					new Clock(2, 2).hashCode().should.be(new Clock(2, 4322).hashCode());
+					final clock  = new Clock(2, 2);
+					final expected = new Clock(2, 4322); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative minute", {
-					new Clock(2, 40).hashCode().should.be(new Clock(3, -20).hashCode());
+					final clock  = new Clock(2, 40);
+					final expected = new Clock(3, -20); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative minute that wraps", {
-					new Clock(4, 10).hashCode().should.be(new Clock(5, -1490).hashCode());
+					final clock  = new Clock(4, 10);
+					final expected = new Clock(5, -1490); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative minute that wraps multiple times", {
-					new Clock(6, 15).hashCode().should.be(new Clock(6, -4305).hashCode());
+					final clock  = new Clock(6, 15);
+					final expected = new Clock(6, -4305); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative hours and minutes", {
-					new Clock(7, 32).hashCode().should.be(new Clock(-12, -268).hashCode());
+					final clock  = new Clock(7, 32);
+					final expected = new Clock(-12, -268); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("clocks with negative hours and minutes that wrap", {
-					new Clock(18, 7).hashCode().should.be(new Clock(-54, -11513).hashCode());
+					final clock  = new Clock(18, 7);
+					final expected = new Clock(-54, -11513); 
+					
+					clock.equals(expected).should.be(true);
 				});
 	
 				xit("full clock and zeroed clock", {
-					new Clock(24, 0).hashCode().should.be(new Clock(0, 0).hashCode());
+					final clock  = new Clock(24, 0);
+					final expected = new Clock(0, 0); 
+					
+					clock.equals(expected).should.be(true);
 				});
 			});
 		});

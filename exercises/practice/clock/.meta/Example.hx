@@ -9,18 +9,21 @@ class Clock {
 		this.minutes = minutes;
 	}
 
+	public function equals(other:Clock):Bool {
+		final clock_a = this.normalize();
+		final clock_b = other.normalize();
+		final total_minutes_a = (clock_a.hours * 60) + clock_a.minutes;
+		final total_minutes_b = (clock_b.hours * 60) + clock_b.minutes;
+		
+		return total_minutes_a == total_minutes_b;
+	}
+
 	public function add(minutes:Int):Clock {
 		return new Clock(this.hours, this.minutes + minutes).normalize();
 	}
 
 	public function subtract(minutes:Int):Clock {
 		return new Clock(this.hours, this.minutes - minutes).normalize();
-	}
-
-	public function hashCode():Int {
-		var clock = this.normalize();
-
-		return (clock.hours * 60) + clock.minutes;
 	}
 
 	private function normalize():Clock {
