@@ -14,7 +14,7 @@ class Clock {
 		final clock_b = other.normalize();
 		final total_minutes_a = (clock_a.hours * 60) + clock_a.minutes;
 		final total_minutes_b = (clock_b.hours * 60) + clock_b.minutes;
-		
+
 		return total_minutes_a == total_minutes_b;
 	}
 
