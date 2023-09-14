@@ -162,6 +162,19 @@
         "difficulty": 1
       },
       {
+        "slug": "binary-search-tree",
+        "name": "Binary Search Tree",
+        "uuid": "2db8d89a-bc41-4a38-ac4e-743ab3bb1d6a",
+        "practices": [
+          "recursion",
+          "pattern-matching",
+          "option",
+          "generics"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "bob",
         "name": "Bob",
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
@@ -347,6 +360,16 @@
         "difficulty": 1
       },
       {
+        "slug": "house",
+        "name": "House",
+        "uuid": "8cbeb582-a76e-4504-935b-e36e232b3f9b",
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "isbn-verifier",
         "name": "Isbn Verifier",
         "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
@@ -448,6 +471,28 @@
           "if-statements",
           "numbers"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "9071338c-b202-44f0-853f-8aa5f2bf8d90",
+        "practices": [
+          "arrays",
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "minesweeper",
+        "name": "Minesweeper",
+        "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
+        "practices": [
+          "arrays",
+          "strings"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -624,11 +669,13 @@
         "difficulty": 1
       },
       {
-        "slug": "rna-transcription",
-        "name": "RNA Transcription",
-        "uuid": "5737a68d-8edd-429e-bf67-d0151fe7cb92",
+        "slug": "robot-name",
+        "name": "Robot Name",
+        "uuid": "cf67e341-7092-4cf7-8e41-8c6a6dc6390a",
         "practices": [
-          "dictionaries"
+          "classes",
+          "strings",
+          "randomness"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -640,6 +687,16 @@
         "practices": [
           "enumerations",
           "pattern-matching"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "rna-transcription",
+        "name": "RNA Transcription",
+        "uuid": "5737a68d-8edd-429e-bf67-d0151fe7cb92",
+        "practices": [
+          "dictionaries"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -756,6 +813,19 @@
         ],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "tournament",
+        "name": "Tournament",
+        "uuid": "6ad3fb39-38b5-4e7e-a786-83d745e7471e",
+        "practices": [
+          "strings",
+          "parsing",
+          "anonymous-structures",
+          "matching"
+        ],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "triangle",
