@@ -250,6 +250,6 @@ class Test extends buddy.SingleSuite {
 					}).should.be(true);
 				});
 			});
-		}
+		});
 	}
 }
