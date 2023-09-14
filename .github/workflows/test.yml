@@ -26,5 +26,8 @@ jobs:
       - name: Install testing framework
         run: haxelib install buddy
 
+      - name: Install datetime for gigasecond
+        run: haxelib install datetime
+
       - name: Compile test
         run: bin/build.sh

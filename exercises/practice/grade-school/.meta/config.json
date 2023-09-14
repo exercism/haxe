@@ -1,0 +1,21 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "BNAndras"
+  ],
+  "files": {
+    "solution": [
+      "src/GradeSchool.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Given students' names along with the grade that they are in, create a roster for the school.",
+  "source": "A pairing session with Phil Battos at gSchool"
+}
