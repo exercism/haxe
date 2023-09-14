@@ -21,12 +21,12 @@ class Test extends buddy.SingleSuite {
 				xit("allergic to something, but not eggs", {
 					Allergies.allergicTo("eggs", 2).should.be(false);
 				});
-				
+
 				xit("allergic to everything", {
 					Allergies.allergicTo("eggs", 255).should.be(true);
 				});
 			});
-			
+
 			describe("testing for peanuts allergy", {
 				xit("not allergic to anything", {
 					Allergies.allergicTo("peanuts", 0).should.be(false);
@@ -57,7 +57,7 @@ class Test extends buddy.SingleSuite {
 				xit("allergic only to shellfish", {
 					Allergies.allergicTo("shellfish", 4).should.be(true);
 				});
-				
+
 				xit("allergic to shellfish and something else", {
 					Allergies.allergicTo("shellfish", 14).should.be(true);
 				});
@@ -114,7 +114,7 @@ class Test extends buddy.SingleSuite {
 					Allergies.allergicTo("tomatoes", 255).should.be(true);
 				});
 			});
-			
+
 			describe("testing for chocolate allergy", {
 				xit("not allergic to anything", {
 					Allergies.allergicTo("chocolate", 0).should.be(false);
@@ -131,7 +131,7 @@ class Test extends buddy.SingleSuite {
 				xit("allergic to something, but not chocolate", {
 					Allergies.allergicTo("chocolate", 80).should.be(false);
 				});
-				
+
 				xit("allergic to everything", {
 					Allergies.allergicTo("chocolate", 255).should.be(true);
 				});
@@ -207,28 +207,26 @@ class Test extends buddy.SingleSuite {
 				});
 
 				xit("lots of stuff", {
-					Allergies.list(248).should.containExactly([
-						"strawberries", "tomatoes", "chocolate",
-						"pollen"      , "cats"
-					]);
+					Allergies.list(248).should.containExactly(["strawberries", "tomatoes", "chocolate", "pollen", "cats"]);
 				});
 
 				xit("everything", {
 					Allergies.list(255).should.containExactly([
-						"eggs"        , "peanuts" , "shellfish",
-						"strawberries", "tomatoes", "chocolate",
-						"pollen"      , "cats"
+						"eggs",
+						"peanuts",
+						"shellfish",
+						"strawberries",
+						"tomatoes",
+						"chocolate",
+						"pollen",
+						"cats"
 					]);
 				});
 
 				xit("no allergen score parts", {
-					Allergies.list(509).should.containExactly([
-						"eggs"        , "shellfish", "strawberries",
-						"tomatoes"    , "chocolate", "pollen"      , 
-						"cats"
-					]);
+					Allergies.list(509).should.containExactly(["eggs", "shellfish", "strawberries", "tomatoes", "chocolate", "pollen", "cats"]);
 				});
-				
+
 				xit("no allergen score parts without highest valid score", {
 					Allergies.list(257).should.containExactly(["eggs"]);
 				});
