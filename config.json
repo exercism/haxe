@@ -324,6 +324,16 @@
         "difficulty": 1
       },
       {
+        "slug": "gigasecond",
+        "name": "Gigasecond",
+        "uuid": "b1fb2914-6741-4478-b00c-2edfd31bb34d",
+        "practices": [
+          "dates"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "grade-school",
         "name": "Grade School",
         "uuid": "097edbd5-5c93-4d4f-a410-a38a5588f031",
