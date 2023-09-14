@@ -6,7 +6,7 @@ using buddy.Should;
 
 class Test extends buddy.SingleSuite {
 	public function new() {
-		describe("Add one gigasecond to the input.", {
+		describe("gigasecond", {
 			it("date only specification of time", {
 				var moment = DateTime.fromString("2011-04-25");
 				var expected = DateTime.fromString("2043-01-01 01:46:40");
