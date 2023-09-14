@@ -1,60 +1,59 @@
 using Lambda;
 
-typedef Name    = String;
-typedef Grade   = Int;
-typedef Student = { name: Name, grade: Grade };
+typedef Name = String;
+typedef Grade = Int;
+typedef Student = {name:Name, grade:Grade};
 
 class GradeSchool {
-    private final grades: Map<Grade, List<Name>> = [];
+	private final grades:Map<Grade, List<Name>> = [];
 
-    public function new() {
-    }
+	public function new() {}
 
-    public function add(students: Array<Student>): Array<Bool> {
-        var results = [];
-        var roster = [];
-        for (student in students) {
-            if (roster.contains(student.name)) {
-                results.push(false);
-            } else {
-                if (!grades.exists(student.grade))
-                    grades[student.grade] = new List();
-    
-                grades[student.grade].add(student.name);
-                results.push(true);
+	public function add(students:Array<Student>):Array<Bool> {
+		var results = [];
+		var roster = [];
+		for (student in students) {
+			if (roster.contains(student.name)) {
+				results.push(false);
+			} else {
+				if (!grades.exists(student.grade))
+					grades[student.grade] = new List();
 
-                roster = this.roster();
-            }
-        }
+				grades[student.grade].add(student.name);
+				results.push(true);
 
-        return results;
-    }
+				roster = this.roster();
+			}
+		}
 
-    public function roster(): Array<Name> {
-        var sortedKeys = [for (n in grades.keys()) n];
-        sortedKeys.sort(compareInt);
+		return results;
+	}
 
-        return [
-            for (key in sortedKeys) 
-            grade(key)
-        ].flatten();
-    }
+	public function roster():Array<Name> {
+		var sortedKeys = [for (n in grades.keys()) n];
+		sortedKeys.sort(compareInt);
 
-    public function grade(desiredGrade: Grade): Array<Name> {
-        if (!grades.exists(desiredGrade))
-            return [];
+		return [
+			for (key in sortedKeys)
+				grade(key)
+		].flatten();
+	}
 
-        var grade = grades[desiredGrade].array();
-        grade.sort(compareString);
+	public function grade(desiredGrade:Grade):Array<Name> {
+		if (!grades.exists(desiredGrade))
+			return [];
 
-        return grade;
-    }
+		var grade = grades[desiredGrade].array();
+		grade.sort(compareString);
 
-    private function compareInt(a: Int, b: Int): Int {
-        return a < b ? -1 : 1;
-    }
+		return grade;
+	}
 
-    private function compareString(a: String, b: String): Int {
-        return a < b ? -1 : 1;
-    }
+	private function compareInt(a:Int, b:Int):Int {
+		return a < b ? -1 : 1;
+	}
+
+	private function compareString(a:String, b:String):Int {
+		return a < b ? -1 : 1;
+	}
 }
