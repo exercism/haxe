@@ -136,6 +136,15 @@
         "difficulty": 1
       },
       {
+        "slug": "beer-song",
+        "name": "Beer Song",
+        "uuid": "9bcc869c-580a-4ec7-9d84-09c97796aff2",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "status": "deprecated"
+      },
+      {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
@@ -150,6 +159,19 @@
           "numbers",
           "booleans"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "binary-search-tree",
+        "name": "Binary Search Tree",
+        "uuid": "2db8d89a-bc41-4a38-ac4e-743ab3bb1d6a",
+        "practices": [
+          "recursion",
+          "pattern-matching",
+          "option",
+          "generics"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -312,6 +334,18 @@
         "difficulty": 1
       },
       {
+        "slug": "grade-school",
+        "name": "Grade School",
+        "uuid": "097edbd5-5c93-4d4f-a410-a38a5588f031",
+        "practices": [
+          "arrays",
+          "lists",
+          "sorting"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "grains",
         "name": "Grains",
         "uuid": "d71ad671-56fd-46cd-9f00-b5eb816fe2b9",
@@ -343,6 +377,16 @@
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
         "practices": [
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "house",
+        "name": "House",
+        "uuid": "8cbeb582-a76e-4504-935b-e36e232b3f9b",
+        "practices": [
+          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -449,6 +493,28 @@
           "if-statements",
           "numbers"
         ],
+        "difficulty": 1
+      },
+      {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "9071338c-b202-44f0-853f-8aa5f2bf8d90",
+        "practices": [
+          "arrays",
+          "strings"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "minesweeper",
+        "name": "Minesweeper",
+        "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
+        "practices": [
+          "arrays",
+          "strings"
+        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -625,6 +691,29 @@
         "difficulty": 1
       },
       {
+        "slug": "robot-name",
+        "name": "Robot Name",
+        "uuid": "cf67e341-7092-4cf7-8e41-8c6a6dc6390a",
+        "practices": [
+          "classes",
+          "strings",
+          "randomness"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "robot-simulator",
+        "name": "Robot Simulator",
+        "uuid": "6f1486bc-70ac-4025-bad8-977f2888215a",
+        "practices": [
+          "enumerations",
+          "pattern-matching"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "rna-transcription",
         "name": "RNA Transcription",
         "uuid": "5737a68d-8edd-429e-bf67-d0151fe7cb92",
@@ -746,6 +835,19 @@
         ],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "tournament",
+        "name": "Tournament",
+        "uuid": "6ad3fb39-38b5-4e7e-a786-83d745e7471e",
+        "practices": [
+          "strings",
+          "parsing",
+          "anonymous-structures",
+          "matching"
+        ],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "triangle",
