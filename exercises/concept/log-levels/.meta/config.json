@@ -4,7 +4,7 @@
   ],
   "files": {
     "solution": [
-      "LogLevels.hx"
+      "src/LogLevels.hx"
     ],
     "test": [
       "test/Test.hx"
@@ -16,5 +16,5 @@
   "forked_from": [
     "csharp/log-levels"
   ],
-  "blurb": "TODO: add blurb for log-levels exercise"
+  "blurb": "Learn about strings by processing logs."
 }
