@@ -148,10 +148,6 @@ class Test extends buddy.SingleSuite {
 				xit("when first Sunday is the 7th, the last day of the first week", {
 					Meetup.meetup(2013, 4, "first", "Sunday").should.be("2013-04-07");
 				});
-
-				xit("when first Friday is the 7th, the last day of the first week", {
-					Meetup.meetup(2012, 12, "first", "Friday").should.be("2012-12-07");
-				});
 			});
 
 			describe("second", {
@@ -396,6 +392,10 @@ class Test extends buddy.SingleSuite {
 				xit("when last Sunday in February in a non-leap year is not the 29th", {
 					Meetup.meetup(2015, 2, "last", "Sunday").should.be("2015-02-22");
 				});
+			});
+
+			xit("when first Friday is the 7th, the last day of the first week", {
+				Meetup.meetup(2012, 12, "first", "Friday").should.be("2012-12-07");
 			});
 		});
 	}
