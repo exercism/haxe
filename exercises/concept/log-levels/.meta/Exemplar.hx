@@ -1,5 +1,5 @@
 function message(logLine:String):String {
-	var msg = logLine.substr(logLine.indexOf(":") + 1);
+	final msg = logLine.substr(logLine.indexOf(":") + 1);
 	return StringTools.trim(msg);
 }
 
