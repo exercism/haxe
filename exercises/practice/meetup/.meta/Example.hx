@@ -11,7 +11,7 @@ enum DayOfWeek {
 	Saturday;
 }
 
-function meetup(week:String, year:Int, month:Int, dayofweek:String):String {
+function meetup(year:Int, month:Int, week:String, dayofweek:String):String {
 	month -= 1; // Date.month is zero-based
 	var _dayofweek = DayOfWeek.createByName(dayofweek).getIndex();
 

@@ -1,5 +1,6 @@
 -x Test
 -lib buddy
 -D buddy-colors
+-D datetime
 -cp src/
 -cp test/
