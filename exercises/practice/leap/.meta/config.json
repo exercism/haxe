@@ -1,0 +1,22 @@
+{
+  "authors": [],
+  "contributors": [
+    "davidbruce",
+    "kytrinyx",
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "src/Leap.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Given a year, report if it is a leap year.",
+  "source": "CodeRanch Cattle Drive, Assignment 3",
+  "source_url": "https://coderanch.com/t/718816/Leap"
+}

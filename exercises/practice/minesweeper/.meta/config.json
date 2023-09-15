@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "src/Minesweeper.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Add the numbers to a minesweeper board."
+}

@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "contributors": [
+    "davidbruce"
+  ],
+  "files": {
+    "solution": [
+      "src/Forth.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "example": [
+      ".meta/Example.hx"
+    ]
+  },
+  "blurb": "Implement an evaluator for a very simple subset of Forth."
+}
