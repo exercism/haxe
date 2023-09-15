@@ -4,7 +4,7 @@
   ],
   "files": {
     "solution": [
-      "AnnalynsInfiltration.hx"
+      "src/AnnalynsInfiltration.hx"
     ],
     "test": [
       "test/Test.hx"
