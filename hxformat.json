@@ -1,0 +1,6 @@
+{
+  "lineEnds": {
+    "leftCurly": "both",
+    "emptyCurly": "break"
+  }
+}
