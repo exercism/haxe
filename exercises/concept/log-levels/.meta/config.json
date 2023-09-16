@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "mfoda"
+  ],
+  "files": {
+    "solution": [
+      "src/LogLevels.hx"
+    ],
+    "test": [
+      "test/Test.hx"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.hx"
+    ]
+  },
+  "forked_from": [
+    "csharp/log-levels"
+  ],
+  "blurb": "Learn about strings by processing logs."
+}
