@@ -1,4 +1,5 @@
-function find(array:Array<Int>, value:Int):Int {
+function find(array:Array<Int>, value:Int):Int
+{
 	if (array.length == 0)
 		throw "value not in array";
 

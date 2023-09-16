@@ -1,4 +1,5 @@
-enum StackError {
+enum StackError
+{
 	EmptyStack;
 	OneValue;
 	IllegalOperation;
@@ -6,6 +7,7 @@ enum StackError {
 	DivideByZero;
 }
 
-function evaluate(instructions:Array<String>):Array<Int> {
+function evaluate(instructions:Array<String>):Array<Int>
+{
 	throw "Not Implemented"; // Delete this statement and write your own implementation.
 }

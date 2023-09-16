@@ -11,7 +11,8 @@ var pairs = [
 	["horse", "She's dead, of course!"]
 ];
 
-function recite(startVerse:Int, endVerse:Int):Verses {
+function recite(startVerse:Int, endVerse:Int):Verses
+{
 	var result = [];
 
 	for (i in startVerse - 1...endVerse)
@@ -20,7 +21,8 @@ function recite(startVerse:Int, endVerse:Int):Verses {
 	return result;
 }
 
-function reciteOne(index:Int):Verses {
+function reciteOne(index:Int):Verses
+{
 	var object = pairs[index][0];
 	var exclamation1 = pairs[index][1];
 	var exclamation2 = pairs[0][1];
@@ -29,7 +31,8 @@ function reciteOne(index:Int):Verses {
 	var result = [first, exclamation1];
 
 	// skip fly and horse special cases
-	if (index > 0 && index < 7) {
+	if (index > 0 && index < 7)
+	{
 		for (i in reciteRec(index, []))
 			result.push(i);
 		result.push(exclamation2);
@@ -38,7 +41,8 @@ function reciteOne(index:Int):Verses {
 	return result;
 }
 
-private function reciteRec(currIndex:Int, acc:Verses):Verses {
+private function reciteRec(currIndex:Int, acc:Verses):Verses
+{
 	if (currIndex <= 0)
 		return acc;
 

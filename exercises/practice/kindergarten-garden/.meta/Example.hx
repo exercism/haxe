@@ -10,14 +10,16 @@ private var students = [
 	"Ileana", "Joseph", "Kincaid",   "Larry"
 ];
 
-function plants(diagram:String, student:String):Array<String> {
+function plants(diagram:String, student:String):Array<String>
+{
 	var garden = makeGarden(diagram);
 	var studentPlants = garden[students.indexOf(student)];
 
 	return studentPlants.split("").map(plantNames.get);
 }
 
-private function makeGarden(diagram:String):Array<String> {
+private function makeGarden(diagram:String):Array<String>
+{
 	var plantsPerRow = Std.int(diagram.length / rowsInGarden);
 	var rows = [for (i in 0...rowsInGarden) diagram.substr(i * plantsPerRow, plantsPerRow)];
 	var numStudents = Std.int(diagram.length / plantsPerStudent);

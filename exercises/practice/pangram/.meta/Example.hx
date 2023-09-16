@@ -1,7 +1,9 @@
 package;
 
-class Pangram {
-	public static function isPangram(sentence:String):Bool {
+class Pangram
+{
+	public static function isPangram(sentence:String):Bool
+	{
 		// remove non-letters
 		sentence = ~/[^A-Z]/ig.replace(sentence, "");
 

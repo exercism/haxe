@@ -1,7 +1,9 @@
 package;
 
-class Raindrops {
-	public static function convert(number:Int):String {
+class Raindrops
+{
+	public static function convert(number:Int):String
+	{
 		function hasFactor(n)
 			return number % n == 0;
 

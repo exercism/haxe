@@ -1,3 +1,4 @@
-function hey(sentence:String):String {
+function hey(sentence:String):String
+{
 	throw "Not Implemented"; // Delete this statement and write your own implementation.
 }

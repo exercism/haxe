@@ -1,6 +1,7 @@
 using Lambda;
 
-function rebase(inputBase:Int, digits:Array<Int>, outputBase:Int):Array<Int> {
+function rebase(inputBase:Int, digits:Array<Int>, outputBase:Int):Array<Int>
+{
 	var number = fromBase(digits, inputBase);
 
 	if (inputBase < 2)
@@ -15,7 +16,8 @@ function rebase(inputBase:Int, digits:Array<Int>, outputBase:Int):Array<Int> {
 	return toBase(number, outputBase);
 }
 
-function fromBase(digits:Array<Int>, base:Int):Int {
+function fromBase(digits:Array<Int>, base:Int):Int
+{
 	function sum(a:Float, b:Float)
 		return a + b;
 
@@ -24,9 +26,11 @@ function fromBase(digits:Array<Int>, base:Int):Int {
 	return Std.int(result);
 }
 
-function toBase(number:Int, base:Int):Array<Int> {
+function toBase(number:Int, base:Int):Array<Int>
+{
 	var result = [];
-	while (number != 0) {
+	while (number != 0)
+	{
 		result.unshift(number % base);
 		number = Std.int(number / base);
 	}

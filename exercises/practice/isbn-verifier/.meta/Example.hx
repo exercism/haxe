@@ -1,7 +1,8 @@
 using StringTools;
 using Lambda;
 
-function isValid(isbn:String):Bool {
+function isValid(isbn:String):Bool
+{
 	// dashes are allowed but ignored
 	isbn = isbn.replace("-", "");
 

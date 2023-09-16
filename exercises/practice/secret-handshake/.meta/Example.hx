@@ -2,7 +2,8 @@ using Lambda;
 
 private final cmds = [1 => "wink", 2 => "double blink", 4 => "close your eyes", 8 => "jump"];
 
-function commands(number:Int):Array<String> {
+function commands(number:Int):Array<String>
+{
 	function ascending(a, b)
 		return a > b ? 1 : -1;
 	var sortedKeys = [for (k in cmds.keys()) k];

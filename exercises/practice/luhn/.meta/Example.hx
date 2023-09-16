@@ -1,7 +1,8 @@
 using StringTools;
 using Lambda;
 
-function valid(input:String):Bool {
+function valid(input:String):Bool
+{
 	// spaces are allowed but stripped
 	input = input.replace(" ", "");
 
@@ -17,7 +18,8 @@ function valid(input:String):Bool {
 	var second = false; // tracks every other digit
 
 	// loop in reverse order
-	for (i in (1 - input.length)...1) {
+	for (i in (1 - input.length)...1)
+	{
 		// convert char code to digit value
 		var temp = input.charCodeAt(-i) - '0'.code;
 

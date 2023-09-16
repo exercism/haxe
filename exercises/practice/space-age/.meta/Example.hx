@@ -1,6 +1,7 @@
 package;
 
-class SpaceAge {
+class SpaceAge
+{
 	private static inline var earthOrbitInSeconds = 31557600;
 	private static final earthYearToPlanetPeriod = [
 		"Earth" => 1,
@@ -13,8 +14,10 @@ class SpaceAge {
 		"Neptune" => 164.79132
 	];
 
-	public static function age(seconds:Int, planet:String):Float {
-		if (!earthYearToPlanetPeriod.exists(planet)) {
+	public static function age(seconds:Int, planet:String):Float
+	{
+		if (!earthYearToPlanetPeriod.exists(planet))
+		{
 			throw "not a planet";
 		}
 

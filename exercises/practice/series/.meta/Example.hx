@@ -1,4 +1,5 @@
-function slices(sliceLength:Int, series:String):Array<String> {
+function slices(sliceLength:Int, series:String):Array<String>
+{
 	if (series.length == 0)
 		throw "series cannot be empty";
 	if (sliceLength < 0)

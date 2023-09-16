@@ -1,3 +1,4 @@
-function hello():String {
+function hello():String
+{
 	return "Hello, World!";
 }

@@ -1,7 +1,9 @@
 package;
 
-class Isogram {
-	public static function isIsogram(phrase:String):Bool {
+class Isogram
+{
+	public static function isIsogram(phrase:String):Bool
+	{
 		// remove non-letters
 		phrase = ~/[^A-Z]/ig.replace(phrase, "");
 

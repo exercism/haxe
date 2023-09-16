@@ -1,4 +1,5 @@
-enum FailReason {
+enum FailReason
+{
 	TooFewDigits;
 	TooManyDigits;
 	FirstOf11Not1;
@@ -10,13 +11,16 @@ enum FailReason {
 	ExchangeCodeStartsWith1;
 }
 
-enum CleanResult {
+enum CleanResult
+{
 	Success(result:String);
 	Fail(reason:FailReason);
 }
 
-function clean(phrase:String):String {
-	return switch (tryClean(phrase)) {
+function clean(phrase:String):String
+{
+	return switch (tryClean(phrase))
+	{
 		case Fail(TooFewDigits): throw "must not be fewer than 10 digits";
 		case Fail(TooManyDigits): throw "must not be greater than 11 digits";
 		case Fail(FirstOf11Not1): throw "11 digits must start with 1";
@@ -30,18 +34,21 @@ function clean(phrase:String):String {
 	}
 }
 
-function tryClean(phrase:String):CleanResult {
+function tryClean(phrase:String):CleanResult
+{
 	// strip permitted non-digit characters
 	var digits = ~/[-+.\(\)\s]/g.replace(phrase, "");
 
 	// strip country code if valid
-	if (digits.length == 11) {
+	if (digits.length == 11)
+	{
 		if (digits.charAt(0) != "1")
 			return Fail(FirstOf11Not1);
 		digits = digits.substr(1);
 	}
 
-	return switch (digits) {
+	return switch (digits)
+	{
 		case d if (~/[a-z]/i.match(d)): Fail(ContainsLetters);
 		case d if (~/[@!]/.match(d)): Fail(ContainsPunctuation);
 		case d if (d.length < 10): Fail(TooFewDigits);

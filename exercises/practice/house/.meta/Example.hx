@@ -13,16 +13,19 @@ var pairs = [
 	["horse and the hound and the horn", "belonged to"]
 ];
 
-function recite(startVerse:Int, endVerse:Int):Array<String> {
+function recite(startVerse:Int, endVerse:Int):Array<String>
+{
 	return [
 		for (i in (startVerse - 1)...endVerse)
 			reciteOne(i)
 	];
 }
 
-function reciteOne(verse:Int) {
+function reciteOne(verse:Int)
+{
 	var result = new StringBuf();
-	for (i in 0...verse + 1) {
+	for (i in 0...verse + 1)
+	{
 		var a = pairs[verse - i][0];
 		var b = pairs[verse - i][1];
 		result.add(' the $a that $b');

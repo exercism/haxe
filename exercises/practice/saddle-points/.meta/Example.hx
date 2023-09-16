@@ -1,14 +1,17 @@
-typedef Point = {
+typedef Point =
+{
 	column:Int,
 	row:Int
 }
 
 typedef Matrix = Array<Array<Int>>;
 
-function saddlePoints(matrix:Matrix):Array<Point> {
+function saddlePoints(matrix:Matrix):Array<Point>
+{
 	var saddlePoints = [];
 	for (row in 0...matrix.length)
-		for (col in 0...matrix[row].length) {
+		for (col in 0...matrix[row].length)
+		{
 			var point = {column: col, row: row};
 			if (isSaddlePoint(point, matrix))
 				// normalize
@@ -18,7 +21,8 @@ function saddlePoints(matrix:Matrix):Array<Point> {
 	return saddlePoints;
 }
 
-private function isSaddlePoint(point:Point, matrix:Matrix):Bool {
+private function isSaddlePoint(point:Point, matrix:Matrix):Bool
+{
 	var val = matrix[point.row][point.column];
 
 	// saddle point is >= all elements in its row

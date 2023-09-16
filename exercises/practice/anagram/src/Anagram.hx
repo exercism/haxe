@@ -1,3 +1,4 @@
-function findAnagrams(subject:String, candidates:Array<String>):Array<String> {
+function findAnagrams(subject:String, candidates:Array<String>):Array<String>
+{
 	throw "Not Implemented"; // Delete this statement and write your own implementation.
 }

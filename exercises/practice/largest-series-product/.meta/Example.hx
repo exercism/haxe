@@ -1,6 +1,7 @@
 using Lambda;
 
-function largestProduct(span:Int, digits:String):Int {
+function largestProduct(span:Int, digits:String):Int
+{
 	if (span < 0)
 		throw "span must not be negative";
 	if (span > digits.length)
@@ -17,14 +18,16 @@ function largestProduct(span:Int, digits:String):Int {
 	return maxOf(products);
 }
 
-private function chunksOf<T>(length:Int, collection:Array<T>):Array<Array<T>> {
+private function chunksOf<T>(length:Int, collection:Array<T>):Array<Array<T>>
+{
 	return [
 		for (i in 0...collection.length - length + 1)
 			collection.slice(i, i + length)
 	];
 }
 
-private function maxOf(collection:Array<Int>) {
+private function maxOf(collection:Array<Int>)
+{
 	var max = -1;
 	for (item in collection)
 		max = item > max ? item : max;

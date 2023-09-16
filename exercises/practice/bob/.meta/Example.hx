@@ -1,4 +1,5 @@
-function hey(sentence:String):String {
+function hey(sentence:String):String
+{
 	final SURE = "Sure.";
 	final CHILL = "Whoa, chill out!";
 	final CALM = "Calm down, I know what I'm doing!";
@@ -20,14 +21,17 @@ function hey(sentence:String):String {
 	return WHATEVER;
 }
 
-private function isShouting(sentence:String):Bool {
+private function isShouting(sentence:String):Bool
+{
 	return sentence.toUpperCase() == sentence && sentence.toLowerCase() != sentence;
 }
 
-private function isQuestion(sentence:String):Bool {
+private function isQuestion(sentence:String):Bool
+{
 	return StringTools.endsWith(StringTools.trim(sentence), "?");
 }
 
-private function isSilence(sentence:String):Bool {
+private function isSilence(sentence:String):Bool
+{
 	return StringTools.trim(sentence) == "";
 }

@@ -14,9 +14,11 @@ private var item = [
 	          "Ladies Dancing", "Lords-a-Leaping",    "Pipers Piping", "Drummers Drumming"
 ];
 
-function recite(startVerse:Int, endVerse:Int):Array<String> {
+function recite(startVerse:Int, endVerse:Int):Array<String>
+{
 	return [
-		for (i in startVerse - 1...endVerse) {
+		for (i in startVerse - 1...endVerse)
+		{
 			var start = 'On the ${nth[i]} day of Christmas my true love gave to me: ${count[i]} ${item[i]}';
 			var buf = new StringBuf();
 			buf.add(start);
@@ -25,7 +27,8 @@ function recite(startVerse:Int, endVerse:Int):Array<String> {
 	];
 }
 
-private function reciteOne(index:Int, acc:StringBuf):String {
+private function reciteOne(index:Int, acc:StringBuf):String
+{
 	if (index < 0)
 		return acc.toString() + ".";
 

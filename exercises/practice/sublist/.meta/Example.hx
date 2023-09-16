@@ -1,8 +1,11 @@
 package;
 
-class Sublist {
-	public static function sublist<T>(listOne:Array<T>, listTwo:Array<T>):String {
-		return switch ([listOne, listTwo]) {
+class Sublist
+{
+	public static function sublist<T>(listOne:Array<T>, listTwo:Array<T>):String
+	{
+		return switch ([listOne, listTwo])
+		{
 			case [a, b] if (a.length == b.length):
 				equals(a, b) ? "equal" : "unequal";
 			case [a, b] if (isSublist(a, b)):
@@ -14,7 +17,8 @@ class Sublist {
 		}
 	}
 
-	private static function isSublist<T>(list1:Array<T>, list2:Array<T>):Bool {
+	private static function isSublist<T>(list1:Array<T>, list2:Array<T>):Bool
+	{
 		if (list1.length > list2.length)
 			return false;
 		if (equals(list1, list2.slice(0, list1.length)))
@@ -23,7 +27,8 @@ class Sublist {
 		return isSublist(list1, list2.slice(1));
 	}
 
-	private static function isSuperlist<T>(list1:Array<T>, list2:Array<T>):Bool {
+	private static function isSuperlist<T>(list1:Array<T>, list2:Array<T>):Bool
+	{
 		if (list1.length < list2.length)
 			return false;
 		if (equals(list1.slice(0, list2.length), list2))
@@ -32,7 +37,8 @@ class Sublist {
 		return isSuperlist(list1.slice(1), list2);
 	}
 
-	private static function equals<T>(list1:Array<T>, list2:Array<T>):Bool {
+	private static function equals<T>(list1:Array<T>, list2:Array<T>):Bool
+	{
 		for (i in 0...list1.length)
 			if (list1[i] != list2[i])
 				return false;

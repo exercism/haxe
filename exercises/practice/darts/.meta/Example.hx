@@ -1,9 +1,11 @@
-typedef Point = {
+typedef Point =
+{
 	x:Float,
 	y:Float
 }
 
-function score(point:Point):Int {
+function score(point:Point):Int
+{
 	var distanceToCenter = Math.sqrt(Math.pow(point.x, 2) + Math.pow(point.y, 2));
 
 	// landed in inner circle

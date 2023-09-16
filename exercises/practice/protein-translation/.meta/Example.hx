@@ -18,10 +18,12 @@ private final codon2protein = [
 			k => v
 ];
 
-function proteins(strand:String):Array<String> {
+function proteins(strand:String):Array<String>
+{
 	var proteins = [];
 
-	for (codon in chunksOf(3, strand)) {
+	for (codon in chunksOf(3, strand))
+	{
 		var protein = codon2protein[codon];
 		if (protein == null)
 			throw "Invalid codon";
@@ -34,7 +36,8 @@ function proteins(strand:String):Array<String> {
 	return proteins;
 }
 
-private function chunksOf(count:Int, str:String):Array<String> {
+private function chunksOf(count:Int, str:String):Array<String>
+{
 	return [
 		for (i in 0...Std.int((str.length + count - 1) / count))
 			str.substr(i * count, count)

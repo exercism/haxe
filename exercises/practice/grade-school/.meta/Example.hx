@@ -2,20 +2,32 @@ using Lambda;
 
 typedef Name = String;
 typedef Grade = Int;
-typedef Student = {name:Name, grade:Grade};
 
-class GradeSchool {
+typedef Student =
+{
+	name:Name,
+	grade:Grade
+};
+
+class GradeSchool
+{
 	private final grades:Map<Grade, List<Name>> = [];
 
-	public function new() {}
+	public function new()
+	{
+	}
 
-	public function add(students:Array<Student>):Array<Bool> {
+	public function add(students:Array<Student>):Array<Bool>
+	{
 		var results = [];
 		var roster = [];
-		for (student in students) {
-			if (roster.contains(student.name)) {
+		for (student in students)
+		{
+			if (roster.contains(student.name))
+			{
 				results.push(false);
-			} else {
+			} else
+			{
 				if (!grades.exists(student.grade))
 					grades[student.grade] = new List();
 
@@ -29,7 +41,8 @@ class GradeSchool {
 		return results;
 	}
 
-	public function roster():Array<Name> {
+	public function roster():Array<Name>
+	{
 		var sortedKeys = [for (n in grades.keys()) n];
 		sortedKeys.sort(compareInt);
 
@@ -39,7 +52,8 @@ class GradeSchool {
 		].flatten();
 	}
 
-	public function grade(desiredGrade:Grade):Array<Name> {
+	public function grade(desiredGrade:Grade):Array<Name>
+	{
 		if (!grades.exists(desiredGrade))
 			return [];
 
@@ -49,11 +63,13 @@ class GradeSchool {
 		return grade;
 	}
 
-	private function compareInt(a:Int, b:Int):Int {
+	private function compareInt(a:Int, b:Int):Int
+	{
 		return a < b ? -1 : 1;
 	}
 
-	private function compareString(a:String, b:String):Int {
+	private function compareString(a:String, b:String):Int
+	{
 		return a < b ? -1 : 1;
 	}
 }

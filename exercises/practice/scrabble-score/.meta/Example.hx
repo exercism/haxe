@@ -2,7 +2,8 @@ package;
 
 using Lambda;
 
-class ScrabbleScore {
+class ScrabbleScore
+{
 	static var _scores = [
 		"A,E,I,O,U,L,N,R,S,T" => 1,
 		"D,G" => 2,
@@ -19,7 +20,8 @@ class ScrabbleScore {
 				l => v
 	];
 
-	public static function score(word:String):Int {
+	public static function score(word:String):Int
+	{
 		function sum(a, b)
 			return a + b;
 

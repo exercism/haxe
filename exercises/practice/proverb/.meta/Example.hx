@@ -1,7 +1,8 @@
 typedef Item = String;
 typedef Verse = String;
 
-function recite(strings:Array<Item>):Array<Verse> {
+function recite(strings:Array<Item>):Array<Verse>
+{
 	if (strings.length == 0)
 		return [];
 

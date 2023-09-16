@@ -4,7 +4,8 @@ import sys.io.File;
 using StringTools;
 using Lambda;
 
-typedef MdLink = {
+typedef MdLink =
+{
 	description:String,
 	url:String
 }
@@ -12,8 +13,10 @@ typedef MdLink = {
 /**
  * Concept-related helpers
  */
-class ConceptTools {
-	public static function main() {
+class ConceptTools
+{
+	public static function main()
+	{
 		var args = Sys.args();
 
 		var inFlag = args.indexOf("-in");
@@ -23,7 +26,8 @@ class ConceptTools {
 		var cmdFlag = args.indexOf("-cmd");
 		var cmd = args[cmdFlag + 1];
 
-		switch (cmd.toLowerCase()) {
+		switch (cmd.toLowerCase())
+		{
 			case "synclinks":
 				syncLinks(inPath);
 		}
@@ -34,7 +38,8 @@ class ConceptTools {
 	 * Supports normal and reference-style links
 	 * @param mdFolder
 	 */
-	static function syncLinks(mdFolder:String) {
+	static function syncLinks(mdFolder:String)
+	{
 		var about = File.getContent('$mdFolder/about.md');
 		var intro = File.getContent('$mdFolder/introduction.md');
 		var aboutLinks = extractLinks(about);
@@ -55,10 +60,12 @@ class ConceptTools {
 	 * Extracts links from passed in markdown string
 	 * @param md
 	 */
-	static function extractLinks(md:String):Array<MdLink> {
+	static function extractLinks(md:String):Array<MdLink>
+	{
 		var links = [];
 		function extract(reg:EReg)
-			while (reg.match(md)) {
+			while (reg.match(md))
+			{
 				var desc = reg.matched(1);
 				desc = titleCase(desc.replace("-", " "));
 
@@ -76,14 +83,16 @@ class ConceptTools {
 		return links;
 	}
 
-	static function titleCase(str:String):String {
+	static function titleCase(str:String):String
+	{
 		function capitalize(s:String)
 			return s.charAt(0).toUpperCase() + s.substr(1);
 
 		return str.split(" ").map(capitalize).join(" ");
 	}
 
-	static function equals(a:MdLink, b:MdLink):Bool {
+	static function equals(a:MdLink, b:MdLink):Bool
+	{
 		return a.description == b.description && a.url == b.url;
 	}
 }

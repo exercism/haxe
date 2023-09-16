@@ -1,3 +1,4 @@
-function abbreviate(input:String):String {
+function abbreviate(input:String):String
+{
 	throw "Not Implemented"; // Delete this statement and write your own implementation.
 }

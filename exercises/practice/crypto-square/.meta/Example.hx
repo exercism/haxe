@@ -1,15 +1,18 @@
 using StringTools;
 
-function ciphertext(plaintext:String):String {
+function ciphertext(plaintext:String):String
+{
 	return encode(normalize(plaintext));
 }
 
-private function normalize(str:String):String {
+private function normalize(str:String):String
+{
 	// downcase and remove spaces + punctuation
 	return ~/[^a-z1-9]/gi.replace(str.toLowerCase(), "");
 }
 
-private function encode(str:String):String {
+private function encode(str:String):String
+{
 	// convert to rectangle (row[])
 	var recSize = getRecSize(str.length);
 	var numRows = recSize.x;
@@ -20,9 +23,11 @@ private function encode(str:String):String {
 
 	// encode by reading down columns, left to right
 	var encoded = new StringBuf();
-	for (i in 0...numCols) {
+	for (i in 0...numCols)
+	{
 		var chunk = "";
-		for (j in 0...numRows) {
+		for (j in 0...numRows)
+		{
 			var char = rows[j].charAt(i);
 			// pad short chunks with spaces
 			char = char == "" ? " " : char;
@@ -37,7 +42,8 @@ private function encode(str:String):String {
 }
 
 // return [nRows, nCols] where c >= r and c - r <= 1
-private function getRecSize(count:Int):{x:Int, y:Int} {
+private function getRecSize(count:Int):{x:Int, y:Int}
+{
 	var square = Math.ceil(Math.sqrt(count));
 
 	return if ((square - 1) * square < count) {x: square, y: square}; else {x: square - 1, y: square};

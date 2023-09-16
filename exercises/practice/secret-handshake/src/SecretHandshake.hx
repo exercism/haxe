@@ -1,3 +1,4 @@
-function commands(number:Int):Array<String> {
+function commands(number:Int):Array<String>
+{
 	throw "Not Implemented"; // Delete this statement and write your own implementation.
 }
