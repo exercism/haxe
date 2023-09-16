@@ -1,6 +1,8 @@
 # Test Generator
+
 This script will help you port over an exercise from the [Problem Specifications Repo](https://github.com/exercism/problem-specifications).  
 The script is run using Haxe's built in interpreter with the `--run` command.  
+
 :warning: **For this generator to work the exercise being ported must have a canonical-data.json.**
 
 The generator takes 1 argument:
@@ -10,8 +12,10 @@ exercise: The exercise name exactly as it is found in the Problem Spec Repo.
 
 An example to generate the acronym exercise:  
 ```
-haxe --run TestGen.hx acronym 
+./scripts/gen-test.sh acronym 
 ```
+
+This script compiles and runs the generator and then runs [`haxe-formatter`](https://github.com/HaxeCheckstyle/haxe-formatter) on all Haxe files.
 
 If you are on Windows you will need to compile it first to a Sys target due an SSL issue.
 
@@ -24,7 +28,6 @@ Neko run:
 ```
 neko.exe testgen.n anagram
 ```
-
 
 Workflow:
 1. Run testgen for new exercise.
