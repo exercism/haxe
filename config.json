@@ -496,6 +496,17 @@
         "difficulty": 1
       },
       {
+        "slug": "meetup",
+        "name": "Meetup",
+        "uuid": "28d4ad0b-8cb4-47c5-bc18-ea99f06a8f52",
+        "practices": [
+          "dates",
+          "pattern-matching"
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "matrix",
         "name": "Matrix",
         "uuid": "9071338c-b202-44f0-853f-8aa5f2bf8d90",
