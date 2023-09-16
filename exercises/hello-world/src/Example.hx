@@ -1,7 +1,9 @@
 package;
 
-class HelloWorld {
-    public static function hello(): String {
-        return "Hello, World!";
-    }
+class HelloWorld
+{
+	public static function hello():String
+	{
+		return "Hello, World!";
+	}
 }
