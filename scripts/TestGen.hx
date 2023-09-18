@@ -48,6 +48,11 @@ class Test extends buddy.SingleSuite {
 
 	public static function main()
 	{
+		// TODO: Configlet is able to create the directories/files we need:
+		//   ./bin/configlet sync --docs --filepaths --metadata --tests include -uye <slug>
+		// 
+		// We should try to change the code below to use configlet's
+		// cached copy of the problem-specifications repo instead
 		var dataUrl = new Template("https://raw.githubusercontent.com/exercism/problem-specifications/master/exercises/::exercise::/canonical-data.json");
 		var descriptionUrl = new Template("https://raw.githubusercontent.com/exercism/problem-specifications/master/exercises/::exercise::/description.md");
 		var metaUrl = new Template("https://raw.githubusercontent.com/exercism/problem-specifications/master/exercises/::exercise::/metadata.toml");
