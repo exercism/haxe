@@ -76,7 +76,6 @@
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
         "practices": [
           "regular-expressions",
-          "strings",
           "lambda"
         ],
         "prerequisites": [
@@ -103,8 +102,6 @@
         "practices": [
           "lambda",
           "array-comprehension",
-          "strings",
-          "arrays",
           "booleans"
         ],
         "prerequisites": [
@@ -129,8 +126,7 @@
         "name": "Atbash Cipher",
         "uuid": "f752b7b9-e9f4-4c8c-b2c2-7b82a763dfd7",
         "practices": [
-          "regex",
-          "strings"
+          "regex"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -149,7 +145,6 @@
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
         "practices": [
-          "arrays",
           "recursion",
           "numbers",
           "booleans"
@@ -180,7 +175,6 @@
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
         "practices": [
           "final",
-          "strings",
           "booleans",
           "if-statements"
         ],
@@ -207,7 +201,6 @@
         "name": "Crypto Square",
         "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
         "practices": [
-          "strings",
           "regular-expressions",
           "floating-point-numbers",
           "for-loops"
@@ -242,8 +235,7 @@
         "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
         "practices": [
           "array-comprehension",
-          "lambda",
-          "arrays"
+          "lambda"
         ],
         "prerequisites": [
           "arrays"
@@ -288,8 +280,6 @@
         "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
         "practices": [
           "recursion",
-          "arrays",
-          "strings",
           "if-statements",
           "for-loops"
         ],
@@ -306,10 +296,8 @@
         "name": "Forth",
         "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
         "practices": [
-          "strings",
           "regular-expressions",
           "recursion",
-          "arrays",
           "typedefs",
           "enums",
           "lambda",
@@ -338,7 +326,6 @@
         "name": "Grade School",
         "uuid": "097edbd5-5c93-4d4f-a410-a38a5588f031",
         "practices": [
-          "arrays",
           "lists",
           "sorting"
         ],
@@ -386,7 +373,6 @@
         "name": "House",
         "uuid": "8cbeb582-a76e-4504-935b-e36e232b3f9b",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -397,7 +383,6 @@
         "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
         "practices": [
           "regular-expressions",
-          "strings",
           "lambda",
           "numbers"
         ],
@@ -413,7 +398,6 @@
         "name": "Isogram",
         "uuid": "81803fd1-20a4-495a-9b0a-c1ffd4fcc25d",
         "practices": [
-          "strings",
           "filtering",
           "regex"
         ],
@@ -425,7 +409,6 @@
         "name": "Kindergarten Garden",
         "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
         "practices": [
-          "arrays",
           "final",
           "lambda",
           "for-loops",
@@ -435,7 +418,6 @@
         ],
         "prerequisites": [
           "arrays",
-          "strings",
           "for-loops",
           "maps",
           "numbers"
@@ -447,7 +429,6 @@
         "name": "Largest Series Product",
         "uuid": "2f370725-4a48-43c1-942c-bafce7ad160a",
         "practices": [
-          "arrays"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -481,7 +462,6 @@
         "name": "Luhn",
         "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
         "practices": [
-          "strings",
           "regular-expressions",
           "for-loops",
           "if-statements",
@@ -511,7 +491,6 @@
         "name": "Matrix",
         "uuid": "9071338c-b202-44f0-853f-8aa5f2bf8d90",
         "practices": [
-          "arrays",
           "strings"
         ],
         "prerequisites": [],
@@ -522,8 +501,6 @@
         "name": "Minesweeper",
         "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
         "practices": [
-          "arrays",
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -544,7 +521,6 @@
         "name": "Pangram",
         "uuid": "ccf3f19d-e57e-46c0-8043-d8359ef050d2",
         "practices": [
-          "strings",
           "filtering",
           "regex"
         ],
@@ -569,7 +545,6 @@
         "uuid": "ab220c9b-4358-4ae0-aa71-9e98f57253d9",
         "practices": [
           "regex",
-          "strings",
           "pattern-matching",
           "exception-handling"
         ],
@@ -582,7 +557,6 @@
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
         "practices": [
           "regular-expressions",
-          "strings",
           "string-interpolation",
           "lambda"
         ],
@@ -611,13 +585,11 @@
         "practices": [
           "maps",
           "array-comprehension",
-          "for-loops",
-          "arrays"
+          "for-loops"
         ],
         "prerequisites": [
           "maps",
           "for-loops",
-          "strings",
           "arrays"
         ],
         "difficulty": 1,
@@ -630,7 +602,6 @@
         "name": "Proverb",
         "uuid": "2aa1a5a6-0194-417b-8195-b44aa21cffaf",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -666,7 +637,6 @@
         "name": "Resistor Color",
         "uuid": "4b023d93-e8ef-4e4c-8535-d27e5f873c62",
         "practices": [
-          "arrays"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -676,7 +646,6 @@
         "name": "Resistor Color Duo",
         "uuid": "f5119a7e-762b-40aa-ae93-3922197e9029",
         "practices": [
-          "arrays"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -696,7 +665,6 @@
         "name": "Reverse String",
         "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -707,7 +675,6 @@
         "uuid": "cf67e341-7092-4cf7-8e41-8c6a6dc6390a",
         "practices": [
           "classes",
-          "strings",
           "randomness"
         ],
         "prerequisites": [],
@@ -742,7 +709,6 @@
           "for-loops",
           "if-statements",
           "typedefs",
-          "arrays",
           "booleans"
         ],
         "prerequisites": [
@@ -852,7 +818,6 @@
         "name": "Tournament",
         "uuid": "6ad3fb39-38b5-4e7e-a786-83d745e7471e",
         "practices": [
-          "strings",
           "parsing",
           "anonymous-structures",
           "matching"
@@ -875,10 +840,8 @@
         "name": "Twelve Days",
         "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
         "practices": [
-          "arrays",
           "array-comprehension",
           "for-loops",
-          "strings",
           "string-interpolation",
           "recursion"
         ],
@@ -910,7 +873,6 @@
         "name": "Yacht",
         "uuid": "f4c0d163-44ee-4d4b-9316-4df8b4ae8558",
         "practices": [
-          "strings",
           "pattern-matching"
         ],
         "prerequisites": [],
