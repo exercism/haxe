@@ -42,9 +42,7 @@
         "concepts": [
           "strings"
         ],
-        "prerequisites": [
-          "basics"
-        ],
+        "prerequisites": [],
         "status": "wip"
       },
       {
@@ -54,9 +52,7 @@
         "concepts": [
           "booleans"
         ],
-        "prerequisites": [
-          "basics"
-        ],
+        "prerequisites": [],
         "status": "wip"
       }
     ],
@@ -79,10 +75,7 @@
           "strings",
           "lambda"
         ],
-        "prerequisites": [
-          "regular-expressions",
-          "strings"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -107,11 +100,7 @@
           "arrays",
           "booleans"
         ],
-        "prerequisites": [
-          "strings",
-          "arrays",
-          "booleans"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -154,11 +143,7 @@
           "numbers",
           "booleans"
         ],
-        "prerequisites": [
-          "arrays",
-          "numbers",
-          "booleans"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -184,11 +169,7 @@
           "booleans",
           "if-statements"
         ],
-        "prerequisites": [
-          "strings",
-          "booleans",
-          "if-statements"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -212,11 +193,7 @@
           "floating-point-numbers",
           "for-loops"
         ],
-        "prerequisites": [
-          "strings",
-          "arrays",
-          "for-loops"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -229,11 +206,7 @@
           "floating-point-numbers",
           "numbers"
         ],
-        "prerequisites": [
-          "if-statements",
-          "floating-point-numbers",
-          "numbers"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -245,9 +218,7 @@
           "lambda",
           "arrays"
         ],
-        "prerequisites": [
-          "arrays"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -293,12 +264,7 @@
           "if-statements",
           "for-loops"
         ],
-        "prerequisites": [
-          "if-statements",
-          "arrays",
-          "strings",
-          "for-loops"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -316,11 +282,7 @@
           "for-loops",
           "pattern-matching"
         ],
-        "prerequisites": [
-          "strings",
-          "arrays",
-          "enums"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -365,11 +327,7 @@
           "for-loops",
           "lambda"
         ],
-        "prerequisites": [
-          "strings",
-          "exceptions",
-          "for-loops"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -401,11 +359,7 @@
           "lambda",
           "numbers"
         ],
-        "prerequisites": [
-          "regular-expressions",
-          "strings",
-          "numbers"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -433,13 +387,7 @@
           "maps",
           "numbers"
         ],
-        "prerequisites": [
-          "arrays",
-          "strings",
-          "for-loops",
-          "maps",
-          "numbers"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -459,10 +407,7 @@
         "practices": [
           "booleans"
         ],
-        "prerequisites": [
-          "basics",
-          "booleans"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -487,12 +432,7 @@
           "if-statements",
           "numbers"
         ],
-        "prerequisites": [
-          "strings",
-          "for-loops",
-          "if-statements",
-          "numbers"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -586,11 +526,7 @@
           "string-interpolation",
           "lambda"
         ],
-        "prerequisites": [
-          "regular-expressions",
-          "strings",
-          "string-interpolation"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -614,12 +550,7 @@
           "for-loops",
           "arrays"
         ],
-        "prerequisites": [
-          "maps",
-          "for-loops",
-          "strings",
-          "arrays"
-        ],
+        "prerequisites": [],
         "difficulty": 1,
         "topics": [
           "strings"
@@ -647,10 +578,7 @@
           "numbers",
           "booleans"
         ],
-        "prerequisites": [
-          "booleans",
-          "if-statements"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -745,12 +673,7 @@
           "arrays",
           "booleans"
         ],
-        "prerequisites": [
-          "booleans",
-          "for-loops",
-          "if-statements",
-          "arrays"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -774,11 +697,7 @@
           "booleans",
           "numbers"
         ],
-        "prerequisites": [
-          "bit-manipulation",
-          "booleans",
-          "numbers"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -882,12 +801,7 @@
           "string-interpolation",
           "recursion"
         ],
-        "prerequisites": [
-          "arrays",
-          "for-loops",
-          "strings",
-          "string-interpolation"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
@@ -898,11 +812,7 @@
           "string-interpolation",
           "optional-arguments"
         ],
-        "prerequisites": [
-          "optional-arguments",
-          "string-interpolation",
-          "strings"
-        ],
+        "prerequisites": [],
         "difficulty": 1
       },
       {
