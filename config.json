@@ -72,7 +72,6 @@
         "uuid": "3ab5d6ad-4632-45ba-adec-f6c9a33f2d48",
         "practices": [
           "regular-expressions",
-          "strings",
           "lambda"
         ],
         "prerequisites": [],
@@ -96,8 +95,6 @@
         "practices": [
           "lambda",
           "array-comprehension",
-          "strings",
-          "arrays",
           "booleans"
         ],
         "prerequisites": [],
@@ -118,8 +115,7 @@
         "name": "Atbash Cipher",
         "uuid": "f752b7b9-e9f4-4c8c-b2c2-7b82a763dfd7",
         "practices": [
-          "regex",
-          "strings"
+          "regex"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -138,7 +134,6 @@
         "name": "Binary Search",
         "uuid": "c31f4ea7-241c-4f81-9de9-d748847cdf14",
         "practices": [
-          "arrays",
           "recursion",
           "numbers",
           "booleans"
@@ -165,7 +160,6 @@
         "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
         "practices": [
           "final",
-          "strings",
           "booleans",
           "if-statements"
         ],
@@ -188,7 +182,6 @@
         "name": "Crypto Square",
         "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
         "practices": [
-          "strings",
           "regular-expressions",
           "floating-point-numbers",
           "for-loops"
@@ -215,8 +208,7 @@
         "uuid": "1e2a1696-2514-47fb-9901-567a6f16b300",
         "practices": [
           "array-comprehension",
-          "lambda",
-          "arrays"
+          "lambda"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -259,8 +251,6 @@
         "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
         "practices": [
           "recursion",
-          "arrays",
-          "strings",
           "if-statements",
           "for-loops"
         ],
@@ -272,10 +262,8 @@
         "name": "Forth",
         "uuid": "fc98af0a-8e2f-46ac-9dec-c78d39276967",
         "practices": [
-          "strings",
           "regular-expressions",
           "recursion",
-          "arrays",
           "typedefs",
           "enums",
           "lambda",
@@ -300,7 +288,6 @@
         "name": "Grade School",
         "uuid": "097edbd5-5c93-4d4f-a410-a38a5588f031",
         "practices": [
-          "arrays",
           "lists",
           "sorting"
         ],
@@ -344,7 +331,6 @@
         "name": "House",
         "uuid": "8cbeb582-a76e-4504-935b-e36e232b3f9b",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -355,7 +341,6 @@
         "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
         "practices": [
           "regular-expressions",
-          "strings",
           "lambda",
           "numbers"
         ],
@@ -367,7 +352,6 @@
         "name": "Isogram",
         "uuid": "81803fd1-20a4-495a-9b0a-c1ffd4fcc25d",
         "practices": [
-          "strings",
           "filtering",
           "regex"
         ],
@@ -379,7 +363,6 @@
         "name": "Kindergarten Garden",
         "uuid": "05b48740-86a1-4480-a75b-fd7bc57e02b5",
         "practices": [
-          "arrays",
           "final",
           "lambda",
           "for-loops",
@@ -395,7 +378,6 @@
         "name": "Largest Series Product",
         "uuid": "2f370725-4a48-43c1-942c-bafce7ad160a",
         "practices": [
-          "arrays"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -426,7 +408,6 @@
         "name": "Luhn",
         "uuid": "86bd1b66-0ce8-48a5-8644-49b2a8e06638",
         "practices": [
-          "strings",
           "regular-expressions",
           "for-loops",
           "if-statements",
@@ -451,7 +432,6 @@
         "name": "Matrix",
         "uuid": "9071338c-b202-44f0-853f-8aa5f2bf8d90",
         "practices": [
-          "arrays",
           "strings"
         ],
         "prerequisites": [],
@@ -462,8 +442,6 @@
         "name": "Minesweeper",
         "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
         "practices": [
-          "arrays",
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -484,7 +462,6 @@
         "name": "Pangram",
         "uuid": "ccf3f19d-e57e-46c0-8043-d8359ef050d2",
         "practices": [
-          "strings",
           "filtering",
           "regex"
         ],
@@ -509,7 +486,6 @@
         "uuid": "ab220c9b-4358-4ae0-aa71-9e98f57253d9",
         "practices": [
           "regex",
-          "strings",
           "pattern-matching",
           "exception-handling"
         ],
@@ -522,7 +498,6 @@
         "uuid": "7c05609a-893f-4071-a9ee-85972372cec1",
         "practices": [
           "regular-expressions",
-          "strings",
           "string-interpolation",
           "lambda"
         ],
@@ -547,21 +522,16 @@
         "practices": [
           "maps",
           "array-comprehension",
-          "for-loops",
-          "arrays"
+          "for-loops"
         ],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "strings"
-        ]
+        "difficulty": 1
       },
       {
         "slug": "proverb",
         "name": "Proverb",
         "uuid": "2aa1a5a6-0194-417b-8195-b44aa21cffaf",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -594,7 +564,6 @@
         "name": "Resistor Color",
         "uuid": "4b023d93-e8ef-4e4c-8535-d27e5f873c62",
         "practices": [
-          "arrays"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -604,7 +573,6 @@
         "name": "Resistor Color Duo",
         "uuid": "f5119a7e-762b-40aa-ae93-3922197e9029",
         "practices": [
-          "arrays"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -624,7 +592,6 @@
         "name": "Reverse String",
         "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
         "practices": [
-          "strings"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -635,7 +602,6 @@
         "uuid": "cf67e341-7092-4cf7-8e41-8c6a6dc6390a",
         "practices": [
           "classes",
-          "strings",
           "randomness"
         ],
         "prerequisites": [],
@@ -670,7 +636,6 @@
           "for-loops",
           "if-statements",
           "typedefs",
-          "arrays",
           "booleans"
         ],
         "prerequisites": [],
@@ -771,7 +736,6 @@
         "name": "Tournament",
         "uuid": "6ad3fb39-38b5-4e7e-a786-83d745e7471e",
         "practices": [
-          "strings",
           "parsing",
           "anonymous-structures",
           "matching"
@@ -794,10 +758,8 @@
         "name": "Twelve Days",
         "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
         "practices": [
-          "arrays",
           "array-comprehension",
           "for-loops",
-          "strings",
           "string-interpolation",
           "recursion"
         ],
@@ -820,7 +782,6 @@
         "name": "Yacht",
         "uuid": "f4c0d163-44ee-4d4b-9316-4df8b4ae8558",
         "practices": [
-          "strings",
           "pattern-matching"
         ],
         "prerequisites": [],
@@ -833,6 +794,16 @@
       "uuid": "dc822d69-c2c5-4864-8a6b-d32b4b311bf0",
       "slug": "abstract-types",
       "name": "Abstract Types"
+    },
+    {
+      "uuid": "891bf9b4-0d4d-4849-9216-308e25ee726b",
+      "slug": "algorithms",
+      "name": "Algorithms"
+    },
+    {
+      "uuid": "4ba0ed46-64d6-4e0a-a4ba-e0b650e8b206",
+      "slug": "anonymous-structures",
+      "name": "Anonymous Structures"
     },
     {
       "uuid": "6d7de9ca-d86d-440b-8d32-e9706cc1c887",
@@ -875,14 +846,34 @@
       "name": "Constructors"
     },
     {
+      "uuid": "020433a0-c472-4701-ab45-db947016fc22",
+      "slug": "dates",
+      "name": "Dates"
+    },
+    {
       "uuid": "f2f71b9c-9d4b-4f0c-a3cd-bfb68aa2d440",
       "slug": "datetimes",
       "name": "Datetimes"
     },
     {
+      "uuid": "36c7006d-1f01-4c6e-ab7b-9986fafcbe66",
+      "slug": "dictionaries",
+      "name": "Dictionaries"
+    },
+    {
       "uuid": "0c3c91f5-1559-468f-8101-457d4af21a5c",
       "slug": "do-while-loops",
       "name": "Do While Loops"
+    },
+    {
+      "uuid": "3887072a-64c9-4144-aa55-97f0dba3ad1d",
+      "slug": "dynamic",
+      "name": "Dynamic"
+    },
+    {
+      "uuid": "48b8e286-2cde-49c7-982c-22f994c633d3",
+      "slug": "enumerations",
+      "name": "Enumerations"
     },
     {
       "uuid": "4315aab4-c9e1-40dc-988d-59c062bfd025",
@@ -895,14 +886,24 @@
       "name": "Equality"
     },
     {
+      "uuid": "156e3fd1-87e9-4bdb-8025-02a8618651cb",
+      "slug": "exception-handling",
+      "name": "Exception Handling"
+    },
+    {
       "uuid": "b8489415-8e7f-407e-9089-5bd62869e9ac",
       "slug": "exceptions",
       "name": "Exceptions"
     },
     {
-      "uuid": "0a234e37-d282-4413-b109-8d49cde39637",
+      "uuid": "a512e663-7ebf-4ff2-ad86-5528b236ea10",
+      "slug": "filtering",
+      "name": "Filtering"
+    },
+    {
+      "uuid": "f95072c1-0d1f-45e1-a849-eb8a624f6d27",
       "slug": "final",
-      "name": "Final"
+      "name": "final"
     },
     {
       "uuid": "e3c060ed-c0a0-4c97-bbb0-5addbd06bbb4",
@@ -918,6 +919,11 @@
       "uuid": "a6035e7f-166a-4c55-877a-57d3c3ac6e60",
       "slug": "for-loops",
       "name": "For Loops"
+    },
+    {
+      "uuid": "b716f66a-dc10-4149-9d39-75746c6c1597",
+      "slug": "generics",
+      "name": "Generics"
     },
     {
       "uuid": "4c68f296-0938-4e7b-8c95-4b608d8f637f",
@@ -955,9 +961,24 @@
       "name": "Lists"
     },
     {
+      "uuid": "c7f0a06c-60db-4974-99d3-0494a2b45f50",
+      "slug": "loops",
+      "name": "Loops"
+    },
+    {
       "uuid": "d5650f6d-5e63-4c5a-827b-edfb69a722cd",
       "slug": "maps",
       "name": "Maps"
+    },
+    {
+      "uuid": "1f8150b9-52f1-4a3a-bb0b-8e24fc7e4740",
+      "slug": "matching",
+      "name": "Matching"
+    },
+    {
+      "uuid": "9f2e1d8f-5396-47d9-9a67-915269a664c0",
+      "slug": "math",
+      "name": "Math"
     },
     {
       "uuid": "708e38bd-584e-4ec7-9955-ad1d12d4d5f6",
@@ -975,6 +996,11 @@
       "name": "Operator Overloading"
     },
     {
+      "uuid": "a3ffbdf3-0343-4448-a946-76eccb04f897",
+      "slug": "option",
+      "name": "Option"
+    },
+    {
       "uuid": "528952c5-724c-42e4-bd01-623d83bde799",
       "slug": "option-type",
       "name": "Option Type"
@@ -983,6 +1009,11 @@
       "uuid": "f6c4b38d-c41a-47b2-a2b6-85dbab9f665a",
       "slug": "optional-arguments",
       "name": "Optional Arguments"
+    },
+    {
+      "uuid": "511d587d-25ec-497a-bb2d-224f902f6e66",
+      "slug": "parsing",
+      "name": "Parsing"
     },
     {
       "uuid": "0b0aaf29-4107-476f-b65b-595c0af0c61f",
@@ -1000,9 +1031,19 @@
       "name": "Randomness"
     },
     {
+      "uuid": "14a6f492-18aa-4037-9d67-4b486b898f2b",
+      "slug": "recursion",
+      "name": "Recursion"
+    },
+    {
       "uuid": "275da84a-5255-45da-86c0-38cc5e5e1b1d",
       "slug": "reflection",
       "name": "Reflection"
+    },
+    {
+      "uuid": "05a9ddc5-396e-4e00-910d-15247aba0e9a",
+      "slug": "regex",
+      "name": "Regex"
     },
     {
       "uuid": "b42ed342-afc1-4e91-b8fc-d45e5bef01fa",
@@ -1013,6 +1054,16 @@
       "uuid": "78d07a0a-e12e-4b95-a098-3f323636f804",
       "slug": "rest-args",
       "name": "Rest Args"
+    },
+    {
+      "uuid": "dda8abe6-9fc4-436e-bf0e-23a34c0a705c",
+      "slug": "sorting",
+      "name": "Sorting"
+    },
+    {
+      "uuid": "66b6d948-5074-4543-af15-ffaab091cb34",
+      "slug": "static-extensions",
+      "name": "Static Extensions"
     },
     {
       "uuid": "fffee673-ecb1-456b-9c9d-e081a705d5db",
@@ -1048,6 +1099,11 @@
       "uuid": "ff4fe0e1-9f03-40bb-8fef-757d00febc30",
       "slug": "time",
       "name": "Time"
+    },
+    {
+      "uuid": "ffca2640-6f53-4095-ba24-496e8c18e262",
+      "slug": "transforming",
+      "name": "Transforming"
     },
     {
       "uuid": "6da6536b-faff-41f0-a4ee-29339c045beb",
