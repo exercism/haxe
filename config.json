@@ -1048,11 +1048,6 @@
       "name": "Templates"
     },
     {
-      "uuid": "e8880b32-05ca-46e7-b512-b5af332f2fcb",
-      "slug": "throw-expressions",
-      "name": "Throw Expressions"
-    },
-    {
       "uuid": "ffca2640-6f53-4095-ba24-496e8c18e262",
       "slug": "transforming",
       "name": "Transforming"
