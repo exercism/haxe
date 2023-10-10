@@ -237,7 +237,6 @@
         "name": "Flatten Array",
         "uuid": "ea94c4a3-8cba-4a63-800a-35694bdff63f",
         "practices": [
-          "dynamic",
           "generics",
           "recursion"
         ],
@@ -857,11 +856,6 @@
       "uuid": "0c3c91f5-1559-468f-8101-457d4af21a5c",
       "slug": "do-while-loops",
       "name": "Do While Loops"
-    },
-    {
-      "uuid": "3887072a-64c9-4144-aa55-97f0dba3ad1d",
-      "slug": "dynamic",
-      "name": "Dynamic"
     },
     {
       "uuid": "4315aab4-c9e1-40dc-988d-59c062bfd025",
