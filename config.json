@@ -898,11 +898,6 @@
       "name": "Generics"
     },
     {
-      "uuid": "4c68f296-0938-4e7b-8c95-4b608d8f637f",
-      "slug": "generic-types",
-      "name": "Generic Types"
-    },
-    {
       "uuid": "f73f0d04-d507-42ef-b8cb-baa956e1bffc",
       "slug": "if-statements",
       "name": "If Statements"

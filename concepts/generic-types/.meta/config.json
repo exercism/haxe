@@ -1,7 +1,0 @@
-{
-  "blurb": "Generic-types allow for classes and methods that defer the specification of one or more types until the class or method is declared and instantiated by client code.",
-  "authors": [
-    "midyHamdoun"
-  ],
-  "contributors": []
-}
