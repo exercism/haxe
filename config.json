@@ -612,7 +612,7 @@
         "name": "Robot Simulator",
         "uuid": "6f1486bc-70ac-4025-bad8-977f2888215a",
         "practices": [
-          "enumerations",
+          "enums",
           "pattern-matching"
         ],
         "prerequisites": [],
@@ -864,11 +864,6 @@
       "uuid": "3887072a-64c9-4144-aa55-97f0dba3ad1d",
       "slug": "dynamic",
       "name": "Dynamic"
-    },
-    {
-      "uuid": "48b8e286-2cde-49c7-982c-22f994c633d3",
-      "slug": "enumerations",
-      "name": "Enumerations"
     },
     {
       "uuid": "4315aab4-c9e1-40dc-988d-59c062bfd025",
