@@ -161,7 +161,7 @@
         "practices": [
           "final",
           "booleans",
-          "if-statements"
+          "conditionals"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -195,7 +195,7 @@
         "uuid": "6de81f60-5852-4184-815c-6ef2d70b3d49",
         "practices": [
           "typedefs",
-          "if-statements",
+          "conditionals",
           "numbers"
         ],
         "prerequisites": [],
@@ -249,7 +249,7 @@
         "uuid": "3563d808-85ad-4a30-a9ff-40feca94fa15",
         "practices": [
           "recursion",
-          "if-statements",
+          "conditionals",
           "for-loops"
         ],
         "prerequisites": [],
@@ -408,7 +408,7 @@
         "practices": [
           "regular-expressions",
           "for-loops",
-          "if-statements",
+          "conditionals",
           "numbers"
         ],
         "prerequisites": [],
@@ -542,7 +542,7 @@
           "enums",
           "typedefs",
           "final",
-          "if-statements",
+          "conditionals",
           "booleans"
         ],
         "prerequisites": [],
@@ -631,7 +631,7 @@
         "uuid": "e3a67c95-5f85-44e6-834f-a1e5c9b00ff8",
         "practices": [
           "for-loops",
-          "if-statements",
+          "conditionals",
           "typedefs",
           "booleans"
         ],
@@ -833,11 +833,6 @@
       "name": "Classes"
     },
     {
-      "uuid": "957e6fa2-5eb4-446b-9b03-0a9f5bd45de4",
-      "slug": "ternary-operators",
-      "name": "Conditionals Ternary"
-    },
-    {
       "uuid": "180a9a90-46e4-412f-8498-90e8bc71e4ae",
       "slug": "constructors",
       "name": "Constructors"
@@ -899,8 +894,8 @@
     },
     {
       "uuid": "f73f0d04-d507-42ef-b8cb-baa956e1bffc",
-      "slug": "if-statements",
-      "name": "If Statements"
+      "slug": "conditionals",
+      "name": "Conditionals"
     },
     {
       "uuid": "5a6f4399-aae2-4166-a463-e4b3f6dd6b14",
