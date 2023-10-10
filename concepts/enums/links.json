@@ -1,6 +1,10 @@
 [
   {
     "url": "https://haxe.org/manual/types-enum-instance.html",
-    "description": "Haxe: Enums"
+    "description": "Enums"
+  },
+  {
+    "url": "https://api.haxe.org/haxe/EnumFlags.html",
+    "description": "EnumFlags"
   }
 ]

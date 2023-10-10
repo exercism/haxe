@@ -878,11 +878,6 @@
       "name": "final"
     },
     {
-      "uuid": "e3c060ed-c0a0-4c97-bbb0-5addbd06bbb4",
-      "slug": "flag-enums",
-      "name": "Flag Enums"
-    },
-    {
       "uuid": "a6035e7f-166a-4c55-877a-57d3c3ac6e60",
       "slug": "for-loops",
       "name": "For Loops"
