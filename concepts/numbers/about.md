@@ -2,8 +2,8 @@
 
 Haxe has two number types - integers and floats:
 
-- `Int`: Represents an integral number.
-- `Float`: Represents a double-precision 64-bit floating point number.
+- `Int`: Represents an integral number. Examples are `1`, `-5`, `3`, and `100`.
+- `Float`: Represents a double-precision 64-bit floating point number. Examples are `1.0`, `-4.68`, `3.14`, `-213.21309`.
 
 ```haxe
 var integer:Int = 10;

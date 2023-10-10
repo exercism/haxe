@@ -183,7 +183,7 @@
         "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
         "practices": [
           "regular-expressions",
-          "floating-point-numbers",
+          "numbers",
           "for-loops"
         ],
         "prerequisites": [],
@@ -196,7 +196,6 @@
         "practices": [
           "typedefs",
           "if-statements",
-          "floating-point-numbers",
           "numbers"
         ],
         "prerequisites": [],
@@ -545,7 +544,6 @@
           "typedefs",
           "final",
           "if-statements",
-          "numbers",
           "booleans"
         ],
         "prerequisites": [],
@@ -692,7 +690,7 @@
         "uuid": "35d0e74f-29fe-4acb-83e2-c9c800e48709",
         "practices": [
           "dictionaries",
-          "floating-point-numbers"
+          "numbers"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -894,11 +892,6 @@
       "uuid": "e3c060ed-c0a0-4c97-bbb0-5addbd06bbb4",
       "slug": "flag-enums",
       "name": "Flag Enums"
-    },
-    {
-      "uuid": "77b9419b-d17f-47aa-9621-0173613e76f1",
-      "slug": "floating-point-numbers",
-      "name": "Floating Point Numbers"
     },
     {
       "uuid": "a6035e7f-166a-4c55-877a-57d3c3ac6e60",
