@@ -1064,11 +1064,6 @@
       "name": "Throw Expressions"
     },
     {
-      "uuid": "ff4fe0e1-9f03-40bb-8fef-757d00febc30",
-      "slug": "time",
-      "name": "Time"
-    },
-    {
       "uuid": "ffca2640-6f53-4095-ba24-496e8c18e262",
       "slug": "transforming",
       "name": "Transforming"
