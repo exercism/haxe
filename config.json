@@ -115,7 +115,7 @@
         "name": "Atbash Cipher",
         "uuid": "f752b7b9-e9f4-4c8c-b2c2-7b82a763dfd7",
         "practices": [
-          "regex"
+          "regular-expressions"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -351,7 +351,7 @@
         "uuid": "81803fd1-20a4-495a-9b0a-c1ffd4fcc25d",
         "practices": [
           "filtering",
-          "regex"
+          "regular-expressions"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -461,7 +461,7 @@
         "uuid": "ccf3f19d-e57e-46c0-8043-d8359ef050d2",
         "practices": [
           "filtering",
-          "regex"
+          "regular-expressions"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -483,7 +483,7 @@
         "name": "Phone Number",
         "uuid": "ab220c9b-4358-4ae0-aa71-9e98f57253d9",
         "practices": [
-          "regex",
+          "regular-expressions",
           "pattern-matching",
           "exceptions"
         ],
@@ -1001,11 +1001,6 @@
       "uuid": "275da84a-5255-45da-86c0-38cc5e5e1b1d",
       "slug": "reflection",
       "name": "Reflection"
-    },
-    {
-      "uuid": "05a9ddc5-396e-4e00-910d-15247aba0e9a",
-      "slug": "regex",
-      "name": "Regex"
     },
     {
       "uuid": "b42ed342-afc1-4e91-b8fc-d45e5bef01fa",
