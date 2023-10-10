@@ -148,7 +148,7 @@
         "practices": [
           "recursion",
           "pattern-matching",
-          "option",
+          "option-type",
           "generics"
         ],
         "prerequisites": [],
@@ -979,11 +979,6 @@
       "uuid": "c7db9784-72e9-481f-9c2c-65639b67b06a",
       "slug": "operator-overloading",
       "name": "Operator Overloading"
-    },
-    {
-      "uuid": "a3ffbdf3-0343-4448-a946-76eccb04f897",
-      "slug": "option",
-      "name": "Option"
     },
     {
       "uuid": "528952c5-724c-42e4-bd01-623d83bde799",
