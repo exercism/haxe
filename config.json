@@ -846,14 +846,9 @@
       "name": "Constructors"
     },
     {
-      "uuid": "020433a0-c472-4701-ab45-db947016fc22",
+      "uuid": "f2f71b9c-9d4b-4f0c-a3cd-bfb68aa2d440",
       "slug": "dates",
       "name": "Dates"
-    },
-    {
-      "uuid": "f2f71b9c-9d4b-4f0c-a3cd-bfb68aa2d440",
-      "slug": "datetimes",
-      "name": "Datetimes"
     },
     {
       "uuid": "36c7006d-1f01-4c6e-ab7b-9986fafcbe66",
