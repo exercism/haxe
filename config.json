@@ -172,7 +172,7 @@
         "uuid": "5e687d9c-f997-4a44-94d6-7069413c4238",
         "practices": [
           "algorithms",
-          "loops"
+          "for-loops"
         ],
         "prerequisites": [],
         "difficulty": 1
@@ -937,11 +937,6 @@
       "uuid": "abb5b666-29e9-4a3c-b474-73bc8a7cc7a8",
       "slug": "lists",
       "name": "Lists"
-    },
-    {
-      "uuid": "c7f0a06c-60db-4974-99d3-0494a2b45f50",
-      "slug": "loops",
-      "name": "Loops"
     },
     {
       "uuid": "d5650f6d-5e63-4c5a-827b-edfb69a722cd",
