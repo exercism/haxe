@@ -63,7 +63,7 @@
         "uuid": "3d570a0c-4477-41b2-8675-35cfbc8468da",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
+        "difficulty": 2,
         "status": "deprecated"
       },
       {
@@ -75,7 +75,7 @@
           "lambda"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "all-your-base",
@@ -86,7 +86,7 @@
           "math"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 4
       },
       {
         "slug": "anagram",
@@ -118,7 +118,7 @@
           "regex"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "beer-song",
@@ -126,7 +126,7 @@
         "uuid": "9bcc869c-580a-4ec7-9d84-09c97796aff2",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
+        "difficulty": 3,
         "status": "deprecated"
       },
       {
@@ -152,7 +152,7 @@
           "generics"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 5
       },
       {
         "slug": "bob",
@@ -187,7 +187,7 @@
           "for-loops"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "darts",
@@ -221,7 +221,7 @@
           "randomness"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "etl",
@@ -255,7 +255,7 @@
           "for-loops"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 4
       },
       {
         "slug": "forth",
@@ -271,7 +271,7 @@
           "pattern-matching"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 5
       },
       {
         "slug": "gigasecond",
@@ -292,7 +292,7 @@
           "sorting"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "grains",
@@ -380,7 +380,7 @@
         "practices": [
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 4
       },
       {
         "slug": "leap",
@@ -414,7 +414,7 @@
           "numbers"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "meetup",
@@ -425,7 +425,7 @@
           "pattern-matching"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 4
       },
       {
         "slug": "matrix",
@@ -435,7 +435,7 @@
           "strings"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "minesweeper",
@@ -444,7 +444,7 @@
         "practices": [
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 4
       },
       {
         "slug": "nucleotide-count",
@@ -455,7 +455,7 @@
           "exception-handling"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "pangram",
@@ -502,7 +502,7 @@
           "lambda"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "prime-factors",
@@ -513,7 +513,7 @@
           "algorithms"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "protein-translation",
@@ -525,7 +525,7 @@
           "for-loops"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "proverb",
@@ -534,7 +534,7 @@
         "practices": [
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "queen-attack",
@@ -549,7 +549,7 @@
           "booleans"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "raindrops",
@@ -605,7 +605,7 @@
           "randomness"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "robot-simulator",
@@ -616,7 +616,7 @@
           "pattern-matching"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "rna-transcription",
@@ -639,7 +639,7 @@
           "booleans"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "scrabble-score",
@@ -649,7 +649,7 @@
           "dictionaries"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "secret-handshake",
@@ -673,7 +673,7 @@
           "transforming"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "sieve",
@@ -684,7 +684,7 @@
           "algorithms"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "space-age",
@@ -706,7 +706,7 @@
           "generics"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "sublist",
@@ -718,7 +718,7 @@
           "recursion"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "sum-of-multiples",
@@ -741,7 +741,7 @@
           "matching"
         ],
         "prerequisites": [],
-        "difficulty": 3
+        "difficulty": 4
       },
       {
         "slug": "triangle",
@@ -764,7 +764,7 @@
           "recursion"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       },
       {
         "slug": "two-fer",
@@ -785,7 +785,7 @@
           "pattern-matching"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 2
       }
     ]
   },
