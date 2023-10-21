@@ -18,7 +18,6 @@
   "test_runner": {
     "average_run_time": 3
   },
-  "checklist_issue": 2,
   "files": {
     "solution": [
       "src/%{pascal_slug}.hx"
@@ -321,8 +320,7 @@
         "slug": "hello-world",
         "name": "Hello World",
         "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -330,8 +328,7 @@
         "slug": "house",
         "name": "House",
         "uuid": "8cbeb582-a76e-4504-935b-e36e232b3f9b",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -377,8 +374,7 @@
         "slug": "largest-series-product",
         "name": "Largest Series Product",
         "uuid": "2f370725-4a48-43c1-942c-bafce7ad160a",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -441,8 +437,7 @@
         "slug": "minesweeper",
         "name": "Minesweeper",
         "uuid": "837dbd14-0749-4404-b3a7-eb00a97db4a8",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -531,8 +526,7 @@
         "slug": "proverb",
         "name": "Proverb",
         "uuid": "2aa1a5a6-0194-417b-8195-b44aa21cffaf",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -563,8 +557,7 @@
         "slug": "resistor-color",
         "name": "Resistor Color",
         "uuid": "4b023d93-e8ef-4e4c-8535-d27e5f873c62",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -572,8 +565,7 @@
         "slug": "resistor-color-duo",
         "name": "Resistor Color Duo",
         "uuid": "f5119a7e-762b-40aa-ae93-3922197e9029",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -591,8 +583,7 @@
         "slug": "reverse-string",
         "name": "Reverse String",
         "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
-        "practices": [
-        ],
+        "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
@@ -1123,58 +1114,58 @@
   ],
   "key_features": [
     {
-      "icon": "cross-platform",
       "title": "Cross-platform",
-      "content": "Cross-compile to 14 targets, including Javascript, PHP7, C++, Lua, the JVM, and the HashLink VM."
+      "content": "Cross-compile to 14 targets, including Javascript, PHP7, C++, Lua, the JVM, and the HashLink VM.",
+      "icon": "cross-platform"
     },
     {
-      "icon": "multi-paradigm",
       "title": "Multi-paradigm",
-      "content": "Haxe supports OOP, metaprogramming, and many functional features."
+      "content": "Haxe supports OOP, metaprogramming, and many functional features.",
+      "icon": "multi-paradigm"
     },
     {
-      "icon": "stable",
       "title": "Advanced type system",
-      "content": "A robust and sohpisticated type system with type inference, generics, abstracts, and much more."
+      "content": "A robust and sohpisticated type system with type inference, generics, abstracts, and much more.",
+      "icon": "stable"
     },
     {
-      "icon": "general-purpose",
       "title": "General purpose",
-      "content": "Haxe excels in game development but is used in many domains, including web, mobile, and desktop."
+      "content": "Haxe excels in game development but is used in many domains, including web, mobile, and desktop.",
+      "icon": "general-purpose"
     },
     {
-      "icon": "interop",
       "title": "Native access",
-      "content": "Externs enable type-safe interaction with the underlying target, providing access to native APIs."
+      "content": "Externs enable type-safe interaction with the underlying target, providing access to native APIs.",
+      "icon": "interop"
     },
     {
-      "icon": "powerful",
       "title": "Metaprogramming",
-      "content": "Syntax-transformation using macros unlocks the power to fit the language to your problem domain."
+      "content": "Syntax-transformation using macros unlocks the power to fit the language to your problem domain.",
+      "icon": "powerful"
     }
   ],
   "tags": [
     "execution_mode/compiled",
     "execution_mode/interpreted",
-    "typing/static",
-    "runtime/standalone_executable",
-    "runtime/language_specific",
-    "runtime/clr",
-    "runtime/jvm",
     "paradigm/functional",
     "paradigm/object_oriented",
     "paradigm/procedural",
-    "platform/windows",
+    "platform/android",
+    "platform/ios",
     "platform/linux",
     "platform/mac",
-    "platform/ios",
-    "platform/android",
     "platform/web",
+    "platform/windows",
+    "runtime/clr",
+    "runtime/jvm",
+    "runtime/language_specific",
+    "runtime/standalone_executable",
+    "typing/static",
     "used_for/backends",
-    "used_for/frontends",
-    "used_for/guis",
-    "used_for/games",
     "used_for/cross_platform_development",
+    "used_for/frontends",
+    "used_for/games",
+    "used_for/guis",
     "used_for/web_development"
   ]
 }
