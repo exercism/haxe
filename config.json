@@ -18,7 +18,6 @@
   "test_runner": {
     "average_run_time": 3
   },
-  "checklist_issue": 2,
   "files": {
     "solution": [
       "src/%{pascal_slug}.hx"
@@ -1115,58 +1114,58 @@
   ],
   "key_features": [
     {
-      "icon": "cross-platform",
       "title": "Cross-platform",
-      "content": "Cross-compile to 14 targets, including Javascript, PHP7, C++, Lua, the JVM, and the HashLink VM."
+      "content": "Cross-compile to 14 targets, including Javascript, PHP7, C++, Lua, the JVM, and the HashLink VM.",
+      "icon": "cross-platform"
     },
     {
-      "icon": "multi-paradigm",
       "title": "Multi-paradigm",
-      "content": "Haxe supports OOP, metaprogramming, and many functional features."
+      "content": "Haxe supports OOP, metaprogramming, and many functional features.",
+      "icon": "multi-paradigm"
     },
     {
-      "icon": "stable",
       "title": "Advanced type system",
-      "content": "A robust and sohpisticated type system with type inference, generics, abstracts, and much more."
+      "content": "A robust and sohpisticated type system with type inference, generics, abstracts, and much more.",
+      "icon": "stable"
     },
     {
-      "icon": "general-purpose",
       "title": "General purpose",
-      "content": "Haxe excels in game development but is used in many domains, including web, mobile, and desktop."
+      "content": "Haxe excels in game development but is used in many domains, including web, mobile, and desktop.",
+      "icon": "general-purpose"
     },
     {
-      "icon": "interop",
       "title": "Native access",
-      "content": "Externs enable type-safe interaction with the underlying target, providing access to native APIs."
+      "content": "Externs enable type-safe interaction with the underlying target, providing access to native APIs.",
+      "icon": "interop"
     },
     {
-      "icon": "powerful",
       "title": "Metaprogramming",
-      "content": "Syntax-transformation using macros unlocks the power to fit the language to your problem domain."
+      "content": "Syntax-transformation using macros unlocks the power to fit the language to your problem domain.",
+      "icon": "powerful"
     }
   ],
   "tags": [
     "execution_mode/compiled",
     "execution_mode/interpreted",
-    "typing/static",
-    "runtime/standalone_executable",
-    "runtime/language_specific",
-    "runtime/clr",
-    "runtime/jvm",
     "paradigm/functional",
     "paradigm/object_oriented",
     "paradigm/procedural",
-    "platform/windows",
+    "platform/android",
+    "platform/ios",
     "platform/linux",
     "platform/mac",
-    "platform/ios",
-    "platform/android",
     "platform/web",
+    "platform/windows",
+    "runtime/clr",
+    "runtime/jvm",
+    "runtime/language_specific",
+    "runtime/standalone_executable",
+    "typing/static",
     "used_for/backends",
-    "used_for/frontends",
-    "used_for/guis",
-    "used_for/games",
     "used_for/cross_platform_development",
+    "used_for/frontends",
+    "used_for/games",
+    "used_for/guis",
     "used_for/web_development"
   ]
 }
