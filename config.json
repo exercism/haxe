@@ -157,7 +157,7 @@
           "equality"
         ],
         "prerequisites": [],
-        "difficulty": 1
+        "difficulty": 3
       },
       {
         "slug": "collatz-conjecture",
