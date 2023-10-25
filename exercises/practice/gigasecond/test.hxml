@@ -1,0 +1,6 @@
+-x Test
+-lib buddy
+-lib datetime
+-D buddy-colors
+-cp src/
+-cp test/
