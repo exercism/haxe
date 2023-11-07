@@ -412,6 +412,14 @@
         "difficulty": 3
       },
       {
+        "slug": "pop-count",
+        "name": "Eliud's Eggs",
+        "uuid": "93f6a10b-4b6c-4e2b-a466-a10690473c09",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "phone-number",
         "name": "Phone Number",
         "uuid": "ab220c9b-4358-4ae0-aa71-9e98f57253d9",
