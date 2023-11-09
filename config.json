@@ -133,6 +133,15 @@
         "difficulty": 3
       },
       {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "b41b176d-ac35-44f6-ac27-db373c13a4bf",
+        "practices": [
+        ],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "clock",
         "name": "Clock",
         "uuid": "4dee213a-0cbb-421e-a99a-fed2e0a2bf3d",
@@ -688,18 +697,6 @@
           "pattern-matching",
           "option",
           "generics"
-        ],
-        "prerequisites": [],
-        "difficulty": 5
-      },
-      {
-        "slug": "crypto-square",
-        "name": "Crypto Square",
-        "uuid": "024a4dc8-4c70-447b-943a-3239b0c028af",
-        "practices": [
-          "regular-expressions",
-          "floating-point-numbers",
-          "for-loops"
         ],
         "prerequisites": [],
         "difficulty": 5
