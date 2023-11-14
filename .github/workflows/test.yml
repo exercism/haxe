@@ -16,10 +16,10 @@ jobs:
         haxe-version: [4.2.5]
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
       - name: Setup Haxe environment
-        uses: krdlab/setup-haxe@v1.5.1
+        uses: krdlab/setup-haxe@3437f1adfca98b22815d926271cc39faaf996f25
         with:
           haxe-version: ${{ matrix.haxe-version }}
 
