@@ -37,7 +37,7 @@ class Test extends buddy.SingleSuite {
 				Anagram.findAnagrams("orchestra", ["cashregister", "Carthorse", "radishes"]).should.containExactly(["Carthorse"]);
 			});
 			xit("does not detect an anagram if the original word is repeated", {
-				Anagram.findAnagrams("go", ["go Go GO"]).should.containExactly([]);
+				Anagram.findAnagrams("go", ["goGoGO"]).should.containExactly([]);
 			});
 			xit("anagrams must use all letters exactly once", {
 				Anagram.findAnagrams("tapper", ["patter"]).should.containExactly([]);
