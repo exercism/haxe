@@ -1,1 +1,7 @@
-{}
+{
+  "__description": "https://haxecheckstyle.github.io/haxe-formatter-docs/#codesamples.CommonSamples.allman_curlies",
+  "lineEnds": {
+    "leftCurly": "both",
+    "emptyCurly": "break"
+  }
+}
