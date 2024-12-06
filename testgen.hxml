@@ -1,0 +1,2 @@
+--cwd scripts
+--run TestGen.hx
