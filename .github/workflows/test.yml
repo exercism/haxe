@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
 
       - name: Setup Haxe environment
-        uses: krdlab/setup-haxe@23a78f711bc4a623db38eac90d351ff0027f0116
+        uses: krdlab/setup-haxe@d93667502be3b4f31a94a3308a74388f2e178a8d
         with:
           haxe-version: ${{ matrix.haxe-version }}
 
