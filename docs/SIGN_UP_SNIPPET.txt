@@ -1,0 +1,14 @@
+function mostCommonWord(text:String):String {
+	var counts = new Map<String, Int>();
+	var best = "";
+	var bestCount = 0;
+	for (word in text.toLowerCase().split(" ")) {
+		var count = (counts[word] ?? 0) + 1;
+		counts[word] = count;
+		if (count > bestCount) {
+			best = word;
+			bestCount = count;
+		}
+	}
+	return '"$best" appears $bestCount times';
+}
